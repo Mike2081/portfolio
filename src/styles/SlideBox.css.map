@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAA;EACZ,gBAAgB,EAAE,QAAQ;EAC1B,MAAM,EAAE,OAAO;EACf,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "SlideBox.scss"
+    ],
+    "names": [],
+    "file": "SlideBox.css"
+}
