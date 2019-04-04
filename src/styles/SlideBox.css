@@ -1,8 +1,26 @@
 .sContainer {
-  background-color: darkgrey;
+  background-color: #3dd8f4;
   height: 103.5vh;
   width: 78vw;
   margin: -2rem;
+  position: absolute;
+  left: -100vw;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 0.5s;
+  animation: slide 0.5s forwards;
+  animation-delay: 0.5s;
+}
+
+@-webkit-keyframes slide {
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes slide {
+  100% {
+    left: 0;
+  }
 }
 
 .sContainer__home1 {
@@ -16,10 +34,11 @@
   height: 100vh;
   margin: 0rem 10rem;
   font-size: 4rem;
+  font-family: sans-serif;
 }
 
 .sContainer__home2 {
-  color: #f48950;
+  color: #b30649;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,6 +48,7 @@
   height: 0vh;
   margin: -21.5rem 0rem -7rem 22rem;
   font-size: 4rem;
+  font-family: sans-serif;
 }
 
 .sContainer__home3 {
@@ -39,21 +59,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 56vh;
+  height: 64vh;
   margin: 0rem 10rem;
   font-size: 4rem;
-}
-
-.home-font {
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100vh;
-  margin: 0rem 10rem;
-  font-size: 4rem;
+  font-family: sans-serif;
 }
 /*# sourceMappingURL=SlideBox.css.map */

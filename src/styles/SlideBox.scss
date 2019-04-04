@@ -1,39 +1,48 @@
 .sContainer{
-    background-color: darkgrey;
+    background-color: rgb(61, 216, 244);
     height: 103.5vh;
     width: 78vw;
     margin: -2rem;
-    &__home1{
-        color: white;
-        display: flex;
-        align-items: center;
-        height: 100vh;
-        margin: 0rem 10rem;
-        font-size: 4rem;
-    }
-    &__home2{
-        color: #f48950;
-        display: flex;
-        align-items: center;
-        height: 0vh;
-        margin: -21.5rem 0rem -7rem 22rem;
-        font-size: 4rem;
-    }
-    &__home3{
-        color: white;
-        display: flex;
-        align-items: center;
-        height: 56vh;
-        margin: 0rem 10rem;
-        font-size: 4rem;
-    }
+    position: absolute;
+    left: -100vw;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0.5s;
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
 }
 
-.home-font{
-    color: white;
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    margin: 0rem 10rem;
-    font-size: 4rem;
+@keyframes slide {
+    100% { left: 0; }
+}
+
+        &__home1{
+            color: white;
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            margin: 0rem 10rem;
+            font-size: 4rem;
+            font-family: sans-serif;
+        }
+        &__home2{
+            color: #b30649;
+            display: flex;
+            align-items: center;
+            height: 0vh;
+            margin: -21.5rem 0rem -7rem 22rem;
+            font-size: 4rem;
+            font-family: sans-serif;
+        }
+        &__home3{
+            color: white;
+            display: flex;
+            align-items: center;
+            height: 64vh;
+            margin: 0rem 10rem;
+            font-size: 4rem;
+            font-family: sans-serif;
+        }
 }
