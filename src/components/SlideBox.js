@@ -3,16 +3,16 @@ import '../styles/SlideBox.scss';
 
 export default class SlideBox extends Component {
   componentDidMount(){
-    window.addEventListener(this.headerOnScroll);
-  }
-  headerOnScroll() {
-   header = e.target.id('sContainer');
+  let headerOnScroll = function() {
+   let header = document.getElementsByClassName("sContainer");
     if(window.pageYOffset === 0) {
       header.classList.add('view');
+      alert('top');
   }else {
     header.classList.remove('view');
   }
   };
+}
   render() {
     return (
       <div className='sContainer'>
