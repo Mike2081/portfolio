@@ -3,14 +3,14 @@ import '../styles/App.scss';
 import SlideBox from './SlideBox.js';
 import SideHome from './SideHome.js';
 import About from './About.js';
+import NavHome from './NavHome.js';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <SlideBox />
-        <SideHome />
-        <About />
+        <SlideBox/><SideHome/><NavHome/>
+        <About/>
       </div>
     );
   }
