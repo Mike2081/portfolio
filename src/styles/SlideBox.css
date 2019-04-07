@@ -1,66 +1,103 @@
-.sContainer {
-  background-color: #3dd8f4;
-  height: 103.5vh;
-  width: 78vw;
-  margin: -2rem;
+@import url("https://fonts.googleapis.com/css?family=Roboto:700");
+body {
+  margin: 0px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.container {
+  color: #999;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 200px;
   position: absolute;
-  opacity: 1;
+  width: 100%;
+  bottom: 45%;
+  display: block;
 }
 
-.home1 {
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100vh;
-  margin: 0rem 10rem;
-  font-size: 4rem;
-  font-family: sans-serif;
+.flip {
+  height: 50px;
+  overflow: hidden;
 }
 
-.home2 {
-  color: #b30649;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 0vh;
-  margin: -21.5rem 0rem -7rem 22rem;
-  font-size: 4rem;
-  font-family: sans-serif;
+.flip > div > div {
+  color: #fff;
+  padding: 4px 12px;
+  height: 45px;
+  margin-bottom: 45px;
+  display: inline-block;
 }
 
-.home3 {
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 64vh;
-  margin: 0rem 10rem;
-  font-size: 4rem;
-  font-family: sans-serif;
+.flip div:first-child {
+  -webkit-animation: show 5s linear infinite;
+          animation: show 5s linear infinite;
 }
 
-.sContainer-view {
-  background-color: #3dd8f4;
-  height: 103.5vh;
-  width: 78vw;
-  margin: -2rem;
-  position: absolute;
-  opacity: 0;
-  -webkit-animation: forwards ease-in 1;
-          animation: forwards ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+.flip div div {
+  background: #4ec7f3;
+}
+
+.flip div:first-child div {
+  background: #42c58a;
+}
+
+.flip div:last-child div {
+  background: #DC143C;
+}
+
+@-webkit-keyframes show {
+  0% {
+    margin-top: -270px;
+  }
+  5% {
+    margin-top: -180px;
+  }
+  33% {
+    margin-top: -180px;
+  }
+  38% {
+    margin-top: -90px;
+  }
+  66% {
+    margin-top: -90px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
+}
+
+@keyframes show {
+  0% {
+    margin-top: -270px;
+  }
+  5% {
+    margin-top: -180px;
+  }
+  33% {
+    margin-top: -180px;
+  }
+  38% {
+    margin-top: -90px;
+  }
+  66% {
+    margin-top: -90px;
+  }
+  71% {
+    margin-top: 0px;
+  }
+  99.99% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: -270px;
+  }
 }
 /*# sourceMappingURL=SlideBox.css.map */
