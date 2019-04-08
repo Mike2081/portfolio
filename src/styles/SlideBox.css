@@ -17,6 +17,12 @@ body {
   display: block;
 }
 
+@media (max-width: 410px) {
+  .container {
+    font-size: 27px;
+  }
+}
+
 .flip {
   height: 50px;
   overflow: hidden;

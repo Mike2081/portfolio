@@ -16,6 +16,7 @@ body {
   width:80%;
   bottom:45%;
   display:block;
+  @media (max-width: 410px) { font-size: 27px; }
 }
 
 .flip {

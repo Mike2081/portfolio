@@ -30,6 +30,18 @@
   overflow: hidden;
 }
 
+@media (max-width: 480px) {
+  .back__space__buttons {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 410px) {
+  .back__space__buttons {
+    font-size: 0.7rem;
+  }
+}
+
 .back__space__buttons:hover {
   color: white;
   -webkit-box-shadow: inset 500px 0 0 0 #1818185a;
