@@ -7,16 +7,16 @@ export default class SlideBox extends Component {
         Hi, I'm 
         <div className='flip'>
           <div>
-            <div>Michael DoHo</div>
+            <div>Michael DoHo.</div>
           </div>
           <div>
-            <div>Michael DoHo</div>
+            <div>Michael DoHo.</div>
           </div>
           <div>
-            <div>Michael DoHo</div>
+            <div>Michael DoHo.</div>
           </div>
         </div>
-        Front End Developer
+        A Front End Developer.
       </div>
     )
   }
