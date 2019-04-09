@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
 @mixin transition($transition){
     -webkit-transition: $transition;
     -moz-transition: $transition;
@@ -27,12 +29,13 @@
             text-align: center;
             padding: 15px;
             text-decoration: none;
+            font-family: 'Open Sans', sans-serif;
             font-size: 1.5rem;
             @include transition(.25s ease-in-out);
             @include boxShadow(inset 0px 0 0 0 #1818185a);
             overflow:hidden;
-            @media (max-width: 480px) { font-size: 1.2rem; }
-            @media (max-width: 410px) { font-size: 0.7rem; }
+            @media (max-width: 560px) { font-size: 1.2rem; }
+            @media (max-width: 460px) { font-size: 0.7rem; }
             &:hover {
                 color:white;
                 @include boxShadow(inset 500px 0 0 0 #1818185a);

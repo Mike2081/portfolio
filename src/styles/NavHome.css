@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 .back {
   background-color: aqua;
   height: 102.5vh;
@@ -20,6 +21,7 @@
   text-align: center;
   padding: 15px;
   text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
   -webkit-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
@@ -30,13 +32,13 @@
   overflow: hidden;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 560px) {
   .back__space__buttons {
     font-size: 1.2rem;
   }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 460px) {
   .back__space__buttons {
     font-size: 0.7rem;
   }
