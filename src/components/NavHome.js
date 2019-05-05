@@ -2,17 +2,18 @@ import React, { Component } from 'react';
 import '../styles/NavHome.scss';
 
 export default class NavHome extends Component {
-  scrollStep() {
-    if (window.pageYOffset === 0) {
-        clearInterval(this.state.intervalId);
-    }
-    window.scroll(0, window.pageYOffset);
+  constructor(){
+    super();
+  this.refs = {}
+  }
+  scrollTo(name) {
+    this.refs[name].scrollIntoView();
   }
   render() {
     return (
       <div className='back'>
         <div className='back__space'>
-            <a className='back__space__buttons'>About</a>
+            <button className='back__space__buttons' onClick={() => {this.scrollTo('About')}}>About</button>
             <a className='back__space__buttons'>Portfolio</a>
             <a className='back__space__buttons'>Contact</a>
         </div>
