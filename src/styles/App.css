@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 .App {
-  height: auto;
+  height: 100vh;
   max-width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11,15 +11,15 @@
 
 .App__background {
   background-color: white;
-  height: auto;
-  width: 80vw;
+  height: 100vh;
+  width: 81.8%;
   margin: -8px;
 }
 
 .App__back {
   background-color: aqua;
-  height: 102.5vh;
-  width: 18vw;
+  height: 100vh;
+  width: 18.4%;
   margin: -8px -8px -8px 21px;
   display: block;
   -ms-flex-wrap: wrap;
@@ -27,12 +27,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-@media (max-width: 1140px) {
-  .App__back {
-    width: 13.4rem;
-  }
 }
 
 .App__back__space {
@@ -45,7 +39,7 @@
   color: #fff;
   border: 0rem;
   text-align: center;
-  padding: 15px 95px;
+  margin: 4rem;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.5rem;
@@ -58,15 +52,21 @@
   overflow: hidden;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 945px) {
   .App__back__space__buttons {
-    font-size: 1.2rem;
+    margin: 4rem 0rem;
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 600px) {
   .App__back__space__buttons {
-    font-size: 0.7rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .App__back__space__buttons {
+    font-size: 0.8rem;
   }
 }
 
@@ -80,8 +80,9 @@
 
 .App__about {
   background-color: yellow;
-  height: auto;
+  height: 100vh;
   width: 100vw;
+  margin: 8px -8px 0px -8px;
 }
 
 .container {

@@ -14,25 +14,24 @@
     box-shadow: $box-shadow;
   }
 .App{
-    height: auto;
+    height: 100vh;
     max-width: 100vw;
     display: flex;
     flex-wrap: wrap;
     &__background{
         background-color:white;
-        height: auto;
-        width: 80vw;
+        height: 100vh;
+        width: 81.8%;
         margin: -8px;
     }
     &__back{
         background-color: aqua;
-        height: 102.5vh;
-        width: 18vw;
+        height: 100vh;
+        width: 18.4%;
         margin: -8px -8px -8px 21px;
         display: block;
         flex-wrap: wrap;
         justify-content: center;
-        @media(max-width:1140px) {width:13.4rem}
         &__space{
             padding: 6rem 0rem;
             &__buttons{
@@ -41,15 +40,16 @@
                 color: #fff;
                 border: 0rem;
                 text-align: center;
-                padding: 15px 95px;
+                margin:4rem;
                 text-decoration: none;
                 font-family: 'Open Sans', sans-serif;
                 font-size: 1.5rem;
                 @include transition(.25s ease-in-out);
                 @include boxShadow(inset 0px 0 0 0 #1818185a);
                 overflow:hidden;
-                @media (max-width: 560px) { font-size: 1.2rem; }
-                @media (max-width: 460px) { font-size: 0.7rem; }
+                @media (max-width: 945px) {margin: 4rem 0rem;}
+                @media (max-width: 600px) { font-size: 1rem}
+                @media (max-width: 425px) { font-size: 0.8rem}
                 &:hover {
                     color:white;
                     @include boxShadow(inset 500px 0 0 0 #1818185a);
@@ -59,8 +59,9 @@
     }
     &__about{
         background-color: yellow;
-        height: auto;
+        height: 100vh;
         width: 100vw;
+        margin: 8px -8px 0px -8px;
     }
 }
   .container {
