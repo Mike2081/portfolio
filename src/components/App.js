@@ -36,7 +36,7 @@ class App extends Component {
           </div>
         </div>
         <div className='App__about' ref={(section) => {this.About = section}}>
-        
+          <img className='face' src='../images/part2.jpg'/>
         </div>
       </div>
     );
