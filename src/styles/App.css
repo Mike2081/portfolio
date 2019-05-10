@@ -199,14 +199,24 @@
   background-color: aqua;
   position: fixed;
   margin: -8px 0px 0px -8px;
+  -webkit-transition: -webkit-transform 700ms ease-in;
+  transition: -webkit-transform 700ms ease-in;
+  transition: transform 700ms ease-in;
+  transition: transform 700ms ease-in, -webkit-transform 700ms ease-in;
 }
 
 .navChange {
   height: 8vh;
   width: 100vw;
-  background-color: blue;
+  background-color: aqua;
   position: fixed;
   margin: -8px 0px 0px -8px;
+  -webkit-transform: translateY(-150px);
+          transform: translateY(-150px);
+  -webkit-transition: -webkit-transform 400ms ease-in;
+  transition: -webkit-transform 400ms ease-in;
+  transition: transform 400ms ease-in;
+  transition: transform 400ms ease-in, -webkit-transform 400ms ease-in;
 }
 
 .box {
@@ -309,10 +319,8 @@
   height: 1.5vh;
   width: 100vw;
   background-color: #363d67;
-  position: relative;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  position: absolute;
+  bottom: 0;
   margin: -8px 0px 0px -8px;
 }
 /*# sourceMappingURL=App.css.map */

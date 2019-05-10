@@ -9,7 +9,7 @@ class App extends Component {
   };
   componentDidMount(){
     window.addEventListener('scroll', (event) => {
-       if(window.pageYOffset < 682) {
+       if(window.pageYOffset < 400) {
         this.setState({
           class: 'navChange'
        })
@@ -22,7 +22,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App">
+      <div className="App" ref={(section) => {this.Home = section}}>
         <div className='container'>
         Hi, I'm 
           <div className='flip'>
@@ -53,7 +53,7 @@ class App extends Component {
         </div>
           <div className={this.state.class}>
             <div className='box'>
-              <button className='switch1'>Home</button>
+              <button className='switch1'onClick={() => scrollToComponent(this.Home, { offset: 0, align: 'top', duration: 1500})}>Home</button>
               <button className='switch2' onClick={() => scrollToComponent(this.About, { offset: 0, align: 'top', duration: 1500})}>About</button>
               <button className='switch3'>Projects</button>
               <button className='switch4'>Contact</button>
