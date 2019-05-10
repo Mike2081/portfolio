@@ -85,52 +85,6 @@
   margin: 8px -8px 0px -8px;
 }
 
-.App__nav {
-  height: 8vh;
-  width: 100vw;
-  background-color: aqua;
-  position: fixed;
-  margin: -8px 0px 0px -8px;
-}
-
-.App__nav__box {
-  margin: 10px 0px 12px 132px;
-}
-
-.App__nav__box__switch {
-  background-color: aqua;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.3rem;
-  border: 0rem;
-  margin: 0px 26px 0px 0px;
-  -webkit-transition: 0.25s ease-in-out;
-  transition: 0.25s ease-in-out;
-  -webkit-box-shadow: inset 0px 0 0 0 #1818185a;
-  -ms-box-shadow: inset 0px 0 0 0 #1818185a;
-  -o-box-shadow: inset 0px 0 0 0 #1818185a;
-  box-shadow: inset 0px 0 0 0 #1818185a;
-}
-
-.App__nav__box__switch:hover {
-  color: white;
-  -webkit-box-shadow: inset 500px 0 0 0 #1818185a;
-  -ms-box-shadow: inset 500px 0 0 0 #1818185a;
-  -o-box-shadow: inset 500px 0 0 0 #1818185a;
-  box-shadow: inset 500px 0 0 0 #1818185a;
-}
-
-.App__nav__line {
-  height: 1.5vh;
-  width: 100vw;
-  background-color: #363d67;
-  position: relative;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  margin: -8px 0px 0px -8px;
-}
-
 .container {
   color: #999;
   text-transform: uppercase;
@@ -237,5 +191,128 @@
   100% {
     margin-top: -270px;
   }
+}
+
+.nav {
+  height: 8vh;
+  width: 100vw;
+  background-color: aqua;
+  position: fixed;
+  margin: -8px 0px 0px -8px;
+}
+
+.navChange {
+  height: 8vh;
+  width: 100vw;
+  background-color: blue;
+  position: fixed;
+  margin: -8px 0px 0px -8px;
+}
+
+.box {
+  margin: 10px 0px 12px 132px;
+}
+
+.switch1 {
+  background-color: aqua;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
+  border: 0rem;
+  margin: 0px 26px 0px 0px;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  -webkit-box-shadow: inset 0px 0 0 0 #1818185a;
+  -ms-box-shadow: inset 0px 0 0 0 #1818185a;
+  -o-box-shadow: inset 0px 0 0 0 #1818185a;
+  box-shadow: inset 0px 0 0 0 #1818185a;
+}
+
+.switch1:hover {
+  color: white;
+  -webkit-box-shadow: inset 500px 0 0 0 #1818185a;
+  -ms-box-shadow: inset 500px 0 0 0 #1818185a;
+  -o-box-shadow: inset 500px 0 0 0 #1818185a;
+  box-shadow: inset 500px 0 0 0 #1818185a;
+}
+
+.switch2 {
+  background-color: aqua;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
+  border: 0rem;
+  margin: 0px 26px 0px 0px;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  -webkit-box-shadow: inset 0px 0 0 0 #1818185a;
+  -ms-box-shadow: inset 0px 0 0 0 #1818185a;
+  -o-box-shadow: inset 0px 0 0 0 #1818185a;
+  box-shadow: inset 0px 0 0 0 #1818185a;
+}
+
+.switch2:hover {
+  color: white;
+  -webkit-box-shadow: inset 500px 0 0 0 #1818185a;
+  -ms-box-shadow: inset 500px 0 0 0 #1818185a;
+  -o-box-shadow: inset 500px 0 0 0 #1818185a;
+  box-shadow: inset 500px 0 0 0 #1818185a;
+}
+
+.switch3 {
+  background-color: aqua;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
+  border: 0rem;
+  margin: 0px 26px 0px 0px;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  -webkit-box-shadow: inset 0px 0 0 0 #1818185a;
+  -ms-box-shadow: inset 0px 0 0 0 #1818185a;
+  -o-box-shadow: inset 0px 0 0 0 #1818185a;
+  box-shadow: inset 0px 0 0 0 #1818185a;
+}
+
+.switch3:hover {
+  color: white;
+  -webkit-box-shadow: inset 500px 0 0 0 #1818185a;
+  -ms-box-shadow: inset 500px 0 0 0 #1818185a;
+  -o-box-shadow: inset 500px 0 0 0 #1818185a;
+  box-shadow: inset 500px 0 0 0 #1818185a;
+}
+
+.switch4 {
+  background-color: aqua;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
+  border: 0rem;
+  margin: 0px 26px 0px 0px;
+  -webkit-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+  -webkit-box-shadow: inset 0px 0 0 0 #1818185a;
+  -ms-box-shadow: inset 0px 0 0 0 #1818185a;
+  -o-box-shadow: inset 0px 0 0 0 #1818185a;
+  box-shadow: inset 0px 0 0 0 #1818185a;
+}
+
+.switch4:hover {
+  color: white;
+  -webkit-box-shadow: inset 500px 0 0 0 #1818185a;
+  -ms-box-shadow: inset 500px 0 0 0 #1818185a;
+  -o-box-shadow: inset 500px 0 0 0 #1818185a;
+  box-shadow: inset 500px 0 0 0 #1818185a;
+}
+
+.line {
+  height: 1.5vh;
+  width: 100vw;
+  background-color: #363d67;
+  position: relative;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin: -8px 0px 0px -8px;
 }
 /*# sourceMappingURL=App.css.map */
