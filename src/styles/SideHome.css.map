@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,WAAW,CAAA;EACP,gBAAgB,EAAC,KAAK;EACtB,MAAM,EAAE,OAAO;EACf,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf",
-    "sources": [
-        "SideHome.scss"
-    ],
-    "names": [],
-    "file": "SideHome.css"
-}

@@ -40,16 +40,16 @@ class App extends Component {
         </div>
         <div className='App__background'></div>
         <div className='App__about' ref={(section) => {this.About = section}}>
-          <img className='face' src={require('../Images/part1.gif')}/>
+          <img className='App__about__face' src={require('../Images/part1.gif')}/>
         </div>
-          <div className='nav'>
-            <div className='box'>
-              <button className='switch1'onClick={() => scrollToComponent(this.Home, { offset: 0, align: 'top', duration: 1500})}>Home</button>
-              <button className='switch2' onClick={() => scrollToComponent(this.About, { offset: 0, align: 'top', duration: 1500})}>About</button>
-              <button className='switch3'>Projects</button>
-              <button className='switch4'>Contact</button>
+          <div className='App__nav'>
+            <div className='App__nav__box'>
+              <button className='App__nav__box__switch'onClick={() => scrollToComponent(this.Home, { offset: 0, align: 'top', duration: 1500})}>Home</button>
+              <button className='App__nav__box__switch' onClick={() => scrollToComponent(this.About, { offset: 0, align: 'top', duration: 1500})}>About</button>
+              <button className='App__nav__box__switch'>Projects</button>
+              <button className='App__nav__box__switch'>Contact</button>
             </div>
-          <div className='line'></div>
+          <div className='App__nav__line'></div>
         </div>  
       </div>
     );
