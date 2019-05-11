@@ -5,7 +5,7 @@ import scrollToComponent from 'react-scroll-to-component';
 class App extends Component {
   constructor(){
     super();
-    this.state = {class: 'nav'}
+    this.state = {}
   };
   componentDidMount(){
     window.addEventListener('scroll', (event) => {
@@ -38,20 +38,11 @@ class App extends Component {
           </div>
         A Front End Developer.
         </div>
-        <div className='App__background'>
-        
-        </div>
-        <div className='App__back'>
-          <div className='App__back__space'>
-            <button className='App__back__space__buttons' onClick={() => scrollToComponent(this.About, { offset: 0, align: 'top', duration: 1500})}>About</button>
-            <button className='App__back__space__buttons'>Projects</button>
-            <button className='App__back__space__buttons'>Contact</button>
-          </div>
-        </div>
+        <div className='App__background'></div>
         <div className='App__about' ref={(section) => {this.About = section}}>
           <img className='face' src={require('../Images/part1.gif')}/>
         </div>
-          <div className={this.state.class}>
+          <div className='nav'>
             <div className='box'>
               <button className='switch1'onClick={() => scrollToComponent(this.Home, { offset: 0, align: 'top', duration: 1500})}>Home</button>
               <button className='switch2' onClick={() => scrollToComponent(this.About, { offset: 0, align: 'top', duration: 1500})}>About</button>

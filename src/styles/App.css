@@ -12,12 +12,13 @@
 .App__background {
   background-color: white;
   height: 100vh;
-  width: 81.8%;
+  width: 101.2%;
   margin: -8px;
 }
 
 .App__back {
-  background-color: aqua;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, aqua), to(white));
+  background-image: linear-gradient(to bottom, aqua 50%, white);
   height: 100vh;
   width: 18.4%;
   margin: -8px -8px -8px 21px;
@@ -92,7 +93,7 @@
   font-weight: bold;
   padding-top: 200px;
   position: absolute;
-  width: 80%;
+  width: 99%;
   bottom: 45%;
   display: block;
   margin: 0px;
@@ -199,24 +200,6 @@
   background-color: aqua;
   position: fixed;
   margin: -8px 0px 0px -8px;
-  -webkit-transition: -webkit-transform 700ms ease-in;
-  transition: -webkit-transform 700ms ease-in;
-  transition: transform 700ms ease-in;
-  transition: transform 700ms ease-in, -webkit-transform 700ms ease-in;
-}
-
-.navChange {
-  height: 8vh;
-  width: 100vw;
-  background-color: aqua;
-  position: fixed;
-  margin: -8px 0px 0px -8px;
-  -webkit-transform: translateY(-150px);
-          transform: translateY(-150px);
-  -webkit-transition: -webkit-transform 400ms ease-in;
-  transition: -webkit-transform 400ms ease-in;
-  transition: transform 400ms ease-in;
-  transition: transform 400ms ease-in, -webkit-transform 400ms ease-in;
 }
 
 .box {
@@ -230,8 +213,8 @@
   font-size: 1.3rem;
   border: 0rem;
   margin: 0px 26px 0px 0px;
-  -webkit-transition: 0.25s ease-in-out;
-  transition: 0.25s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   -webkit-box-shadow: inset 0px 0 0 0 #1818185a;
   -ms-box-shadow: inset 0px 0 0 0 #1818185a;
   -o-box-shadow: inset 0px 0 0 0 #1818185a;
@@ -253,8 +236,8 @@
   font-size: 1.3rem;
   border: 0rem;
   margin: 0px 26px 0px 0px;
-  -webkit-transition: 0.25s ease-in-out;
-  transition: 0.25s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   -webkit-box-shadow: inset 0px 0 0 0 #1818185a;
   -ms-box-shadow: inset 0px 0 0 0 #1818185a;
   -o-box-shadow: inset 0px 0 0 0 #1818185a;
@@ -276,8 +259,8 @@
   font-size: 1.3rem;
   border: 0rem;
   margin: 0px 26px 0px 0px;
-  -webkit-transition: 0.25s ease-in-out;
-  transition: 0.25s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   -webkit-box-shadow: inset 0px 0 0 0 #1818185a;
   -ms-box-shadow: inset 0px 0 0 0 #1818185a;
   -o-box-shadow: inset 0px 0 0 0 #1818185a;
@@ -299,8 +282,8 @@
   font-size: 1.3rem;
   border: 0rem;
   margin: 0px 26px 0px 0px;
-  -webkit-transition: 0.25s ease-in-out;
-  transition: 0.25s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   -webkit-box-shadow: inset 0px 0 0 0 #1818185a;
   -ms-box-shadow: inset 0px 0 0 0 #1818185a;
   -o-box-shadow: inset 0px 0 0 0 #1818185a;

@@ -21,11 +21,11 @@
     &__background{
         background-color:white;
         height: 100vh;
-        width: 81.8%;
+        width: 101.2%;
         margin: -8px;
     }
     &__back{
-        background-color: aqua;
+        background-image: linear-gradient(to bottom, aqua 50%, white);
         height: 100vh;
         width: 18.4%;
         margin: -8px -8px -8px 21px;
@@ -74,7 +74,7 @@
     font-weight:bold;
     padding-top:200px;  
     position: absolute;;
-    width:80%;
+    width:99%;
     bottom:45%;
     display:block;
     margin:0px;
@@ -124,16 +124,6 @@
     background-color: aqua;
     position: fixed;
     margin:-8px 0px 0px -8px;
-    transition: transform 700ms ease-in;
-  }
-  .navChange{
-    height:8vh;
-    width:100vw;
-    background-color: aqua;
-    position: fixed;
-    margin:-8px 0px 0px -8px;
-    transform: translateY(-150px);
-    transition: transform 400ms ease-in;
   }
   .box{
     margin: 10px 0px 12px 132px;  
@@ -145,7 +135,7 @@
     font-size: 1.3rem;
     border: 0rem;
     margin: 0px 26px 0px 0px;
-    @include transition(.25s ease-in-out);
+    @include transition(.50s ease-in-out);
     @include boxShadow(inset 0px 0 0 0 #1818185a);
     &:hover {
         color:white;
@@ -159,7 +149,7 @@
     font-size: 1.3rem;
     border: 0rem;
     margin: 0px 26px 0px 0px;
-    @include transition(.25s ease-in-out);
+    @include transition(.50s ease-in-out);
     @include boxShadow(inset 0px 0 0 0 #1818185a);
     &:hover {
         color:white;
@@ -173,7 +163,7 @@
     font-size: 1.3rem;
     border: 0rem;
     margin: 0px 26px 0px 0px;
-    @include transition(.25s ease-in-out);
+    @include transition(.50s ease-in-out);
     @include boxShadow(inset 0px 0 0 0 #1818185a);
     &:hover {
         color:white;
@@ -187,7 +177,7 @@
     font-size: 1.3rem;
     border: 0rem;
     margin: 0px 26px 0px 0px;
-    @include transition(.25s ease-in-out);
+    @include transition(.50s ease-in-out);
     @include boxShadow(inset 0px 0 0 0 #1818185a);
     &:hover {
         color:white;
