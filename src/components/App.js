@@ -7,19 +7,6 @@ class App extends Component {
     super();
     this.state = {}
   };
-  componentDidMount(){
-    window.addEventListener('scroll', (event) => {
-       if(window.pageYOffset < 400) {
-        this.setState({
-          class: 'navChange'
-       })
-       }else{
-        this.setState({
-          class: 'nav'
-    })
-      }
-    });
-  }
   render() {
     return (
       <div className="App" ref={(section) => {this.Home = section}}>
@@ -40,7 +27,9 @@ class App extends Component {
         </div>
         <div className='App__background'></div>
         <div className='App__about' ref={(section) => {this.About = section}}>
-          <img className='App__about__face' src={require('../Images/part1.gif')}/>
+          <div className='App__about__square'>
+            <img className='App__about__square__face' src={require('../Images/part1.gif')}/>
+          </div>  
         </div>
           <div className='App__nav'>
             <div className='App__nav__box'>
