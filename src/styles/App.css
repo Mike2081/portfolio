@@ -23,6 +23,30 @@
   margin: 8px -8px 0px -8px;
 }
 
+.App__about__square {
+  background-color: #f9f9f9;
+  height: 92.1vh;
+  width: 100%;
+  margin: 3.8% 0% 0% 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.App__about__square__face {
+  height: 42.6vh;
+}
+
+.App__about__square__icons {
+  background-color: #f9f9f9;
+  height: 92vh;
+  width: 80%;
+}
+
+.App__about__square__icons__title {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .App__nav {
   height: 8vh;
   width: 100vw;
@@ -72,7 +96,7 @@
 
 .App__nav__line {
   height: 1.5vh;
-  width: 101.4vw;
+  width: 100vw;
   background-color: #363d67;
   position: absolute;
   bottom: 0;

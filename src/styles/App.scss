@@ -30,12 +30,21 @@
         width: 100vw;
         margin: 8px -8px 0px -8px;
         &__square{
-          background-color:white;
+          background-color:rgb(249, 249, 249);
           height: 92.1vh;;
           width: 100%;
           margin: 3.8% 0% 0% 0%;
+          display: flex;
           &__face{
-            
+            height:42.6vh;
+          }
+          &__icons{
+            background-color: rgb(249, 249, 249);
+            height: 92vh;
+            width: 80%;
+            &__title{
+                font-family: 'Open Sans', sans-serif;
+            }
           }
         }
     }

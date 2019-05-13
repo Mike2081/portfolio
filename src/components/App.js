@@ -29,6 +29,10 @@ class App extends Component {
         <div className='App__about' ref={(section) => {this.About = section}}>
           <div className='App__about__square'>
             <img className='App__about__square__face' src={require('../Images/part1.gif')}/>
+            <div className='App__about__square__icons'>
+            <h1 className='App__about__square__icons__title'>Skills</h1>
+            </div>
+            <div className='App__'></div>
           </div>  
         </div>
           <div className='App__nav'>
