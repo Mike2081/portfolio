@@ -38,11 +38,14 @@ class App extends Component {
                 knowledge and critical thinking by working with others. Highly motivated programmer with a
                 passion for bringing ideas to life with code. 
               </h1>
+              <span className='App__about__square__holder__award'>-Received BrainStation Merit Scholarship</span>
             </div>
             <div className='App__about__square__icons'>
               <h1 className='App__about__square__icons__title'>Skills</h1>
               <div className='App__about__square__icons__logos1'>
                 <img className='App__about__square__icons__logos1__html' src={require('../Images/html5.png')}/>
+                <img className='App__about__square__icons__logos1__css' src={require('../Images/css3.png')}/>
+                <img className='App__about__square__icons__logos1__sass' src={require('../Images/sass.png')}/>
               </div>
             </div>
           </div>  

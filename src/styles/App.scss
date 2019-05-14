@@ -44,7 +44,11 @@
                     height: 42vh;
                     width: 26vw;
                     font-size: 1em;
-                    margin: 5% 0% 0% 0%;
+                    margin: 5% 0% -4% 0%;
+                    font-family: 'Open Sans', sans-serif;
+                    color: rgb(130, 130, 130);
+                }
+                &__award{
                     font-family: 'Open Sans', sans-serif;
                     color: rgb(130, 130, 130);
                 }
@@ -65,6 +69,12 @@
                 background-color: antiquewhite;
                 &__html{
                     height: 99%;
+                }
+                &__css{
+                    height:99%;
+                }
+                &__sass{
+                    height: 99%
                 }
             }
           }

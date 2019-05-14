@@ -45,7 +45,12 @@
   height: 42vh;
   width: 26vw;
   font-size: 1em;
-  margin: 5% 0% 0% 0%;
+  margin: 5% 0% -4% 0%;
+  font-family: 'Open Sans', sans-serif;
+  color: #828282;
+}
+
+.App__about__square__holder__award {
   font-family: 'Open Sans', sans-serif;
   color: #828282;
 }
@@ -70,6 +75,14 @@
 }
 
 .App__about__square__icons__logos1__html {
+  height: 99%;
+}
+
+.App__about__square__icons__logos1__css {
+  height: 99%;
+}
+
+.App__about__square__icons__logos1__sass {
   height: 99%;
 }
 
