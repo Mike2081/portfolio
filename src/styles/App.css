@@ -71,19 +71,37 @@
 .App__about__square__icons__logos1 {
   height: 20vh;
   width: 100%;
-  background-color: antiquewhite;
+  background-color: #f9f9f9;
 }
 
 .App__about__square__icons__logos1__html {
-  height: 99%;
+  height: 80%;
+  margin: 0% 2%;
 }
 
 .App__about__square__icons__logos1__css {
-  height: 99%;
+  height: 80%;
+  margin: 0% 2%;
 }
 
 .App__about__square__icons__logos1__sass {
-  height: 99%;
+  height: 80%;
+  margin: 0% 2%;
+}
+
+.App__about__square__icons__logos1__js {
+  height: 80%;
+  margin: 0% 2%;
+}
+
+.App__about__square__icons__logos1__react {
+  height: 80%;
+  margin: 0% 2%;
+}
+
+.App__about__square__icons__logos1__node {
+  height: 80%;
+  margin: 0% 2%;
 }
 
 .App__nav {

@@ -66,16 +66,34 @@
             &__logos1{
                 height: 20vh;
                 width: 100%;
-                background-color: antiquewhite;
+                background-color: rgb(249, 249, 249);
                 &__html{
-                    height: 99%;
+                    height: 80%;
+                    margin: 0% 2%;
                 }
                 &__css{
-                    height:99%;
+                    height:80%;
+                    margin: 0% 2%;
                 }
                 &__sass{
-                    height: 99%
+                    height: 80%;
+                    margin: 0% 2%;
                 }
+                &__js{
+                    height: 80%;
+                    margin: 0% 2%;
+                }
+                &__react{
+                    height: 80%;
+                    margin: 0% 2%;
+                }
+                &__node{
+                    height: 80%;
+                    margin: 0% 2%;
+                }
+            }
+            &__names{
+                
             }
           }
         }

@@ -46,6 +46,12 @@ class App extends Component {
                 <img className='App__about__square__icons__logos1__html' src={require('../Images/html5.png')}/>
                 <img className='App__about__square__icons__logos1__css' src={require('../Images/css3.png')}/>
                 <img className='App__about__square__icons__logos1__sass' src={require('../Images/sass.png')}/>
+                <img className='App__about__square__icons__logos1__js' src={require('../Images/javascript.png')}/>
+                <img className='App__about__square__icons__logos1__react' src={require('../Images/React.png')}/>
+                <img className='App__about__square__icons__logos1__node' src={require('../Images/nodejs.png')}/>
+              </div>
+              <div className='App__about__square__icons__names'>
+              
               </div>
             </div>
           </div>  
