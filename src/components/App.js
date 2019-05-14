@@ -28,11 +28,23 @@ class App extends Component {
         <div className='App__background'></div>
         <div className='App__about' ref={(section) => {this.About = section}}>
           <div className='App__about__square'>
-            <img className='App__about__square__face' src={require('../Images/part1.gif')}/>
-            <div className='App__about__square__icons'>
-            <h1 className='App__about__square__icons__title'>Skills</h1>
+            <div className='App__about__square__holder'>
+              <img className='App__about__square__holder__face' src={require('../Images/part1.gif')}/>
+              <h1 className='App__about__square__holder__description'>
+                Hi! I'm a Front-End Developer based in Toronto. 
+                I'm a recent graduate of BrainStation's Full Web Development
+                program. Before the program, I was a carpenter who knew nothing about code, so I'm not afraid
+                to adapt and rise up to the challenge of learning a new skill. I'm always trying to expand my programming 
+                knowledge and critical thinking by working with others. Highly motivated programmer with a
+                passion for bringing ideas to life with code. 
+              </h1>
             </div>
-            <div className='App__'></div>
+            <div className='App__about__square__icons'>
+              <h1 className='App__about__square__icons__title'>Skills</h1>
+              <div className='App__about__square__icons__logos1'>
+                <img className='App__about__square__icons__logos1__html' src={require('../Images/html5.png')}/>
+              </div>
+            </div>
           </div>  
         </div>
           <div className='App__nav'>

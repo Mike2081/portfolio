@@ -30,20 +30,42 @@
         width: 100vw;
         margin: 8px -8px 0px -8px;
         &__square{
-          background-color:rgb(249, 249, 249);
-          height: 92.1vh;;
-          width: 100%;
-          margin: 3.8% 0% 0% 0%;
-          display: flex;
-          &__face{
-            height:42.6vh;
-          }
+            background-color:rgb(249, 249, 249);
+            height: 92.1vh;;
+            width: 100%;
+            margin: 3.8% 0% 0% 0%;
+            display: flex;
+            &__holder{
+                margin: 0% 0% 0% 1.5%;
+                &__face{
+                    height:42.6vh;
+                }
+                &__description{
+                    height: 42vh;
+                    width: 26vw;
+                    font-size: 1em;
+                    margin: 5% 0% 0% 0%;
+                    font-family: 'Open Sans', sans-serif;
+                    color: rgb(130, 130, 130);
+                }
+            }
           &__icons{
             background-color: rgb(249, 249, 249);
             height: 92vh;
             width: 80%;
             &__title{
                 font-family: 'Open Sans', sans-serif;
+                color: rgb(80, 80, 80);
+                font-size: 3em;
+                margin: 2% 0% 0% 0%;
+            }
+            &__logos1{
+                height: 20vh;
+                width: 100%;
+                background-color: antiquewhite;
+                &__html{
+                    height: 99%;
+                }
             }
           }
         }

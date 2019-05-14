@@ -33,8 +33,21 @@
   display: flex;
 }
 
-.App__about__square__face {
+.App__about__square__holder {
+  margin: 0% 0% 0% 1.5%;
+}
+
+.App__about__square__holder__face {
   height: 42.6vh;
+}
+
+.App__about__square__holder__description {
+  height: 42vh;
+  width: 26vw;
+  font-size: 1em;
+  margin: 5% 0% 0% 0%;
+  font-family: 'Open Sans', sans-serif;
+  color: #828282;
 }
 
 .App__about__square__icons {
@@ -45,6 +58,19 @@
 
 .App__about__square__icons__title {
   font-family: 'Open Sans', sans-serif;
+  color: #505050;
+  font-size: 3em;
+  margin: 2% 0% 0% 0%;
+}
+
+.App__about__square__icons__logos1 {
+  height: 20vh;
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.App__about__square__icons__logos1__html {
+  height: 99%;
 }
 
 .App__nav {
