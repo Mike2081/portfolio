@@ -50,8 +50,29 @@ class App extends Component {
                 <img className='App__about__square__icons__logos1__react' src={require('../Images/React.png')}/>
                 <img className='App__about__square__icons__logos1__node' src={require('../Images/nodejs.png')}/>
               </div>
-              <div className='App__about__square__icons__names'>
-              
+              <div className='App__about__square__icons__names1'>
+                <span className='App__about__square__icons__names1__html'>HTML5</span>
+                <span className='App__about__square__icons__names1__css'>CSS3</span>
+                <span className='App__about__square__icons__names1__sass'>SASS</span>
+                <span className='App__about__square__icons__names1__js'>Javascript</span>
+                <span className='App__about__square__icons__names1__react'>React</span>
+                <span className='App__about__square__icons__names1__node'>Node</span>
+              </div>
+              <div className='App__about__square__icons__logos2'>
+                <img className='App__about__square__icons__logos2__webpack' src={require('../Images/webpack.png')}/>
+                <img className='App__about__square__icons__logos2__npm' src={require('../Images/npm.png')}/>
+                <img className='App__about__square__icons__logos2__hero' src={require('../Images/heroku.png')}/>
+                <img className='App__about__square__icons__logos2__git' src={require('../Images/github.svg')}/>
+                <img className='App__about__square__icons__logos2__vs' src={require('../Images/visual.png')}/>
+                <img className='App__about__square__icons__logos2__post' src={require('../Images/postman.png')}/>
+              </div>
+              <div className='App__about__square__icons__names2'>
+                <span className='App__about__square__icons__names2__webpack'>Webpack</span>
+                <span className='App__about__square__icons__names2__npm'>NPM</span>
+                <span className='App__about__square__icons__names2__hero'>Heroku</span>
+                <span className='App__about__square__icons__names2__git'>Github</span>
+                <span className='App__about__square__icons__names2__vs'>Visual Studio Code</span>
+                <span className='App__about__square__icons__names2__post'>Postman</span>
               </div>
             </div>
           </div>  
