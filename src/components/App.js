@@ -42,6 +42,14 @@ class App extends Component {
             </div>
             <div className='App__about__square__icons'>
               <h1 className='App__about__square__icons__title'>Skills</h1>
+              <div className='App__about__square__icons__block'>
+                <div className='App__about__square__icons__block__html'>
+                  <img className='App__about__square__icons__block__html__logo1' src={require('../Images/html5.png')}/>
+                  <div className='App__about__square__icons__block__html__title1'>
+                    HTML5
+                  </div>
+                </div>
+              </div>
             </div>
           </div>  
         </div>

@@ -63,6 +63,25 @@
                 font-size: 3em;
                 margin: 2% 0% 0% 0%;
             }
+            &__block{
+                background-color: azure;
+                height: 79vh;
+                width: 100%;
+                &__html{
+                    &__logo1{
+                        height: 23vh;
+                        width: 14%;
+                    }
+                    &__title1{
+                        height: 4vh;
+                        width: 14%;
+                        font-family: 'Open Sans', sans-serif;
+                        color: #505050;
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                }
+            }
           }
         }
     }
