@@ -42,38 +42,6 @@ class App extends Component {
             </div>
             <div className='App__about__square__icons'>
               <h1 className='App__about__square__icons__title'>Skills</h1>
-              <div className='App__about__square__icons__logos1'>
-                <img className='App__about__square__icons__logos1__html' src={require('../Images/html5.png')}/>
-                <img className='App__about__square__icons__logos1__css' src={require('../Images/css3.png')}/>
-                <img className='App__about__square__icons__logos1__sass' src={require('../Images/sass.png')}/>
-                <img className='App__about__square__icons__logos1__js' src={require('../Images/javascript.png')}/>
-                <img className='App__about__square__icons__logos1__react' src={require('../Images/React.png')}/>
-                <img className='App__about__square__icons__logos1__node' src={require('../Images/nodejs.png')}/>
-              </div>
-              <div className='App__about__square__icons__names1'>
-                <span className='App__about__square__icons__names1__html'>HTML5</span>
-                <span className='App__about__square__icons__names1__css'>CSS3</span>
-                <span className='App__about__square__icons__names1__sass'>SASS</span>
-                <span className='App__about__square__icons__names1__js'>Javascript</span>
-                <span className='App__about__square__icons__names1__react'>React</span>
-                <span className='App__about__square__icons__names1__node'>Node</span>
-              </div>
-              <div className='App__about__square__icons__logos2'>
-                <img className='App__about__square__icons__logos2__webpack' src={require('../Images/webpack.png')}/>
-                <img className='App__about__square__icons__logos2__npm' src={require('../Images/npm.png')}/>
-                <img className='App__about__square__icons__logos2__hero' src={require('../Images/heroku.png')}/>
-                <img className='App__about__square__icons__logos2__git' src={require('../Images/github.svg')}/>
-                <img className='App__about__square__icons__logos2__vs' src={require('../Images/visual.png')}/>
-                <img className='App__about__square__icons__logos2__post' src={require('../Images/postman.png')}/>
-              </div>
-              <div className='App__about__square__icons__names2'>
-                <span className='App__about__square__icons__names2__webpack'>Webpack</span>
-                <span className='App__about__square__icons__names2__npm'>NPM</span>
-                <span className='App__about__square__icons__names2__hero'>Heroku</span>
-                <span className='App__about__square__icons__names2__git'>Github</span>
-                <span className='App__about__square__icons__names2__vs'>Visual Studio Code</span>
-                <span className='App__about__square__icons__names2__post'>Postman</span>
-              </div>
             </div>
           </div>  
         </div>
