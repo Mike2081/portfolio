@@ -69,19 +69,285 @@
 }
 
 .App__about__square__icons__block {
-  background-color: azure;
-  height: 79vh;
+  background-color: #f9f9f9;
+  height: 27vh;
   width: 100%;
+  margin: 5% 0% 0% 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.App__about__square__icons__block__html {
+  width: 8%;
 }
 
 .App__about__square__icons__block__html__logo1 {
-  height: 23vh;
-  width: 14%;
+  height: 14vh;
+  width: 100%;
 }
 
 .App__about__square__icons__block__html__title1 {
   height: 4vh;
-  width: 14%;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #505050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.App__about__square__icons__block__css {
+  width: 8%;
+}
+
+.App__about__square__icons__block__css__logo2 {
+  height: 14vh;
+  width: 100%;
+}
+
+.App__about__square__icons__block__css__title2 {
+  height: 4vh;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #505050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.App__about__square__icons__block__sass {
+  width: 12%;
+}
+
+.App__about__square__icons__block__sass__logo3 {
+  height: 15vh;
+  width: 100%;
+}
+
+.App__about__square__icons__block__sass__title3 {
+  height: 4vh;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #505050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.App__about__square__icons__block__js {
+  width: 9%;
+}
+
+.App__about__square__icons__block__js__logo4 {
+  height: 14vh;
+  width: 100%;
+}
+
+.App__about__square__icons__block__js__title4 {
+  height: 4vh;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #505050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.App__about__square__icons__block__react {
+  width: 9%;
+}
+
+.App__about__square__icons__block__react__logo5 {
+  height: 14vh;
+  width: 100%;
+}
+
+.App__about__square__icons__block__react__title5 {
+  height: 4vh;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #505050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.App__about__square__icons__block__node {
+  width: 12%;
+}
+
+.App__about__square__icons__block__node__logo6 {
+  height: 14vh;
+  width: 100%;
+}
+
+.App__about__square__icons__block__node__title6 {
+  height: 4vh;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #505050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.App__about__square__icons__block2 {
+  background-color: #f9f9f9;
+  height: 27vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5% 0% 0% 0%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.App__about__square__icons__block2__wpack {
+  width: 10%;
+}
+
+.App__about__square__icons__block2__wpack__logo7 {
+  height: 16vh;
+  width: 100%;
+}
+
+.App__about__square__icons__block2__wpack__title7 {
+  height: 4vh;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #505050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.App__about__square__icons__block2__npm {
+  width: 10%;
+}
+
+.App__about__square__icons__block2__npm__logo8 {
+  height: 16vh;
+  width: 100%;
+}
+
+.App__about__square__icons__block2__npm__title8 {
+  height: 4vh;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #505050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.App__about__square__icons__block2__jira {
+  width: 11%;
+}
+
+.App__about__square__icons__block2__jira__logo9 {
+  height: 16vh;
+  width: 100%;
+}
+
+.App__about__square__icons__block2__jira__title9 {
+  height: 4vh;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #505050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.App__about__square__icons__block2__git {
+  width: 8%;
+}
+
+.App__about__square__icons__block2__git__logo10 {
+  height: 16vh;
+  width: 100%;
+}
+
+.App__about__square__icons__block2__git__title10 {
+  height: 4vh;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #505050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.App__about__square__icons__block2__vs {
+  width: 8%;
+}
+
+.App__about__square__icons__block2__vs__logo11 {
+  height: 14vh;
+  width: 100%;
+}
+
+.App__about__square__icons__block2__vs__title11 {
+  height: 4vh;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: #505050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.App__about__square__icons__block2__post {
+  width: 8%;
+}
+
+.App__about__square__icons__block2__post__logo12 {
+  height: 16vh;
+  width: 100%;
+}
+
+.App__about__square__icons__block2__post__title12 {
+  height: 14vh;
+  width: 100%;
   font-family: 'Open Sans', sans-serif;
   color: #505050;
   display: -webkit-box;

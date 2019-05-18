@@ -64,24 +64,201 @@
                 margin: 2% 0% 0% 0%;
             }
             &__block{
-                background-color: azure;
-                height: 79vh;
+                background-color: rgb(249, 249, 249);
+                height: 27vh;
                 width: 100%;
+                margin: 5% 0% 0% 0%;
+                display: flex;
+                justify-content: space-evenly;
                 &__html{
+                    width:8%;
                     &__logo1{
-                        height: 23vh;
-                        width: 14%;
+                        height: 14vh;
+                        width: 100%;
                     }
                     &__title1{
                         height: 4vh;
-                        width: 14%;
+                        width: 100%;
                         font-family: 'Open Sans', sans-serif;
                         color: #505050;
                         display: flex;
                         justify-content: space-evenly;
                     }
                 }
-            }
+                &__css{
+                    width:8%;
+                    &__logo2{
+                        height: 14vh;
+                        width: 100%;
+                    }
+                    &__title2{
+                        height: 4vh;
+                        width: 100%;
+                        font-family: 'Open Sans', sans-serif;
+                        color: #505050;
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                }
+                &__sass{
+                    width:12%;
+                    &__logo3{
+                        height: 15vh;
+                        width: 100%;
+                    }
+                    &__title3{
+                        height: 4vh;
+                        width: 100%;
+                        font-family: 'Open Sans', sans-serif;
+                        color: #505050;
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                }
+                &__js{
+                    width:9%;
+                    &__logo4{
+                        height: 14vh;
+                        width: 100%;
+                    }
+                    &__title4{
+                        height: 4vh;
+                        width: 100%;
+                        font-family: 'Open Sans', sans-serif;
+                        color: #505050;
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                }
+                &__react{
+                    width:9%;
+                    &__logo5{
+                        height: 14vh;
+                        width: 100%;
+                    }
+                    &__title5{
+                        height: 4vh;
+                        width: 100%;
+                        font-family: 'Open Sans', sans-serif;
+                        color: #505050;
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                }
+                &__node{
+                    width:12%;
+                    &__logo6{
+                        height: 14vh;
+                        width: 100%;
+                    }
+                    &__title6{
+                        height: 4vh;
+                        width: 100%;
+                        font-family: 'Open Sans', sans-serif;
+                        color: #505050;
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                }
+            }    
+            &__block2{
+                background-color:rgb(249, 249, 249);
+                height: 27vh;
+                width: 100%;
+                display: flex;
+                margin: 5% 0% 0% 0%;
+                justify-content: space-evenly;
+                &__wpack{
+                    width:10%;
+                    &__logo7{
+                        height: 16vh;
+                        width: 100%;
+                    }
+                    &__title7{
+                        height: 4vh;
+                        width: 100%;
+                        font-family: 'Open Sans', sans-serif;
+                        color: #505050;
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                }
+                &__npm{
+                    width:10%;
+                    &__logo8{
+                        height: 16vh;
+                        width: 100%;
+                    }
+                    &__title8{
+                        height: 4vh;
+                        width: 100%;
+                        font-family: 'Open Sans', sans-serif;
+                        color: #505050;
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                }
+                &__jira{
+                    width:11%;
+                    &__logo9{
+                        height: 16vh;
+                        width: 100%;
+                    }
+                    &__title9{
+                        height: 4vh;
+                        width: 100%;
+                        font-family: 'Open Sans', sans-serif;
+                        color: #505050;
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                }
+                &__git{
+                    width:8%;
+                    &__logo10{
+                        height: 16vh;
+                        width: 100%;
+                    }
+                    &__title10{
+                        height: 4vh;
+                        width: 100%;
+                        font-family: 'Open Sans', sans-serif;
+                        color: #505050;
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                }
+                &__vs{
+                    width:8%;
+                    &__logo11{
+                        height: 14vh;
+                        width: 100%;
+                    }
+                    &__title11{
+                        height: 4vh;
+                        width: 100%;
+                        font-family: 'Open Sans', sans-serif;
+                        color: #505050;
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                }
+                &__post{
+                    width:8%;
+                    &__logo12{
+                        height: 16vh;
+                        width: 100%;
+                    }
+                    &__title12{
+                        height: 14vh;
+                        width: 100%;
+                        font-family: 'Open Sans', sans-serif;
+                        color: #505050;
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                }
+            }    
           }
         }
     }

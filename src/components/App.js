@@ -45,9 +45,53 @@ class App extends Component {
               <div className='App__about__square__icons__block'>
                 <div className='App__about__square__icons__block__html'>
                   <img className='App__about__square__icons__block__html__logo1' src={require('../Images/html5.png')}/>
-                  <div className='App__about__square__icons__block__html__title1'>
-                    HTML5
-                  </div>
+                  <div className='App__about__square__icons__block__html__title1'>HTML5</div>
+                </div>
+                <div className='App__about__square__icons__block__css'>
+                  <img className='App__about__square__icons__block__css__logo2' src={require('../Images/css3.png')}/>
+                  <div className='App__about__square__icons__block__css__title2'>CSS3</div>
+                </div>
+                <div className='App__about__square__icons__block__sass'>
+                  <img className='App__about__square__icons__block__sass__logo3' src={require('../Images/sass.png')}/>
+                  <div className='App__about__square__icons__block__sass__title3'>SASS</div>
+                </div>
+                <div className='App__about__square__icons__block__js'>
+                  <img className='App__about__square__icons__block__js__logo4' src={require('../Images/javascript.png')}/>
+                  <div className='App__about__square__icons__block__js__title4'>Javascript</div>
+                </div>
+                <div className='App__about__square__icons__block__react'>
+                  <img className='App__about__square__icons__block__react__logo5' src={require('../Images/React.png')}/>
+                  <div className='App__about__square__icons__block__react__title5'>React</div>
+                </div>
+                <div className='App__about__square__icons__block__node'>
+                  <img className='App__about__square__icons__block__node__logo6' src={require('../Images/nodejs.png')}/>
+                  <div className='App__about__square__icons__block__node__title6'>Node</div>
+                </div>
+              </div>
+              <div className='App__about__square__icons__block2'>
+                <div className='App__about__square__icons__block2__wpack'>
+                  <img className='App__about__square__icons__block2__wpack__logo7' src={require('../Images/webpack.png')}/>
+                  <div className='App__about__square__icons__block2__wpack__title7'>Webpack</div>
+                </div>
+                <div className='App__about__square__icons__block2__npm'>
+                  <img className='App__about__square__icons__block2__npm__logo8' src={require('../Images/npm.png')}/>
+                  <div className='App__about__square__icons__block2__npm__title8'>Npm</div>
+                </div>
+                <div className='App__about__square__icons__block2__jira'>
+                  <img className='App__about__square__icons__block2__jira__logo9' src={require('../Images/jira.png')}/>
+                  <div className='App__about__square__icons__block2__jira__title9'>Jira</div>
+                </div>
+                <div className='App__about__square__icons__block2__git'>
+                  <img className='App__about__square__icons__block2__git__logo10' src={require('../Images/github.svg')}/>
+                  <div className='App__about__square__icons__block2__git__title10'>Github</div>
+                </div>
+                <div className='App__about__square__icons__block2__vs'>
+                  <img className='App__about__square__icons__block2__vs__logo11' src={require('../Images/visual.png')}/>
+                  <div className='App__about__square__icons__block2__vs__title11'>Visual Studio Code</div>
+                </div>
+                <div className='App__about__square__icons__block2__post'>
+                  <img className='App__about__square__icons__block2__post__logo12' src={require('../Images/postman.png')}/>
+                  <div className='App__about__square__icons__block2__post__title12'>Postman</div>
                 </div>
               </div>
             </div>
