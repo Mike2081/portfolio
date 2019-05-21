@@ -50,9 +50,21 @@
   color: #828282;
 }
 
+@media (max-width: 1220px) {
+  .App__about__square__holder__description {
+    font-size: 0.8em;
+  }
+}
+
 .App__about__square__holder__award {
   font-family: 'Open Sans', sans-serif;
   color: #828282;
+}
+
+@media (max-width: 1220px) {
+  .App__about__square__holder__award {
+    font-size: 0.8em;
+  }
 }
 
 .App__about__square__icons {
@@ -76,13 +88,28 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
 
+@media (max-width: 960px) {
+  .App__about__square__icons__block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .App__about__square__icons__block__html {
   width: 8%;
+}
+
+@media (max-width: 960px) {
+  .App__about__square__icons__block__html {
+    width: 80px;
+  }
 }
 
 .App__about__square__icons__block__html__logo1 {
@@ -107,6 +134,12 @@
   width: 8%;
 }
 
+@media (max-width: 960px) {
+  .App__about__square__icons__block__css {
+    width: 80px;
+  }
+}
+
 .App__about__square__icons__block__css__logo2 {
   height: 14vh;
   width: 100%;
@@ -127,6 +160,12 @@
 
 .App__about__square__icons__block__sass {
   width: 12%;
+}
+
+@media (max-width: 960px) {
+  .App__about__square__icons__block__sass {
+    width: 80px;
+  }
 }
 
 .App__about__square__icons__block__sass__logo3 {
@@ -151,6 +190,12 @@
   width: 9%;
 }
 
+@media (max-width: 960px) {
+  .App__about__square__icons__block__js {
+    width: 80px;
+  }
+}
+
 .App__about__square__icons__block__js__logo4 {
   height: 14vh;
   width: 100%;
@@ -173,6 +218,12 @@
   width: 9%;
 }
 
+@media (max-width: 960px) {
+  .App__about__square__icons__block__react {
+    width: 80px;
+  }
+}
+
 .App__about__square__icons__block__react__logo5 {
   height: 14vh;
   width: 100%;
@@ -193,6 +244,12 @@
 
 .App__about__square__icons__block__node {
   width: 12%;
+}
+
+@media (max-width: 960px) {
+  .App__about__square__icons__block__node {
+    width: 80px;
+  }
 }
 
 .App__about__square__icons__block__node__logo6 {
@@ -224,10 +281,25 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+@media (max-width: 960px) {
+  .App__about__square__icons__block2 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .App__about__square__icons__block2__wpack {
   width: 10%;
+}
+
+@media (max-width: 960px) {
+  .App__about__square__icons__block2__wpack {
+    width: 80px;
+  }
 }
 
 .App__about__square__icons__block2__wpack__logo7 {
@@ -252,6 +324,12 @@
   width: 10%;
 }
 
+@media (max-width: 960px) {
+  .App__about__square__icons__block2__npm {
+    width: 80px;
+  }
+}
+
 .App__about__square__icons__block2__npm__logo8 {
   height: 16vh;
   width: 100%;
@@ -274,6 +352,12 @@
   width: 11%;
 }
 
+@media (max-width: 960px) {
+  .App__about__square__icons__block2__jira {
+    width: 80px;
+  }
+}
+
 .App__about__square__icons__block2__jira__logo9 {
   height: 16vh;
   width: 100%;
@@ -293,7 +377,13 @@
 }
 
 .App__about__square__icons__block2__git {
-  width: 8%;
+  width: 13%;
+}
+
+@media (max-width: 960px) {
+  .App__about__square__icons__block2__git {
+    width: 80px;
+  }
 }
 
 .App__about__square__icons__block2__git__logo10 {
@@ -315,7 +405,13 @@
 }
 
 .App__about__square__icons__block2__vs {
-  width: 8%;
+  width: 9%;
+}
+
+@media (max-width: 960px) {
+  .App__about__square__icons__block2__vs {
+    width: 80px;
+  }
 }
 
 .App__about__square__icons__block2__vs__logo11 {
@@ -338,6 +434,12 @@
 
 .App__about__square__icons__block2__post {
   width: 8%;
+}
+
+@media (max-width: 960px) {
+  .App__about__square__icons__block2__post {
+    width: 80px;
+  }
 }
 
 .App__about__square__icons__block2__post__logo12 {

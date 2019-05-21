@@ -47,10 +47,12 @@
                     margin: 5% 0% -4% 0%;
                     font-family: 'Open Sans', sans-serif;
                     color: rgb(130, 130, 130);
+                    @media (max-width:1220px) {font-size:0.8em}
                 }
                 &__award{
                     font-family: 'Open Sans', sans-serif;
                     color: rgb(130, 130, 130);
+                    @media (max-width:1220px) {font-size:0.8em}
                 }
             }
           &__icons{
@@ -69,9 +71,12 @@
                 width: 100%;
                 margin: 5% 0% 0% 0%;
                 display: flex;
+                flex-wrap: nowrap;
                 justify-content: space-evenly;
+                @media (max-width:960px) {flex-wrap: wrap}
                 &__html{
                     width:8%;
+                    @media (max-width:960px) {width:80px;}
                     &__logo1{
                         height: 14vh;
                         width: 100%;
@@ -87,6 +92,7 @@
                 }
                 &__css{
                     width:8%;
+                    @media (max-width:960px) {width:80px;}
                     &__logo2{
                         height: 14vh;
                         width: 100%;
@@ -102,6 +108,7 @@
                 }
                 &__sass{
                     width:12%;
+                    @media (max-width:960px) {width:80px;}
                     &__logo3{
                         height: 15vh;
                         width: 100%;
@@ -117,6 +124,7 @@
                 }
                 &__js{
                     width:9%;
+                    @media (max-width:960px) {width:80px;}
                     &__logo4{
                         height: 14vh;
                         width: 100%;
@@ -132,6 +140,7 @@
                 }
                 &__react{
                     width:9%;
+                    @media (max-width:960px) {width:80px;}
                     &__logo5{
                         height: 14vh;
                         width: 100%;
@@ -147,6 +156,7 @@
                 }
                 &__node{
                     width:12%;
+                    @media (max-width:960px) {width:80px;}
                     &__logo6{
                         height: 14vh;
                         width: 100%;
@@ -168,8 +178,11 @@
                 display: flex;
                 margin: 5% 0% 0% 0%;
                 justify-content: space-evenly;
+                flex-wrap: nowrap;
+                @media (max-width:960px) {flex-wrap: wrap}
                 &__wpack{
                     width:10%;
+                    @media (max-width:960px) {width:80px;}
                     &__logo7{
                         height: 16vh;
                         width: 100%;
@@ -185,6 +198,7 @@
                 }
                 &__npm{
                     width:10%;
+                    @media (max-width:960px) {width:80px;}
                     &__logo8{
                         height: 16vh;
                         width: 100%;
@@ -200,6 +214,7 @@
                 }
                 &__jira{
                     width:11%;
+                    @media (max-width:960px) {width:80px;}
                     &__logo9{
                         height: 16vh;
                         width: 100%;
@@ -214,7 +229,8 @@
                     }
                 }
                 &__git{
-                    width:8%;
+                    width:13%;
+                    @media (max-width:960px) {width:80px;}
                     &__logo10{
                         height: 16vh;
                         width: 100%;
@@ -229,7 +245,8 @@
                     }
                 }
                 &__vs{
-                    width:8%;
+                    width:9%;
+                    @media (max-width:960px) {width:80px;}
                     &__logo11{
                         height: 14vh;
                         width: 100%;
@@ -245,6 +262,7 @@
                 }
                 &__post{
                     width:8%;
+                    @media (max-width:960px) {width:80px;}
                     &__logo12{
                         height: 16vh;
                         width: 100%;

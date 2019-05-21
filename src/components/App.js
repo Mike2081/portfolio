@@ -73,9 +73,9 @@ class App extends Component {
                   <img className='App__about__square__icons__block2__wpack__logo7' src={require('../Images/webpack.png')}/>
                   <div className='App__about__square__icons__block2__wpack__title7'>Webpack</div>
                 </div>
-                <div className='App__about__square__icons__block2__npm'>
-                  <img className='App__about__square__icons__block2__npm__logo8' src={require('../Images/npm.png')}/>
-                  <div className='App__about__square__icons__block2__npm__title8'>Npm</div>
+                <div className='App__about__square__icons__block2__post'>
+                  <img className='App__about__square__icons__block2__post__logo12' src={require('../Images/postman.png')}/>
+                  <div className='App__about__square__icons__block2__post__title12'>Postman</div>
                 </div>
                 <div className='App__about__square__icons__block2__jira'>
                   <img className='App__about__square__icons__block2__jira__logo9' src={require('../Images/jira.png')}/>
@@ -89,9 +89,9 @@ class App extends Component {
                   <img className='App__about__square__icons__block2__vs__logo11' src={require('../Images/visual.png')}/>
                   <div className='App__about__square__icons__block2__vs__title11'>Visual Studio Code</div>
                 </div>
-                <div className='App__about__square__icons__block2__post'>
-                  <img className='App__about__square__icons__block2__post__logo12' src={require('../Images/postman.png')}/>
-                  <div className='App__about__square__icons__block2__post__title12'>Postman</div>
+                <div className='App__about__square__icons__block2__npm'>
+                  <img className='App__about__square__icons__block2__npm__logo8' src={require('../Images/npm.png')}/>
+                  <div className='App__about__square__icons__block2__npm__title8'>NPM</div>
                 </div>
               </div>
             </div>
