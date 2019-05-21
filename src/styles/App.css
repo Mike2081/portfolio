@@ -33,6 +33,24 @@
   display: flex;
 }
 
+@media (max-width: 791px) {
+  .App__about__square {
+    height: 102.1vh;
+  }
+}
+
+@media (max-width: 710px) {
+  .App__about__square {
+    height: 108.1vh;
+  }
+}
+
+@media (max-width: 547px) {
+  .App__about__square {
+    height: 148.1vh;
+  }
+}
+
 .App__about__square__holder {
   margin: 0% 0% 0% 1.5%;
 }
@@ -56,14 +74,37 @@
   }
 }
 
+@media (max-width: 750px) {
+  .App__about__square__holder__description {
+    margin: 5% 0% -4% 18%;
+  }
+}
+
+@media (max-width: 499px) {
+  .App__about__square__holder__description {
+    font-size: 1em;
+    width: 50vw;
+    margin: 5% 0% -4% 0%;
+  }
+}
+
 .App__about__square__holder__award {
   font-family: 'Open Sans', sans-serif;
   color: #828282;
+  font-weight: 400;
+  opacity: 1;
+  font-size: 1em;
 }
 
 @media (max-width: 1220px) {
   .App__about__square__holder__award {
     font-size: 0.8em;
+  }
+}
+
+@media (max-width: 791px) {
+  .App__about__square__holder__award {
+    opacity: 0;
   }
 }
 
@@ -102,6 +143,12 @@
   }
 }
 
+@media (max-width: 791px) {
+  .App__about__square__icons__block {
+    height: 34vh;
+  }
+}
+
 .App__about__square__icons__block__html {
   width: 8%;
 }
@@ -109,6 +156,12 @@
 @media (max-width: 960px) {
   .App__about__square__icons__block__html {
     width: 80px;
+  }
+}
+
+@media (max-width: 414px) {
+  .App__about__square__icons__block__html {
+    width: 60px;
   }
 }
 
@@ -140,6 +193,12 @@
   }
 }
 
+@media (max-width: 414px) {
+  .App__about__square__icons__block__css {
+    width: 60px;
+  }
+}
+
 .App__about__square__icons__block__css__logo2 {
   height: 14vh;
   width: 100%;
@@ -165,6 +224,12 @@
 @media (max-width: 960px) {
   .App__about__square__icons__block__sass {
     width: 80px;
+  }
+}
+
+@media (max-width: 414px) {
+  .App__about__square__icons__block__sass {
+    width: 60px;
   }
 }
 
@@ -196,6 +261,12 @@
   }
 }
 
+@media (max-width: 414px) {
+  .App__about__square__icons__block__js {
+    width: 60px;
+  }
+}
+
 .App__about__square__icons__block__js__logo4 {
   height: 14vh;
   width: 100%;
@@ -224,6 +295,12 @@
   }
 }
 
+@media (max-width: 414px) {
+  .App__about__square__icons__block__react {
+    width: 60px;
+  }
+}
+
 .App__about__square__icons__block__react__logo5 {
   height: 14vh;
   width: 100%;
@@ -249,6 +326,12 @@
 @media (max-width: 960px) {
   .App__about__square__icons__block__node {
     width: 80px;
+  }
+}
+
+@media (max-width: 414px) {
+  .App__about__square__icons__block__node {
+    width: 60px;
   }
 }
 
@@ -292,6 +375,30 @@
   }
 }
 
+@media (max-width: 710px) {
+  .App__about__square__icons__block2 {
+    margin: 9% 0% 0% 0%;
+  }
+}
+
+@media (max-width: 547px) {
+  .App__about__square__icons__block2 {
+    margin: 76% 0% 0% 0%;
+  }
+}
+
+@media (max-width: 499px) {
+  .App__about__square__icons__block2 {
+    margin: 87% 0% 0% 0%;
+  }
+}
+
+@media (max-width: 414px) {
+  .App__about__square__icons__block2 {
+    margin: 110% 0% 0% 0%;
+  }
+}
+
 .App__about__square__icons__block2__wpack {
   width: 10%;
 }
@@ -299,6 +406,12 @@
 @media (max-width: 960px) {
   .App__about__square__icons__block2__wpack {
     width: 80px;
+  }
+}
+
+@media (max-width: 414px) {
+  .App__about__square__icons__block2__wpack {
+    width: 60px;
   }
 }
 
@@ -330,6 +443,12 @@
   }
 }
 
+@media (max-width: 414px) {
+  .App__about__square__icons__block2__npm {
+    width: 60px;
+  }
+}
+
 .App__about__square__icons__block2__npm__logo8 {
   height: 16vh;
   width: 100%;
@@ -355,6 +474,12 @@
 @media (max-width: 960px) {
   .App__about__square__icons__block2__jira {
     width: 80px;
+  }
+}
+
+@media (max-width: 414px) {
+  .App__about__square__icons__block2__jira {
+    width: 60px;
   }
 }
 
@@ -386,6 +511,12 @@
   }
 }
 
+@media (max-width: 414px) {
+  .App__about__square__icons__block2__git {
+    width: 60px;
+  }
+}
+
 .App__about__square__icons__block2__git__logo10 {
   height: 16vh;
   width: 100%;
@@ -411,6 +542,12 @@
 @media (max-width: 960px) {
   .App__about__square__icons__block2__vs {
     width: 80px;
+  }
+}
+
+@media (max-width: 414px) {
+  .App__about__square__icons__block2__vs {
+    width: 60px;
   }
 }
 
@@ -442,6 +579,12 @@
   }
 }
 
+@media (max-width: 414px) {
+  .App__about__square__icons__block2__post {
+    width: 60px;
+  }
+}
+
 .App__about__square__icons__block2__post__logo12 {
   height: 16vh;
   width: 100%;
@@ -458,6 +601,7 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  font-size: 1em;
 }
 
 .App__nav {

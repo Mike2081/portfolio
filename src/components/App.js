@@ -38,7 +38,7 @@ class App extends Component {
                 knowledge and critical thinking by working with others. Highly motivated programmer with a
                 passion for bringing ideas to life with code. 
               </h1>
-              <span className='App__about__square__holder__award'>-Received BrainStation Merit Scholarship</span>
+              <h2 className='App__about__square__holder__award'>-Received BrainStation Merit Scholarship</h2>
             </div>
             <div className='App__about__square__icons'>
               <h1 className='App__about__square__icons__title'>Skills</h1>

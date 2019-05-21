@@ -35,6 +35,10 @@
             width: 100%;
             margin: 3.8% 0% 0% 0%;
             display: flex;
+            @media (max-width:791px) {height:102.1vh}
+            @media (max-width:710px) {height:108.1vh}
+            @media (max-width:547px) {height:148.1vh}
+
             &__holder{
                 margin: 0% 0% 0% 1.5%;
                 &__face{
@@ -48,12 +52,18 @@
                     font-family: 'Open Sans', sans-serif;
                     color: rgb(130, 130, 130);
                     @media (max-width:1220px) {font-size:0.8em}
+                    @media (max-width:750px) {margin: 5% 0% -4% 18%;}
+                    @media (max-width:499px) {font-size: 1em; width:50vw;margin: 5% 0% -4% 0%;}
                 }
                 &__award{
                     font-family: 'Open Sans', sans-serif;
                     color: rgb(130, 130, 130);
+                    font-weight: 400;
+                    opacity: 1;
+                    font-size: 1em;
                     @media (max-width:1220px) {font-size:0.8em}
-                }
+                    @media (max-width:791px) {opacity: 0;}
+                 }
             }
           &__icons{
             background-color: rgb(249, 249, 249);
@@ -74,9 +84,11 @@
                 flex-wrap: nowrap;
                 justify-content: space-evenly;
                 @media (max-width:960px) {flex-wrap: wrap}
+                @media (max-width:791px) {height:34vh}
                 &__html{
                     width:8%;
                     @media (max-width:960px) {width:80px;}
+                    @media (max-width:414px) {width:60px;}
                     &__logo1{
                         height: 14vh;
                         width: 100%;
@@ -93,6 +105,7 @@
                 &__css{
                     width:8%;
                     @media (max-width:960px) {width:80px;}
+                    @media (max-width:414px) {width:60px;}
                     &__logo2{
                         height: 14vh;
                         width: 100%;
@@ -109,6 +122,7 @@
                 &__sass{
                     width:12%;
                     @media (max-width:960px) {width:80px;}
+                    @media (max-width:414px) {width:60px;}
                     &__logo3{
                         height: 15vh;
                         width: 100%;
@@ -125,6 +139,7 @@
                 &__js{
                     width:9%;
                     @media (max-width:960px) {width:80px;}
+                    @media (max-width:414px) {width:60px;}
                     &__logo4{
                         height: 14vh;
                         width: 100%;
@@ -141,6 +156,7 @@
                 &__react{
                     width:9%;
                     @media (max-width:960px) {width:80px;}
+                    @media (max-width:414px) {width:60px;}
                     &__logo5{
                         height: 14vh;
                         width: 100%;
@@ -157,6 +173,7 @@
                 &__node{
                     width:12%;
                     @media (max-width:960px) {width:80px;}
+                    @media (max-width:414px) {width:60px;}
                     &__logo6{
                         height: 14vh;
                         width: 100%;
@@ -180,9 +197,14 @@
                 justify-content: space-evenly;
                 flex-wrap: nowrap;
                 @media (max-width:960px) {flex-wrap: wrap}
+                @media (max-width:710px) {margin: 9% 0% 0% 0%;}
+                @media (max-width:547px) {margin: 76% 0% 0% 0%;}
+                @media (max-width:499px) {margin: 87% 0% 0% 0%;}
+                @media (max-width:414px) {margin: 110% 0% 0% 0%;}
                 &__wpack{
                     width:10%;
                     @media (max-width:960px) {width:80px;}
+                    @media (max-width:414px) {width:60px;}
                     &__logo7{
                         height: 16vh;
                         width: 100%;
@@ -199,6 +221,7 @@
                 &__npm{
                     width:10%;
                     @media (max-width:960px) {width:80px;}
+                    @media (max-width:414px) {width:60px;}
                     &__logo8{
                         height: 16vh;
                         width: 100%;
@@ -215,6 +238,7 @@
                 &__jira{
                     width:11%;
                     @media (max-width:960px) {width:80px;}
+                    @media (max-width:414px) {width:60px;}
                     &__logo9{
                         height: 16vh;
                         width: 100%;
@@ -231,6 +255,7 @@
                 &__git{
                     width:13%;
                     @media (max-width:960px) {width:80px;}
+                    @media (max-width:414px) {width:60px;}
                     &__logo10{
                         height: 16vh;
                         width: 100%;
@@ -247,6 +272,7 @@
                 &__vs{
                     width:9%;
                     @media (max-width:960px) {width:80px;}
+                    @media (max-width:414px) {width:60px;}
                     &__logo11{
                         height: 14vh;
                         width: 100%;
@@ -263,6 +289,7 @@
                 &__post{
                     width:8%;
                     @media (max-width:960px) {width:80px;}
+                    @media (max-width:414px) {width:60px;}
                     &__logo12{
                         height: 16vh;
                         width: 100%;
@@ -274,6 +301,7 @@
                         color: #505050;
                         display: flex;
                         justify-content: space-evenly;
+                        font-size: 1em;
                     }
                 }
             }    
