@@ -308,6 +308,22 @@
           }
         }
     }
+    &__spacer{
+        background-color:red;
+        height: 100vh;
+        width: 100vw;
+        margin: 0px -8px 0px -8px;
+        position: relative;
+        
+    }
+    &__projects{
+            background-color:white;
+            height: 92.1vh;
+            width: 100%;
+            margin: 3.8% 0% 0% 0%;
+            position: relative;
+            display: flex;
+        }
     &__nav{
         height:8vh;
         width:100vw;

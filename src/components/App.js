@@ -97,14 +97,17 @@ class App extends Component {
             </div>
           </div>  
         </div>
-          <div className='App__nav'>
+        <div className='App__spacer'>
+          <div className='App__projects' ref={(section) => {this.Projects = section}}></div>
+        </div>
+        <div className='App__nav'>
             <div className='App__nav__box'>
               <button className='App__nav__box__switch'onClick={() => scrollToComponent(this.Home, { offset: 0, align: 'top', duration: 1500})}>Home</button>
               <button className='App__nav__box__switch' onClick={() => scrollToComponent(this.About, { offset: 0, align: 'top', duration: 1500})}>About</button>
-              <button className='App__nav__box__switch'>Projects</button>
+              <button className='App__nav__box__switch' onClick={() => scrollToComponent(this.Projects, { offset: 0, align: 'top', duration: 1500})}>Projects</button>
               <button className='App__nav__box__switch'>Contact</button>
             </div>
-          <div className='App__nav__line'></div>
+            <div className='App__nav__line'></div>
         </div>  
       </div>
     );
