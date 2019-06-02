@@ -18,7 +18,7 @@
 
 .App__about {
   background-color: white;
-  height: 100vh;
+  height: auto;
   width: 100vw;
   margin: 8px -8px 0px -8px;
 }
@@ -53,6 +53,7 @@
 
 .App__about__square__holder {
   margin: 0% 0% 0% 1.5%;
+  height: auto;
 }
 
 .App__about__square__holder__face {
@@ -60,7 +61,7 @@
 }
 
 .App__about__square__holder__description {
-  height: 42vh;
+  height: auto;
   width: 26vw;
   font-size: 1em;
   margin: 5% 0% -4% 0%;
@@ -110,7 +111,7 @@
 
 .App__about__square__icons {
   background-color: #f9f9f9;
-  height: 92vh;
+  height: auto;
   width: 80%;
 }
 
@@ -355,7 +356,7 @@
 
 .App__about__square__icons__block2 {
   background-color: #f9f9f9;
-  height: 27vh;
+  height: auto;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;

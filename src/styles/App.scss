@@ -26,7 +26,7 @@
     }
     &__about{
         background-color: white;
-        height: 100vh;
+        height: auto;
         width: 100vw;
         margin: 8px -8px 0px -8px;
         &__square{
@@ -41,11 +41,12 @@
 
             &__holder{
                 margin: 0% 0% 0% 1.5%;
+                height: auto;
                 &__face{
                     height:42.6vh;
                 }
                 &__description{
-                    height: 42vh;
+                    height: auto;
                     width: 26vw;
                     font-size: 1em;
                     margin: 5% 0% -4% 0%;
@@ -67,7 +68,7 @@
             }
           &__icons{
             background-color: rgb(249, 249, 249);
-            height: 92vh;
+            height: auto;
             width: 80%;
             &__title{
                 font-family: 'Open Sans', sans-serif;
@@ -190,7 +191,7 @@
             }    
             &__block2{
                 background-color:rgb(249, 249, 249);
-                height: 27vh;
+                height: auto;
                 width: 100%;
                 display: flex;
                 margin: 5% 0% 0% 0%;
