@@ -98,7 +98,9 @@ class App extends Component {
           </div>  
         </div>
         <div className='App__spacer'>
-          <div className='App__projects' ref={(section) => {this.Projects = section}}></div>
+          <div className='App__projects' ref={(section) => {this.Projects = section}}>
+            <div className='App__projects__header'>Projects</div>
+          </div>
         </div>
         <div className='App__nav'>
             <div className='App__nav__box'>
