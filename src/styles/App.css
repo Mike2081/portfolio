@@ -645,6 +645,20 @@
   height: 81vh;
   width: 98.9vw;
   background: lightcyan;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.App__projects__case__demo {
+  height: 38vh;
+  width: 25vw;
+  background-color: #999;
 }
 
 .App__nav {

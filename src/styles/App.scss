@@ -339,6 +339,19 @@
             height: 81vh;
             width: 98.9vw;
             background: lightcyan;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            &__demo{
+                height: 38vh;
+                width:25vw;
+                background-color: #999;
+            }
+            // &__stock{
+            //     height: 20vh;
+            //     width:20vw;
+            //     background-color: #999;
+            // }
         }
     }
     &__nav{

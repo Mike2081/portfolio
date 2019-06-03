@@ -100,7 +100,13 @@ class App extends Component {
         <div className='App__spacer'>
           <div className='App__projects' ref={(section) => {this.Projects = section}}>
             <div className='App__projects__header'>Projects</div>
-            <div className='App__projects__case'></div>
+            <div className='App__projects__case'>
+              <div className='App__projects__case__demo'></div>
+              <div className='App__projects__case__demo'></div>
+              <div className='App__projects__case__demo'></div>
+              <div className='App__projects__case__demo'></div>
+              <div className='App__projects__case__demo'></div>
+            </div>
           </div>
         </div>
         <div className='App__nav'>
