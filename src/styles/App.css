@@ -644,7 +644,7 @@
 .App__projects__case {
   height: 81vh;
   width: 98.9vw;
-  background: lightcyan;
+  background: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -653,6 +653,7 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin: 1em 0em 0em 0em;
 }
 
 .App__projects__case__demo {
