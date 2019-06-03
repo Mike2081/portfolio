@@ -620,15 +620,31 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .App__projects__header {
   font-family: 'Open Sans', sans-serif;
   color: #505050;
   font-size: 3em;
-  background-color: #42c58a;
+  background-color: white;
   height: 10vh;
-  width: 212.1vh;
+  width: 12vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-bottom: 5px solid #505050;
+  margin: 0em 13.2em;
+}
+
+.App__projects__case {
+  height: 81vh;
+  width: 98.9vw;
+  background: lightcyan;
 }
 
 .App__nav {

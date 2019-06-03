@@ -322,13 +322,23 @@
         width: 100%;
         margin: 3.8% 0% 0% 0%;
         display: flex;
+        flex-wrap: wrap;
         &__header{
             font-family: 'Open Sans', sans-serif;
             color: rgb(80, 80, 80);
             font-size: 3em;
-            background-color: #42c58a;
+            background-color: white;
             height: 10vh;
-            width: 212.1vh;  
+            width: 12vh;
+            display: flex;
+            justify-content: space-evenly;
+            border-bottom: 5px solid #505050;
+            margin: 0em 13.2em;  
+        }
+        &__case{
+            height: 81vh;
+            width: 98.9vw;
+            background: lightcyan;
         }
     }
     &__nav{
