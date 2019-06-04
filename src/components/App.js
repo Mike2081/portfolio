@@ -101,11 +101,11 @@ class App extends Component {
           <div className='App__projects' ref={(section) => {this.Projects = section}}>
             <div className='App__projects__header'>Projects</div>
             <div className='App__projects__case'>
-              <img className='App__projects__case__demo' src={require('../Images/typr.jpg')}/>
-              <img className='App__projects__case__demo' src={require('../Images/stock.jpg')}/>
-              <img className='App__projects__case__demo' src={require('../Images/brain.jpg')}/>
-              <img className='App__projects__case__demo' src={require('../Images/band.jpg')}/>
-              <img className='App__projects__case__demo' src={require('../Images/chefi-hat.jpg')}/>
+              <img className='App__projects__case__demo1' src={require('../Images/typr.jpg')}/>
+              <img className='App__projects__case__demo2' src={require('../Images/stock.jpg')}/>
+              <img className='App__projects__case__demo3' src={require('../Images/brain.jpg')}/>
+              <img className='App__projects__case__demo4' src={require('../Images/band.jpg')}/>
+              <img className='App__projects__case__demo5' src={require('../Images/chefi-hat.jpg')}/>
             </div>
           </div>
         </div>

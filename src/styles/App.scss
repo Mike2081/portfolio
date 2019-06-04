@@ -343,7 +343,31 @@
             flex-wrap: wrap;
             justify-content: space-evenly;
             margin: 1em 0em 0em 0em;
-            &__demo{
+            &__demo1{
+                height: 38vh;
+                width:25vw;
+                background-color: #999;
+                &:hover{
+                    opacity: 0.1;
+                    transition: .5s ease;
+                }
+            }
+            &__demo2{
+                height: 38vh;
+                width:25vw;
+                background-color: #999;
+            }
+            &__demo3{
+                height: 38vh;
+                width:25vw;
+                background-color: #999;
+            }
+            &__demo4{
+                height: 38vh;
+                width:25vw;
+                background-color: #999;
+            }
+            &__demo5{
                 height: 38vh;
                 width:25vw;
                 background-color: #999;

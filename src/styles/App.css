@@ -656,7 +656,37 @@
   margin: 1em 0em 0em 0em;
 }
 
-.App__projects__case__demo {
+.App__projects__case__demo1 {
+  height: 38vh;
+  width: 25vw;
+  background-color: #999;
+}
+
+.App__projects__case__demo1:hover {
+  opacity: 0.1;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.App__projects__case__demo2 {
+  height: 38vh;
+  width: 25vw;
+  background-color: #999;
+}
+
+.App__projects__case__demo3 {
+  height: 38vh;
+  width: 25vw;
+  background-color: #999;
+}
+
+.App__projects__case__demo4 {
+  height: 38vh;
+  width: 25vw;
+  background-color: #999;
+}
+
+.App__projects__case__demo5 {
   height: 38vh;
   width: 25vw;
   background-color: #999;
