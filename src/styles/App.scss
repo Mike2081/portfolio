@@ -343,20 +343,53 @@
             flex-wrap: wrap;
             justify-content: space-evenly;
             margin: 1em 0em 0em 0em;
-            &__demo1{
-                height: 38vh;
-                width:25vw;
-                background-color: #999;
-                &:hover{
-                    opacity: 0.1;
-                    transition: .5s ease;
+                &__chest{
+                    height: 38vh;
+                    width:25vw;
+                    &__demo1{
+                        height: 38vh;
+                        width:25vw;
+                        opacity:0.6;
+                    }
+                    &__info1{
+                        background: rgb(54, 61, 103);
+                        height: 8vh;
+                        width: 10vw;
+                        font-size:1em;
+                        color:white;
+                        position: relative;
+                        bottom: 150px;
+                        left: 100px;
+                        &:hover{
+                            transition: .5s ease;
+                            background: aqua;
+                            }
+                        }
                 }
-            }
-            &__demo2{
-                height: 38vh;
-                width:25vw;
-                background-color: #999;
-            }
+                &__chest2{
+                    height: 38vh;
+                    width:25vw;
+                    &__demo2{
+                        height: 38vh;
+                        width:25vw;
+                        background-color: #999;
+                        opacity:0.6;
+                    }
+                    &__info2{
+                        background: rgb(54, 61, 103);
+                        height: 8vh;
+                        width: 10vw;
+                        font-size:1em;
+                        color:white;
+                        position: relative;
+                        bottom: 150px;
+                        left: 100px;
+                        &:hover{
+                            transition: .5s ease;
+                            background: aqua;
+                            }
+                        }
+                    }
             &__demo3{
                 height: 38vh;
                 width:25vw;

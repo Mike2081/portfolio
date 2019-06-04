@@ -656,22 +656,61 @@
   margin: 1em 0em 0em 0em;
 }
 
-.App__projects__case__demo1 {
+.App__projects__case__chest {
   height: 38vh;
   width: 25vw;
-  background-color: #999;
 }
 
-.App__projects__case__demo1:hover {
-  opacity: 0.1;
+.App__projects__case__chest__demo1 {
+  height: 38vh;
+  width: 25vw;
+  opacity: 0.6;
+}
+
+.App__projects__case__chest__info1 {
+  background: #363d67;
+  height: 8vh;
+  width: 10vw;
+  font-size: 1em;
+  color: white;
+  position: relative;
+  bottom: 150px;
+  left: 100px;
+}
+
+.App__projects__case__chest__info1:hover {
   -webkit-transition: .5s ease;
   transition: .5s ease;
+  background: aqua;
 }
 
-.App__projects__case__demo2 {
+.App__projects__case__chest2 {
+  height: 38vh;
+  width: 25vw;
+}
+
+.App__projects__case__chest2__demo2 {
   height: 38vh;
   width: 25vw;
   background-color: #999;
+  opacity: 0.6;
+}
+
+.App__projects__case__chest2__info2 {
+  background: #363d67;
+  height: 8vh;
+  width: 10vw;
+  font-size: 1em;
+  color: white;
+  position: relative;
+  bottom: 150px;
+  left: 100px;
+}
+
+.App__projects__case__chest2__info2:hover {
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background: aqua;
 }
 
 .App__projects__case__demo3 {
