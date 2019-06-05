@@ -122,6 +122,9 @@ class App extends Component {
                 <button className='App__projects__case__chest__info1'>Learn More</button>  
               </div>
             </div>
+            <div className='typrDemo1'>
+                Hello
+            </div>
           </div>
         </div>
         <div className='App__nav'>

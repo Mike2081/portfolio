@@ -366,45 +366,6 @@
                             }
                         }
                 }
-                &__chest2{
-                    height: 38vh;
-                    width:25vw;
-                    &__demo2{
-                        height: 38vh;
-                        width:25vw;
-                        background-color: #999;
-                        opacity:0.6;
-                    }
-                    &__info2{
-                        background: rgb(54, 61, 103);
-                        height: 8vh;
-                        width: 10vw;
-                        font-size:1em;
-                        color:white;
-                        position: relative;
-                        bottom: 150px;
-                        left: 100px;
-                        &:hover{
-                            transition: .5s ease;
-                            background: aqua;
-                            }
-                        }
-                    }
-            &__demo3{
-                height: 38vh;
-                width:25vw;
-                background-color: #999;
-            }
-            &__demo4{
-                height: 38vh;
-                width:25vw;
-                background-color: #999;
-            }
-            &__demo5{
-                height: 38vh;
-                width:25vw;
-                background-color: #999;
-            }
         }
     }
     &__nav{
@@ -434,13 +395,29 @@
         }
         &__line{
             height:1.5vh;
-            width:100vw;
+            width:100.6vw;
             background-color: rgb(54, 61, 103);
             position: absolute;
             bottom:0;
             margin:-8px 0px 0px -8px;
         }
     }
+}
+.typrDemo1{
+    height: 71vh;
+    width: 82vw;
+    background: #42c58a;
+    position: fixed;
+    bottom: 70px;
+    right: 109px;
+}
+.typrDemo2{
+    height: 71vh;
+    width: 82vw;
+    background: #42c58a;
+    position: fixed;
+    bottom: 70px;
+    right: 1430px;
 }
   .container {
     color:#999;

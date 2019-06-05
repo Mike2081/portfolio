@@ -684,53 +684,6 @@
   background: aqua;
 }
 
-.App__projects__case__chest2 {
-  height: 38vh;
-  width: 25vw;
-}
-
-.App__projects__case__chest2__demo2 {
-  height: 38vh;
-  width: 25vw;
-  background-color: #999;
-  opacity: 0.6;
-}
-
-.App__projects__case__chest2__info2 {
-  background: #363d67;
-  height: 8vh;
-  width: 10vw;
-  font-size: 1em;
-  color: white;
-  position: relative;
-  bottom: 150px;
-  left: 100px;
-}
-
-.App__projects__case__chest2__info2:hover {
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
-  background: aqua;
-}
-
-.App__projects__case__demo3 {
-  height: 38vh;
-  width: 25vw;
-  background-color: #999;
-}
-
-.App__projects__case__demo4 {
-  height: 38vh;
-  width: 25vw;
-  background-color: #999;
-}
-
-.App__projects__case__demo5 {
-  height: 38vh;
-  width: 25vw;
-  background-color: #999;
-}
-
 .App__nav {
   height: 8vh;
   width: 100vw;
@@ -780,11 +733,29 @@
 
 .App__nav__line {
   height: 1.5vh;
-  width: 100vw;
+  width: 100.6vw;
   background-color: #363d67;
   position: absolute;
   bottom: 0;
   margin: -8px 0px 0px -8px;
+}
+
+.typrDemo1 {
+  height: 71vh;
+  width: 82vw;
+  background: #42c58a;
+  position: fixed;
+  bottom: 70px;
+  right: 109px;
+}
+
+.typrDemo2 {
+  height: 71vh;
+  width: 82vw;
+  background: #42c58a;
+  position: fixed;
+  bottom: 70px;
+  right: 1430px;
 }
 
 .container {
