@@ -6,10 +6,13 @@ class App extends Component {
   constructor(){
     super();
     this.state = {
-      typr: 'typrDemo2',
+      typr: 'off1',
     }
   };
 
+  clicker1 = (e) =>{
+    this.setState({typr:'on1'})
+  };
 
   render() {
     return (
@@ -107,7 +110,7 @@ class App extends Component {
             <div className='App__projects__case'>
               <div className='App__projects__case__chest'>
                 <img className='App__projects__case__chest__demo1' src={require('../Images/typr.jpg')}/>
-                <button className='App__projects__case__chest__info1'>Learn More</button>  
+                <button className='App__projects__case__chest__info1' onClick={this.clicker1} >Learn More</button>  
               </div>
               <div className='App__projects__case__chest'>
                 <img className='App__projects__case__chest__demo1' src={require('../Images/stock.jpg')}/>
