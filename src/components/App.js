@@ -5,8 +5,12 @@ import scrollToComponent from 'react-scroll-to-component';
 class App extends Component {
   constructor(){
     super();
-    this.state = {}
+    this.state = {
+      typr: 'typrDemo2',
+    }
   };
+
+
   render() {
     return (
       <div className="App" ref={(section) => {this.Home = section}}>
@@ -122,7 +126,7 @@ class App extends Component {
                 <button className='App__projects__case__chest__info1'>Learn More</button>  
               </div>
             </div>
-            <div className='typrDemo1'>
+            <div className={this.state.typr}>
                 Hello
             </div>
           </div>
