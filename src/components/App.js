@@ -10,9 +10,13 @@ class App extends Component {
     }
   };
 
-  clicker1 = (e) =>{
+  onClick1 = (e) => {
     this.setState({typr:'on1'})
   };
+
+  offClick1 = (e) => {
+    this.setState({typr:'off1'})
+  }
 
   render() {
     return (
@@ -110,7 +114,7 @@ class App extends Component {
             <div className='App__projects__case'>
               <div className='App__projects__case__chest'>
                 <img className='App__projects__case__chest__demo1' src={require('../Images/typr.jpg')}/>
-                <button className='App__projects__case__chest__info1' onClick={this.clicker1} >Learn More</button>  
+                <button className='App__projects__case__chest__info1' onClick={this.onClick1} >Learn More</button>  
               </div>
               <div className='App__projects__case__chest'>
                 <img className='App__projects__case__chest__demo1' src={require('../Images/stock.jpg')}/>
@@ -131,6 +135,7 @@ class App extends Component {
             </div>
             <div className={this.state.typr}>
                 Hello
+                <button className='offClick1' onClick={this.offClick1} >X</button>
             </div>
           </div>
         </div>
