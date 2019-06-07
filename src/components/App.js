@@ -46,7 +46,7 @@ class App extends Component {
                 I'm a recent graduate of BrainStation's Full Web Development
                 program. Before the program, I was a carpenter who knew nothing about code, so I'm not afraid
                 to adapt and rise up to the challenge of learning a new skill. I'm always trying to expand my programming 
-                knowledge and critical thinking by working with others. Highly motivated programmer with a
+                knowledge and critical thinking by working with others. A highly motivated programmer with a
                 passion for bringing ideas to life with code. 
               </h1>
               <h2 className='App__about__square__holder__award'>-Received BrainStation Merit Scholarship</h2>
@@ -134,7 +134,10 @@ class App extends Component {
               </div>
             </div>
             <div className={this.state.typr}>
-                Hello
+              <div>
+                <video src={require('../videos/Typr.mov')} className ='typrDemo1' autoPlay='autoplay'></video>
+              </div>
+              <div></div>
                 <button className='offClick1' onClick={this.offClick1} >X</button>
             </div>
           </div>

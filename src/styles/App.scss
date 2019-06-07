@@ -406,10 +406,16 @@
 .on1{
     height: 71vh;
     width: 82vw;
-    background: #42c58a;
+    background: white;
     position: fixed;
     bottom: 70px;
     right: 109px;
+    border: solid 3px;
+    border-color: gainsboro;
+}
+.typrDemo1{
+    height:10vh;
+    width:10vw;
 }
 .off1{
     height: 71vh;
