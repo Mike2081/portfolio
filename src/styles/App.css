@@ -749,11 +749,47 @@
   right: 109px;
   border: solid 3px;
   border-color: gainsboro;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .typrDemo1 {
+  height: auto;
+  width: 50vw;
+  margin: 4em 0em 4em 2em;
+}
+
+.typrSum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.typrSum__modalTitle {
+  font-family: 'Open Sans', sans-serif;
+  color: #505050;
+  font-size: 3em;
   height: 10vh;
-  width: 10vw;
+  width: 37vh;
+  white-space: nowrap;
+  margin: 0em 1.9em 0em 1em;
+}
+
+.typrSum__modalTitle button:focus {
+  outline: 0;
+}
+
+.typrSum__offClick1 {
+  height: 3vh;
+  border: 0px;
+  font-size: 2em;
+  color: gainsboro;
+}
+
+.typrSum__offClick1 button:active {
+  outline: none;
+  border: none;
 }
 
 .off1 {

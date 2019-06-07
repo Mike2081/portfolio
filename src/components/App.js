@@ -135,10 +135,12 @@ class App extends Component {
             </div>
             <div className={this.state.typr}>
               <div>
-                <video src={require('../videos/Typr.mov')} className ='typrDemo1' autoPlay='autoplay'></video>
+                <video src={require('../videos/Typr.mov')} className ='typrDemo1' controls loop></video>
               </div>
-              <div></div>
-                <button className='offClick1' onClick={this.offClick1} >X</button>
+              <div className='typrSum'>
+                <span className='typrSum__modalTitle'>Speed Typr</span>
+                <button className='typrSum__offClick1' onClick={this.offClick1} >X</button>
+              </div>
             </div>
           </div>
         </div>
