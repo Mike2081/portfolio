@@ -140,6 +140,12 @@ class App extends Component {
               <div className='typrSum'>
                 <span className='typrSum__modalTitle'>Speed Typr</span>
                 <button className='typrSum__offClick1' onClick={this.offClick1} >X</button>
+                <span className='typrSum__TextA'>
+                  Speed Typr is a game I made with React Javascript and node express server. Where random words fall down from the screen and you type as many words as you can before the time runs out.
+                </span>
+                <span className='typrSum__TextB'>
+                  The words are being requested from an API, so you get a new set of words every time you start a new game.
+                </span>
               </div>
             </div>
           </div>

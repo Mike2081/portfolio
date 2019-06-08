@@ -764,6 +764,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .typrSum__modalTitle {
@@ -774,10 +776,7 @@
   width: 37vh;
   white-space: nowrap;
   margin: 0em 1.9em 0em 1em;
-}
-
-.typrSum__modalTitle button:focus {
-  outline: 0;
+  border-bottom: 5px solid #505050;
 }
 
 .typrSum__offClick1 {
@@ -787,9 +786,20 @@
   color: gainsboro;
 }
 
-.typrSum__offClick1 button:active {
-  outline: none;
-  border: none;
+.typrSum__TextA {
+  font-family: 'Open Sans', sans-serif;
+  height: auto;
+  width: 25em;
+  font-size: 99%;
+  margin: -18% 0% 0% 4%;
+}
+
+.typrSum__TextB {
+  font-family: 'Open Sans', sans-serif;
+  height: auto;
+  width: 25em;
+  font-size: 99%;
+  margin: -18% 0% 0% 4%;
 }
 
 .off1 {

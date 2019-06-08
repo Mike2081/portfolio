@@ -421,7 +421,7 @@
 }
 .typrSum{
     display: flex;
-    
+    flex-wrap: wrap;
     &__modalTitle{
         font-family: 'Open Sans', sans-serif;
         color: #505050;
@@ -430,17 +430,27 @@
         width: 37vh;
         white-space: nowrap;
         margin: 0em 1.9em 0em 1em;
-        button:focus {outline:0;};
+        border-bottom: 5px solid #505050;
     }
     &__offClick1{
         height: 3vh;
         border: 0px;
         font-size: 2em;
         color: gainsboro;
-        button:active {
-            outline: none;
-            border: none;
-            };
+    }
+    &__TextA{
+        font-family: 'Open Sans', sans-serif;
+        height: auto;
+        width: 25em;
+        font-size: 99%;
+        margin: -18% 0% 0% 4%;
+    }
+    &__TextB{
+        font-family: 'Open Sans', sans-serif;
+        height: auto;
+        width: 25em;
+        font-size: 99%;
+        margin: -18% 0% 0% 4%;
     }
 }
 .off1{
