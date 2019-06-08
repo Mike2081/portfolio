@@ -146,6 +146,8 @@ class App extends Component {
                 <span className='typrSum__TextB'>
                   The words are being requested from an API, so you get a new set of words every time you start a new game.
                 </span>
+                {/* target="_blank" is needed so when you click the link it opens a newtab  */}
+                <a className='link1' href='https://speed-typr.herokuapp.com/#/start' target="_blank" >Try it yourself here</a>
               </div>
             </div>
           </div>
