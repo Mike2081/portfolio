@@ -135,11 +135,11 @@ class App extends Component {
             </div>
             <div className={this.state.typr}>
               <div>
+              <button className='typrSum__offClick1' onClick={this.offClick1} >X</button>
                 <video src={require('../videos/Typr.mov')} className ='typrDemo1' controls loop></video>
               </div>
               <div className='typrSum'>
                 <span className='typrSum__modalTitle'>Speed Typr</span>
-                <button className='typrSum__offClick1' onClick={this.offClick1} >X</button>
                 <span className='typrSum__TextA'>
                   Speed Typr is a game I made with React Javascript and node express server. Where random words fall down from the screen and you type as many words as you can before the time runs out.
                 </span>

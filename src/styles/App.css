@@ -778,30 +778,6 @@
   border-bottom: 5px solid #505050;
 }
 
-@media (max-width: 1404px) {
-  .typrSum__modalTitle {
-    margin: 0em 1.8em 0em 0.8em;
-  }
-}
-
-@media (max-width: 1389px) {
-  .typrSum__modalTitle {
-    margin: 0em 1.5em 0em 0.8em;
-  }
-}
-
-@media (max-width: 1344px) {
-  .typrSum__modalTitle {
-    margin: 0em 1.2em 0em 0.8em;
-  }
-}
-
-@media (max-width: 1330px) {
-  .typrSum__modalTitle {
-    margin: 0em 1em 0em 0.8em;
-  }
-}
-
 .typrSum__offClick1 {
   height: 3vh;
   border: 0px;
@@ -823,6 +799,12 @@
   }
 }
 
+@media (max-width: 1160px) {
+  .typrSum__TextA {
+    font-size: 70%;
+  }
+}
+
 .typrSum__TextB {
   font-family: 'Open Sans', sans-serif;
   height: auto;
@@ -834,6 +816,12 @@
 @media (max-width: 1330px) {
   .typrSum__TextB {
     font-size: 85%;
+  }
+}
+
+@media (max-width: 1160px) {
+  .typrSum__TextB {
+    font-size: 70%;
   }
 }
 
