@@ -429,6 +429,8 @@
         width: 37vh;
         white-space: nowrap;
         margin: 0em 1.9em 0em 0.8em;
+        @media (max-width:1404px) {margin: 0em 1.8em 0em 0.8em;}
+        @media (max-width:1389px) {margin: 0em 1.5em 0em 0.8em;}
         border-bottom: 5px solid #505050;
     }
     &__offClick1{
