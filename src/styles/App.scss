@@ -431,6 +431,8 @@
         margin: 0em 1.9em 0em 0.8em;
         @media (max-width:1404px) {margin: 0em 1.8em 0em 0.8em;}
         @media (max-width:1389px) {margin: 0em 1.5em 0em 0.8em;}
+        @media (max-width:1344px) {margin: 0em 1.2em 0em 0.8em;}
+        @media (max-width:1330px) {margin: 0em 1em 0em 0.8em;}
         border-bottom: 5px solid #505050;
     }
     &__offClick1{
@@ -444,6 +446,7 @@
         height: auto;
         width: 25em;
         font-size: 99%;
+        @media (max-width:1330px) {font-size: 85%;}
         margin: -18% 0% 0% 4%;
     }
     &__TextB{
@@ -451,6 +454,7 @@
         height: auto;
         width: 25em;
         font-size: 99%;
+        @media (max-width:1330px) {font-size: 85%;}
         margin: -18% 0% 0% 4%;
     }
     &__link1{
