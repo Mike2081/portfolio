@@ -607,7 +607,7 @@
 
 .App__spacer {
   background-color: #f9f9f9;
-  height: 100vh;
+  height: 9vh;
   width: 100vw;
   margin: 0px -8px 0px -8px;
 }
@@ -616,7 +616,6 @@
   background-color: white;
   height: 92.1vh;
   width: 100%;
-  margin: 6.8% 0% 0% 0%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -775,7 +774,7 @@
   height: 10vh;
   width: 37vh;
   white-space: nowrap;
-  margin: 0em 1.9em 0em 1em;
+  margin: 0em 1.9em 0em 0.8em;
   border-bottom: 5px solid #505050;
 }
 

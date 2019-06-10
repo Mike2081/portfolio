@@ -108,8 +108,8 @@ class App extends Component {
             </div>
           </div>  
         </div>
-        <div className='App__spacer'>
-          <div className='App__projects' ref={(section) => {this.Projects = section}}>
+        <div className='App__spacer'ref={(section) => {this.Projects = section}}></div>
+          <div className='App__projects'>
             <div className='App__projects__header'>Projects</div>
             <div className='App__projects__case'>
               <div className='App__projects__case__chest'>
@@ -151,7 +151,6 @@ class App extends Component {
               </div>
             </div>
           </div>
-        </div>
         <div className='App__nav'>
             <div className='App__nav__box'>
               <button className='App__nav__box__switch'onClick={() => scrollToComponent(this.Home, { offset: 0, align: 'top', duration: 1500})}>Home</button>
