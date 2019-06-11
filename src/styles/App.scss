@@ -333,6 +333,7 @@
             justify-content: space-evenly;
             border-bottom: 5px solid #505050;
             margin: 0em 13.2em;  
+            @media (max-width:792px) {margin: 0em 1.2em;}
         }
         &__case{
             height: 81vh;
@@ -349,6 +350,8 @@
                         height: 38vh;
                         width:25vw;
                         opacity:0.6;
+                        @media (max-width:900px) {height:27vh}
+                        @media (max-width:630px) {height:22vh}
                     }
                     &__info1{
                         background: rgb(54, 61, 103);
@@ -359,6 +362,9 @@
                         position: relative;
                         bottom: 150px;
                         left: 100px;
+                        @media (max-width:680px) {bottom:112px; left:48px;}
+                        @media (max-width:500px) {font-size:0.7em}
+                        @media (max-width:400px) {font-size:0.5em}
                         &:hover{
                             transition: .5s ease;
                             background: aqua;

@@ -640,6 +640,12 @@
   margin: 0em 13.2em;
 }
 
+@media (max-width: 792px) {
+  .App__projects__header {
+    margin: 0em 1.2em;
+  }
+}
+
 .App__projects__case {
   height: 81vh;
   width: 98.9vw;
@@ -666,6 +672,18 @@
   opacity: 0.6;
 }
 
+@media (max-width: 900px) {
+  .App__projects__case__chest__demo1 {
+    height: 27vh;
+  }
+}
+
+@media (max-width: 630px) {
+  .App__projects__case__chest__demo1 {
+    height: 22vh;
+  }
+}
+
 .App__projects__case__chest__info1 {
   background: #363d67;
   height: 8vh;
@@ -675,6 +693,25 @@
   position: relative;
   bottom: 150px;
   left: 100px;
+}
+
+@media (max-width: 680px) {
+  .App__projects__case__chest__info1 {
+    bottom: 112px;
+    left: 48px;
+  }
+}
+
+@media (max-width: 500px) {
+  .App__projects__case__chest__info1 {
+    font-size: 0.7em;
+  }
+}
+
+@media (max-width: 400px) {
+  .App__projects__case__chest__info1 {
+    font-size: 0.5em;
+  }
 }
 
 .App__projects__case__chest__info1:hover {
