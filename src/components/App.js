@@ -7,6 +7,7 @@ class App extends Component {
     super();
     this.state = {
       typr: 'off1',
+      stock:'off2'
     }
   };
 
@@ -16,6 +17,14 @@ class App extends Component {
 
   offClick1 = (e) => {
     this.setState({typr:'off1'})
+  }
+
+  onClick2 = (e) => {
+    this.setState({stock:'on2'})
+  };
+
+  offClick2 = (e) => {
+    this.setState({stock:'off2'})
   }
 
   render() {
@@ -149,6 +158,9 @@ class App extends Component {
                 {/* target="_blank" is needed so when you click the link it opens a newtab  */}
                 <a className='typrSum__link1' href='https://speed-typr.herokuapp.com/#/start' target="_blank" >Try it yourself here!</a>
               </div>
+            </div>
+            <div className={}>
+
             </div>
           </div>
         <div className='App__nav'>
