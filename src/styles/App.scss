@@ -413,6 +413,7 @@
     border-color: gainsboro;
     display:flex;
     @media (max-width:915px) {display:block}
+    @media (max-width:680px) {width:66vw}
 }
 .typrDemo1{
     height: auto;
@@ -451,7 +452,8 @@
         @media (max-width:1330px) {font-size: 85%;}
         @media (max-width:1160px) {font-size: 70%;}
         @media (max-width:1082px) {font-size: 65%;}
-        @media (max-width:915px) {margin: -18% 0% 0% -28%;}
+        @media (max-width:915px) {margin: -8% 0% 0% -28%;}
+        @media (max-width:700px) {opacity: 0;}
         margin: -18% 0% 0% 4%;
     }
     &__TextB{
@@ -462,6 +464,8 @@
         @media (max-width:1330px) {font-size: 85%;}
         @media (max-width:1160px) {font-size: 70%;}
         @media (max-width:1082px) {font-size: 65%;}
+        @media (max-width:915px) {margin: -8% 0% 0% 4%;}
+        @media (max-width:700px) {opacity: 0;}
         margin: -18% 0% 0% 4%;
     }
     &__link1{
@@ -482,6 +486,7 @@
     position: fixed;
     bottom: 70px;
     right: 1430px;
+    opacity:0;
 }
   .container {
     color:#999;

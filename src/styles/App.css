@@ -759,6 +759,12 @@
   }
 }
 
+@media (max-width: 680px) {
+  .on1 {
+    width: 66vw;
+  }
+}
+
 .typrDemo1 {
   height: auto;
   width: 50vw;
@@ -827,7 +833,13 @@
 
 @media (max-width: 915px) {
   .typrSum__TextA {
-    margin: -18% 0% 0% -28%;
+    margin: -8% 0% 0% -28%;
+  }
+}
+
+@media (max-width: 700px) {
+  .typrSum__TextA {
+    opacity: 0;
   }
 }
 
@@ -857,6 +869,18 @@
   }
 }
 
+@media (max-width: 915px) {
+  .typrSum__TextB {
+    margin: -8% 0% 0% 4%;
+  }
+}
+
+@media (max-width: 700px) {
+  .typrSum__TextB {
+    opacity: 0;
+  }
+}
+
 .typrSum__link1 {
   font-family: 'Open Sans', sans-serif;
   margin: 0% 0% 0% 19%;
@@ -883,6 +907,7 @@
   position: fixed;
   bottom: 70px;
   right: 1430px;
+  opacity: 0;
 }
 
 .container {
