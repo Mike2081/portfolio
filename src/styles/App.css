@@ -753,6 +753,12 @@
   display: flex;
 }
 
+@media (max-width: 915px) {
+  .on1 {
+    display: block;
+  }
+}
+
 .typrDemo1 {
   height: auto;
   width: 50vw;
@@ -819,6 +825,12 @@
   }
 }
 
+@media (max-width: 915px) {
+  .typrSum__TextA {
+    margin: -18% 0% 0% -28%;
+  }
+}
+
 .typrSum__TextB {
   font-family: 'Open Sans', sans-serif;
   height: auto;
@@ -855,6 +867,12 @@
   .typrSum__link1 {
     margin: 0%;
     font-size: 100%;
+  }
+}
+
+@media (max-width: 915px) {
+  .typrVidDiv {
+    display: table-caption;
   }
 }
 

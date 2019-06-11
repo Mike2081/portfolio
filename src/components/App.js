@@ -134,8 +134,8 @@ class App extends Component {
               </div>
             </div>
             <div className={this.state.typr}>
-              <div>
-              <button className='typrSum__offClick1' onClick={this.offClick1} >X</button>
+              <div className='typrVidDiv'>
+                <button className='typrSum__offClick1' onClick={this.offClick1} >X</button>
                 <video src={require('../videos/Typr.mov')} className ='typrDemo1' controls loop></video>
               </div>
               <div className='typrSum'>
