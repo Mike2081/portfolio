@@ -127,7 +127,7 @@ class App extends Component {
               </div>
               <div className='App__projects__case__chest'>
                 <img className='App__projects__case__chest__demo1' src={require('../Images/stock.jpg')}/>
-                <button className='App__projects__case__chest__info1'>Learn More</button>  
+                <button className='App__projects__case__chest__info1' onClick={this.onClick2}>Learn More</button>  
               </div>
               <div className='App__projects__case__chest'>
                 <img className='App__projects__case__chest__demo1' src={require('../Images/brain.jpg')}/>
@@ -159,7 +159,7 @@ class App extends Component {
                 <a className='typrSum__link1' href='https://speed-typr.herokuapp.com/#/start' target="_blank" >Try it yourself here!</a>
               </div>
             </div>
-            <div className={}>
+            <div className={this.state.stock}>
 
             </div>
           </div>
