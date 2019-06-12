@@ -963,7 +963,15 @@
 .stockVidSection__stockDemo {
   height: auto;
   width: 95%;
-  margin: 4% 0% 0% 0%;
+  margin: 4% 0% 0% 4%;
+}
+
+.SumSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .SumSection__stockTitle {
@@ -971,10 +979,18 @@
   color: #505050;
   font-size: 3em;
   height: 10vh;
-  width: 37vh;
+  width: 10vh;
   white-space: nowrap;
   margin: 0em 1.9em 0em 0.8em;
   border-bottom: 5px solid #505050;
+}
+
+.SumSection__stockSum {
+  font-family: 'Open Sans', sans-serif;
+  height: auto;
+  width: 25em;
+  font-size: 99%;
+  margin: 0% 0% 0% 7%;
 }
 
 .on2 {

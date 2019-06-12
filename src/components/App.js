@@ -165,7 +165,8 @@ class App extends Component {
                 <video src={require('../videos/instock.mov')} className ='stockVidSection__stockDemo' controls loop></video>
               </div>
               <div className='SumSection'>
-                <span className='SumSection__stockTitle'>Instock</span>
+                <span className='SumSection__stockTitle'>InStock</span>
+                <span className='SumSection__stockSum'>InStock is a warehouse site made with my BrainStation classmates Ana Provirina, Lukas Richardson, and Tyler Noseworthy. This project was incredibly valuable. We used a Jira board, which taught me so much about dividing tasks among the group and communicating what needs to be done. Also learned about merging and dealing with conflicts with other people's code. </span>
               </div>
             </div>
           </div>
