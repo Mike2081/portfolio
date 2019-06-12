@@ -160,7 +160,12 @@ class App extends Component {
               </div>
             </div>
             <div className={this.state.stock}>
+              <div className='stockVidSection'>
+                <button className='typrSum__offClick1' onClick={this.offClick2} >X</button>
+              </div>
+              <div>
 
+              </div>
             </div>
           </div>
         <div className='App__nav'>
