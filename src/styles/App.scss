@@ -496,7 +496,8 @@
 }
 
 .stockVidSection{
-
+    height: auto;
+    width: 68%;
     &__offClick2{
         height: 3vh;
         border: 0px;
@@ -506,8 +507,21 @@
     }
     &__stockDemo{
         height: auto;
-        width: 61%;
+        width: 95%;
         margin: 4% 0% 0% 0%;
+    }
+}
+.SumSection{
+
+    &__stockTitle{
+        font-family: 'Open Sans', sans-serif;
+        color: #505050;
+        font-size: 3em;
+        height: 10vh;
+        width: 37vh;
+        white-space: nowrap;
+        margin: 0em 1.9em 0em 0.8em;
+        border-bottom: 5px solid #505050;
     }
 }
 

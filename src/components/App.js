@@ -164,8 +164,8 @@ class App extends Component {
                 <button className='stockVidSection__offClick2' onClick={this.offClick2} >X</button>
                 <video src={require('../videos/instock.mov')} className ='stockVidSection__stockDemo' controls loop></video>
               </div>
-              <div>
-
+              <div className='SumSection'>
+                <span className='SumSection__stockTitle'>Instock</span>
               </div>
             </div>
           </div>
