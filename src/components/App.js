@@ -161,7 +161,8 @@ class App extends Component {
             </div>
             <div className={this.state.stock}>
               <div className='stockVidSection'>
-                <button className='typrSum__offClick1' onClick={this.offClick2} >X</button>
+                <button className='stockVidSection__offClick2' onClick={this.offClick2} >X</button>
+                <video src={require('../videos/instock.mov')} className ='stockVidSection__stockDemo' controls loop></video>
               </div>
               <div>
 

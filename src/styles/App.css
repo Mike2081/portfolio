@@ -947,6 +947,20 @@
   opacity: 0;
 }
 
+.stockVidSection__offClick2 {
+  height: 3vh;
+  border: 0px;
+  font-size: 2em;
+  color: gainsboro;
+  vertical-align: top;
+}
+
+.stockVidSection__stockDemo {
+  height: auto;
+  width: 61%;
+  margin: 4% 0% 0% 0%;
+}
+
 .on2 {
   height: 71vh;
   width: 82vw;
