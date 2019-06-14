@@ -26,6 +26,13 @@ class App extends Component {
   offClick2 = (e) => {
     this.setState({stock:'off2'})
   }
+  onClick3 = (e) => {
+    this.setState({stock:'on3'})
+  };
+
+  offClick3 = (e) => {
+    this.setState({stock:'off3'})
+  }
 
   render() {
     return (
