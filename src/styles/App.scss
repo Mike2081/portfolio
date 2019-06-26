@@ -418,6 +418,7 @@
     border: solid 3px;
     border-color: gainsboro;
     display:flex;
+    box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
     @media (max-width:915px) {display:block}
     @media (max-width:680px) {width:66vw}
 }
@@ -486,12 +487,6 @@
 }
 
 .off1{
-    height: 71vh;
-    width: 82vw;
-    background: #42c58a;
-    position: fixed;
-    bottom: 70px;
-    right: 1430px;
     opacity:0;
 }
 
@@ -545,7 +540,6 @@
         @media (max-height:600px) {opacity: 0;}
     }
 }
-
 .on2{
     height: 71vh;
     width: 82vw;
@@ -556,14 +550,39 @@
     border: solid 3px;
     border-color: gainsboro;
     display:flex;
+    box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
     @media (max-width:1040px) {flex-wrap: wrap;}
     @media (max-width:740px) {right:40px}
 }
-
 .off2{
     opacity:0;
 }
-  .container {
+.on3{
+    height: 71vh;
+    width: 82vw;
+    background: white;
+    position: fixed;
+    bottom: 70px;
+    right: 109px;
+    border: solid 3px;
+    border-color: gainsboro;
+    display:flex;
+    box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
+}
+.off3{
+    opacity: 0;
+}
+.brainVidSection{
+
+    &__offClick3{
+        height: 3vh;
+        border: 0px;
+        font-size: 2em;
+        color: gainsboro;
+        vertical-align: top;
+    }
+}
+.container {
     color:#999;
     text-transform: uppercase;
     font-size:36px;
@@ -578,33 +597,33 @@
     text-align:center;
     @media (max-width: 410px) { font-size: 27px; }
   }
-  .flip {
+.flip {
     height:50px;
     overflow:hidden;
     margin:0px;
     font-family: sans-serif;
     text-align:center;
   }
-  .flip > div > div {
+.flip > div > div {
     color:#fff;
     padding:4px 12px;
     height:45px;
     margin-bottom:45px;
     display:inline-block;
   }
-  .flip div:first-child {
+.flip div:first-child {
     animation: show 5s linear infinite;
   }
-  .flip div div {
+.flip div div {
       background:aqua;
   }
-  .flip div:first-child div {
+.flip div:first-child div {
      background:#42c58a;
   }
-  .flip div:last-child div {
+.flip div:last-child div {
     background:#DC143C;
   }
-  @keyframes show {
+@keyframes show {
     0% {margin-top:-270px;}
     5% {margin-top:-180px;}
     33% {margin-top:-180px;}

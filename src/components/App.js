@@ -7,7 +7,8 @@ class App extends Component {
     super();
     this.state = {
       typr: 'off1',
-      stock:'off2'
+      stock:'off2',
+      brain:'off3',
     }
   };
 
@@ -25,14 +26,14 @@ class App extends Component {
 
   offClick2 = (e) => {
     this.setState({stock:'off2'})
-  }
+  };
   onClick3 = (e) => {
-    this.setState({stock:'on3'})
+    this.setState({brain:'on3'})
   };
 
   offClick3 = (e) => {
-    this.setState({stock:'off3'})
-  }
+    this.setState({brain:'off3'})
+  };
 
   render() {
     return (
@@ -130,7 +131,7 @@ class App extends Component {
             <div className='App__projects__case'>
               <div className='App__projects__case__chest'>
                 <img className='App__projects__case__chest__demo1' src={require('../Images/typr.jpg')}/>
-                <button className='App__projects__case__chest__info1' onClick={this.onClick1} >Learn More</button>  
+                <button className='App__projects__case__chest__info1' onClick={this.onClick1}>Learn More</button>  
               </div>
               <div className='App__projects__case__chest'>
                 <img className='App__projects__case__chest__demo1' src={require('../Images/stock.jpg')}/>
@@ -138,7 +139,7 @@ class App extends Component {
               </div>
               <div className='App__projects__case__chest'>
                 <img className='App__projects__case__chest__demo1' src={require('../Images/brain.jpg')}/>
-                <button className='App__projects__case__chest__info1'>Learn More</button>  
+                <button className='App__projects__case__chest__info1' onClick={this.onClick3}>Learn More</button>  
               </div>
               <div className='App__projects__case__chest'>
                 <img className='App__projects__case__chest__demo1' src={require('../Images/band.jpg')}/>
@@ -175,6 +176,13 @@ class App extends Component {
                 <span className='SumSection__stockTitle'>InStock</span>
                 <span className='SumSection__stockSum'>InStock is a warehouse site made with my BrainStation classmates Ana Provirina, Lukas Richardson, and Tyler Noseworthy. This project was incredibly valuable. We used a Jira board, which taught me so much about dividing tasks among the group and communicating what needs to be done. Also learned about merging and dealing with conflicts with other people's code. </span>
               </div>
+            </div>
+            <div className={this.state.brain}>
+              <div className='brainVidSection'>
+              <button className='brainVidSection__offClick3' onClick={this.offClick3} >X</button>
+              
+              </div>
+
             </div>
           </div>
         <div className='App__nav'>

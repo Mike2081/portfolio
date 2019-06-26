@@ -788,6 +788,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
+          box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 915px) {
@@ -938,12 +940,6 @@
 }
 
 .off1 {
-  height: 71vh;
-  width: 82vw;
-  background: #42c58a;
-  position: fixed;
-  bottom: 70px;
-  right: 1430px;
   opacity: 0;
 }
 
@@ -1084,6 +1080,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
+          box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1040px) {
@@ -1101,6 +1099,34 @@
 
 .off2 {
   opacity: 0;
+}
+
+.on3 {
+  height: 71vh;
+  width: 82vw;
+  background: white;
+  position: fixed;
+  bottom: 70px;
+  right: 109px;
+  border: solid 3px;
+  border-color: gainsboro;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
+          box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
+}
+
+.off3 {
+  opacity: 0;
+}
+
+.brainVidSection__offClick3 {
+  height: 3vh;
+  border: 0px;
+  font-size: 2em;
+  color: gainsboro;
+  vertical-align: top;
 }
 
 .container {
