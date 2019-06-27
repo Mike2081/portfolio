@@ -941,6 +941,7 @@
 
 .off1 {
   opacity: 0;
+  position: fixed;
 }
 
 .stockVidSection {
@@ -1099,6 +1100,7 @@
 
 .off2 {
   opacity: 0;
+  position: fixed;
 }
 
 .on3 {
@@ -1119,6 +1121,7 @@
 
 .off3 {
   opacity: 0;
+  position: fixed;
 }
 
 .brainVidSection__offClick3 {
