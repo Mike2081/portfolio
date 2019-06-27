@@ -192,7 +192,10 @@ class App extends Component {
               </div>
             </div>
             <div className={this.state.band}>
-
+              <div className='bandVidSection'>
+                <button className='bandVidSection__offClick4' onClick={this.offClick4} >X</button>
+                <video src={require('../videos/band.mov')} className ='bandVidSection__bandDemo' controls loop></video>
+              </div>
             </div>
           </div>
         <div className='App__nav'>
