@@ -196,6 +196,10 @@ class App extends Component {
                 <button className='bandVidSection__offClick4' onClick={this.offClick4} >X</button>
                 <video src={require('../videos/band.mov')} className ='bandVidSection__bandDemo' controls loop></video>
               </div>
+              <div className='bandSumSec'>
+                <span className='bandSumSec__bandTitle'>Bee's Knees Bandpage</span>
+                <span className='bandSumSec__bandSum'>Bee's knees band page that I made with JavaScript and CSS. Also with a working comment section where you add your name and comment about the band.</span>
+              </div>
             </div>
           </div>
         <div className='App__nav'>
