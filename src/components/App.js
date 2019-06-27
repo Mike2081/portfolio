@@ -174,15 +174,20 @@ class App extends Component {
               </div>
               <div className='SumSection'>
                 <span className='SumSection__stockTitle'>InStock</span>
-                <span className='SumSection__stockSum'>InStock is a warehouse site made with my BrainStation classmates Ana Provirina, Lukas Richardson, and Tyler Noseworthy. This project was incredibly valuable. We used a Jira board, which taught me so much about dividing tasks among the group and communicating what needs to be done. Also learned about merging and dealing with conflicts with other people's code. </span>
+                <span className='SumSection__stockSum'>InStock is a warehouse site made with my BrainStation classmates Ana Provirina, Lukas Richardson, and Tyler Noseworthy. 
+                This project was incredibly valuable. We used a Jira board, which taught me so much about dividing tasks among the group and communicating what needs to be done. 
+                Also learned about merging and dealing with conflicts with other people's code. </span>
               </div>
             </div>
             <div className={this.state.brain}>
               <div className='brainVidSection'>
-              <button className='brainVidSection__offClick3' onClick={this.offClick3} >X</button>
-              
+                <button className='brainVidSection__offClick3' onClick={this.offClick3} >X</button>
+                <video src={require('../videos/brain.mov')} className ='brainVidSection__brainDemo' controls loop></video>
               </div>
-
+              <div className='brainSumSec'>
+                <span className='brainSumSec__brainTitle'>BrainFlix</span>
+                <span className='brainSumSec__brainSum'>BrainFlix is a YouTube clone that I made with React JavaScript and node express server. Also with a working comment section that you can comment on videos you like.</span>
+              </div>
             </div>
           </div>
         <div className='App__nav'>
