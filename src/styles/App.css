@@ -1243,6 +1243,22 @@
   }
 }
 
+.on4 {
+  height: 71vh;
+  width: 82vw;
+  background: white;
+  position: fixed;
+  bottom: 70px;
+  right: 109px;
+  border: solid 3px;
+  border-color: gainsboro;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
+          box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
+}
+
 .container {
   color: #999;
   text-transform: uppercase;

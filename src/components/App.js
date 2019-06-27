@@ -9,32 +9,34 @@ class App extends Component {
       typr: 'off1',
       stock:'off2',
       brain:'off3',
+      band: 'off4',
     }
   };
 
   onClick1 = (e) => {
     this.setState({typr:'on1'})
   };
-
   offClick1 = (e) => {
     this.setState({typr:'off1'})
   }
-
   onClick2 = (e) => {
     this.setState({stock:'on2'})
   };
-
   offClick2 = (e) => {
     this.setState({stock:'off2'})
   };
   onClick3 = (e) => {
     this.setState({brain:'on3'})
   };
-
   offClick3 = (e) => {
     this.setState({brain:'off3'})
   };
-
+  onClick4 = (e) => {
+    this.setState({band:'on4'})
+  };
+  offClick4 = (e) => {
+    this.setState({band:'off4'})
+  };
   render() {
     return (
       <div className="App" ref={(section) => {this.Home = section}}>
@@ -143,7 +145,7 @@ class App extends Component {
               </div>
               <div className='App__projects__case__chest'>
                 <img className='App__projects__case__chest__demo1' src={require('../Images/band.jpg')}/>
-                <button className='App__projects__case__chest__info1'>Learn More</button>  
+                <button className='App__projects__case__chest__info1' onClick={this.onClick4}>Learn More</button>  
               </div>
               <div className='App__projects__case__chest'>
                 <img className='App__projects__case__chest__demo1' src={require('../Images/chefi-hat.jpg')}/>
@@ -188,6 +190,9 @@ class App extends Component {
                 <span className='brainSumSec__brainTitle'>BrainFlix</span>
                 <span className='brainSumSec__brainSum'>BrainFlix is a YouTube clone that I made with React JavaScript and node express server. Also with a working comment section that you can comment on videos you like.</span>
               </div>
+            </div>
+            <div className={this.state.band}>
+
             </div>
           </div>
         <div className='App__nav'>
