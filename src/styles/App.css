@@ -1266,7 +1266,7 @@
 
 .bandVidSection {
   height: auto;
-  width: 68%;
+  width: 155%;
 }
 
 .bandVidSection__offClick4 {
@@ -1292,6 +1292,86 @@
 @media (max-height: 510px) {
   .bandVidSection__bandDemo {
     width: 70%;
+  }
+}
+
+.bandSumSec__bandTitle {
+  font-family: 'Open Sans', sans-serif;
+  color: #505050;
+  font-size: 3em;
+  height: 10vh;
+  width: 10vh;
+  white-space: nowrap;
+  margin: 0em 1.9em 0em 0.8em;
+  border-bottom: 5px solid #505050;
+}
+
+@media (max-width: 1040px) {
+  .bandSumSec__bandTitle {
+    font-size: 2em;
+    height: 6vh;
+  }
+}
+
+@media (max-height: 590px) {
+  .bandSumSec__bandTitle {
+    border-bottom: #505050;
+  }
+}
+
+@media (max-height: 410px) {
+  .bandSumSec__bandTitle {
+    opacity: 0;
+  }
+}
+
+.bandSumSec__bandSum {
+  font-family: 'Open Sans', sans-serif;
+  height: auto;
+  width: 25em;
+  font-size: 99%;
+  margin: 0% 0% 0% 7%;
+}
+
+@media (max-width: 1040px) {
+  .bandSumSec__bandSum {
+    width: 36em;
+  }
+}
+
+@media (max-width: 710px) {
+  .bandSumSec__bandSum {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (max-width: 685px) {
+  .bandSumSec__bandSum {
+    font-size: 72%;
+  }
+}
+
+@media (max-width: 500px) {
+  .bandSumSec__bandSum {
+    opacity: 0;
+  }
+}
+
+@media (max-height: 324px) {
+  .bandSumSec__bandSum {
+    opacity: 0;
+  }
+}
+
+@media (max-height: 683px) {
+  .bandSumSec__bandSum {
+    font-size: 67%;
+  }
+}
+
+@media (max-height: 600px) {
+  .bandSumSec__bandSum {
+    opacity: 0;
   }
 }
 
