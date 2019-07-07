@@ -10,6 +10,7 @@ class App extends Component {
       stock:'off2',
       brain:'off3',
       band: 'off4',
+      chefi:'off5',
     }
   };
 
@@ -36,6 +37,12 @@ class App extends Component {
   };
   offClick4 = (e) => {
     this.setState({band:'off4'})
+  };
+  onClick5 = (e) => {
+    this.setState({chefi:'on5'})
+  };
+  offClick5 = (e) => {
+    this.setState({chefi:'off5'})
   };
   render() {
     return (
@@ -149,7 +156,7 @@ class App extends Component {
               </div>
               <div className='App__projects__case__chest'>
                 <img className='App__projects__case__chest__demo1' src={require('../Images/chefi-hat.jpg')}/>
-                <button className='App__projects__case__chest__info1'>Learn More</button>  
+                <button className='App__projects__case__chest__info1' onClick={this.onClick5}>Learn More</button>  
               </div>
             </div>
             <div className={this.state.typr}>
@@ -200,6 +207,9 @@ class App extends Component {
                 <span className='bandSumSec__bandTitle'>The Bee's Knees</span>
                 <span className='bandSumSec__bandSum'>The Bee's knees band page that I made with Html5 and CSS. Also with a working comment section where you add your name and comment about the band.</span>
               </div>
+            </div>
+            <div className={this.state.chefi}>
+
             </div>
           </div>
         <div className='App__nav'>
