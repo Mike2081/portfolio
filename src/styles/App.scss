@@ -575,24 +575,6 @@
     opacity: 0;
     position: fixed;
 }
-.brainVidSection{
-    height: auto;
-    width: 68%;
-    &__offClick3{
-        height: 3vh;
-        border: 0px;
-        font-size: 2em;
-        color: gainsboro;
-        vertical-align: top;
-    }
-    &__brainDemo{
-        height: auto;
-        width: 95%;
-        margin: 4% 0% 0% 4%;
-        @media (max-height:360px) {width: 70%;}
-        @media (max-height:510px) {width: 70%;}
-    }
-}
 .brainSumSec{
     display: flex;
     flex-wrap: wrap;
@@ -659,10 +641,12 @@
     }
 }
 .bandSumSec{
+    display: flex;
+    flex-wrap: wrap;
     &__bandTitle{
         font-family: 'Open Sans', sans-serif;
         color: #505050;
-        font-size: 3em;
+        font-size: 2.9em;
         height: 10vh;
         width: 10vh;
         white-space: nowrap;

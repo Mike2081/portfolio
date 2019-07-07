@@ -198,7 +198,7 @@ class App extends Component {
               </div>
               <div className='bandSumSec'>
                 <span className='bandSumSec__bandTitle'>The Bee's Knees</span>
-                <span className='bandSumSec__bandSum'>The Bee's knees band page that I made with JavaScript and CSS. Also with a working comment section where you add your name and comment about the band.</span>
+                <span className='bandSumSec__bandSum'>The Bee's knees band page that I made with Html5 and CSS. Also with a working comment section where you add your name and comment about the band.</span>
               </div>
             </div>
           </div>
