@@ -209,7 +209,14 @@ class App extends Component {
               </div>
             </div>
             <div className={this.state.chefi}>
-
+            <div className='chefiSum'>
+              <button className='chefiSum__offClick5' onClick={this.offClick5}>X</button>
+                <span className='chefiSum__chefiTitle'>Chefi</span>
+                <span className='chefiSum__chefiSum'>The project I'm working on at the moment is called "Chefi". 
+                Chefi is a website where you can look up dishes that you're craving. 
+                Chefi will then give you a list of recipes for that dish. 
+                Recipes include cook time and a ingredient list you can edit!</span>
+              </div>
             </div>
           </div>
         <div className='App__nav'>
