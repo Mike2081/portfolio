@@ -11,6 +11,7 @@ class App extends Component {
       brain:'off3',
       band: 'off4',
       chefi:'off5',
+      contact:'off6',
     }
   };
 
