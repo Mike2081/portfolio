@@ -209,8 +209,11 @@ class App extends Component {
               </div>
             </div>
             <div className={this.state.chefi}>
-            <div className='chefiSum'>
-              <button className='chefiSum__offClick5' onClick={this.offClick5}>X</button>
+              <div className='chefiSection'>
+                <button className='chefiSection__offClick5' onClick={this.offClick5}>X</button>
+                <img className='chefiSection__chefiDemo' src={require('../Images/chefi-hat.jpg')}/>
+              </div>
+              <div className='chefiSum'>
                 <span className='chefiSum__chefiTitle'>Chefi</span>
                 <span className='chefiSum__chefiSum'>The project I'm working on at the moment is called "Chefi". 
                 Chefi is a website where you can look up dishes that you're craving. 

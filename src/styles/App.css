@@ -1373,6 +1373,113 @@
   position: fixed;
 }
 
+.chefiSection {
+  height: auto;
+  width: 50%;
+}
+
+.chefiSection__offClick5 {
+  height: 3vh;
+  border: 0px;
+  font-size: 2em;
+  color: gainsboro;
+  vertical-align: top;
+}
+
+.chefiSection__chefiDemo {
+  height: auto;
+  width: 75%;
+  margin: 4% 0% 0% 4%;
+}
+
+.chefiSum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.chefiSum__chefiTitle {
+  font-family: 'Open Sans', sans-serif;
+  color: #505050;
+  font-size: 2.9em;
+  height: 10vh;
+  width: 10vh;
+  white-space: nowrap;
+  margin: 0em 1.9em 0em 0.8em;
+  border-bottom: 5px solid #505050;
+}
+
+@media (max-width: 1040px) {
+  .chefiSum__chefiTitle {
+    font-size: 2em;
+    height: 6vh;
+  }
+}
+
+@media (max-height: 590px) {
+  .chefiSum__chefiTitle {
+    border-bottom: #505050;
+  }
+}
+
+@media (max-height: 410px) {
+  .chefiSum__chefiTitle {
+    opacity: 0;
+  }
+}
+
+.chefiSum__chefiSum {
+  font-family: 'Open Sans', sans-serif;
+  height: auto;
+  width: 25em;
+  font-size: 99%;
+  margin: 0% 0% 0% 7%;
+}
+
+@media (max-width: 1040px) {
+  .chefiSum__chefiSum {
+    width: 36em;
+  }
+}
+
+@media (max-width: 710px) {
+  .chefiSum__chefiSum {
+    margin: 0% 0% 0% 0%;
+  }
+}
+
+@media (max-width: 685px) {
+  .chefiSum__chefiSum {
+    font-size: 72%;
+  }
+}
+
+@media (max-width: 500px) {
+  .chefiSum__chefiSum {
+    opacity: 0;
+  }
+}
+
+@media (max-height: 324px) {
+  .chefiSum__chefiSum {
+    opacity: 0;
+  }
+}
+
+@media (max-height: 683px) {
+  .chefiSum__chefiSum {
+    font-size: 67%;
+  }
+}
+
+@media (max-height: 600px) {
+  .chefiSum__chefiSum {
+    opacity: 0;
+  }
+}
+
 .container {
   color: #999;
   text-transform: uppercase;
