@@ -45,6 +45,12 @@ class App extends Component {
   offClick5 = (e) => {
     this.setState({chefi:'off5'})
   };
+  onClick6 = (e) => {
+    this.setState({contact:'on6'})
+  };
+  offClick6 = (e) => {
+    this.setState({contact:'off6'})
+  };
   render() {
     return (
       <div className="App" ref={(section) => {this.Home = section}}>
@@ -222,13 +228,17 @@ class App extends Component {
                 Recipes include cook time and a ingredient list you can edit!</span>
               </div>
             </div>
+            <div className={this.state.contact}>
+              <div></div>
+              <div></div>
+            </div>
           </div>
         <div className='App__nav'>
             <div className='App__nav__box'>
               <button className='App__nav__box__switch'onClick={() => scrollToComponent(this.Home, { offset: 0, align: 'top', duration: 1500})}>Home</button>
               <button className='App__nav__box__switch' onClick={() => scrollToComponent(this.About, { offset: 0, align: 'top', duration: 1500})}>About</button>
               <button className='App__nav__box__switch' onClick={() => scrollToComponent(this.Projects, { offset: 0, align: 'top', duration: 1500})}>Projects</button>
-              <button className='App__nav__box__switch'>Contact</button>
+              <button className='App__nav__box__switch' onClick={this.onClick6} >Contact</button> 
             </div>
             <div className='App__nav__line'></div>
         </div>  
