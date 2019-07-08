@@ -233,7 +233,12 @@ class App extends Component {
                 <button className='profileSec__offClick6' onClick={this.offClick6}>X</button>
                 <img className='profileSec__face' src={require('../Images/part1.gif')} />
               </div>
-              <div></div>
+              <div className='contactSec'>
+                <span className ='contactSec__message'>You can reach me at any of my socials below</span>
+                <div>
+                  <img className = 'contactSec__eLogo' src={require('../Images/email.png')}/>
+                </div>
+              </div>
             </div>
           </div>
         <div className='App__nav'>
