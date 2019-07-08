@@ -1564,11 +1564,11 @@
 }
 
 .contactSec {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  height: auto;
+  width: 67%;
 }
 
 .contactSec__message {
@@ -1579,7 +1579,6 @@
   width: 10vh;
   white-space: nowrap;
   margin: 0em 1.9em 0em 0.8em;
-  border-bottom: 5px solid #505050;
 }
 
 @media (max-width: 1040px) {
@@ -1599,6 +1598,13 @@
   .contactSec__message {
     opacity: 0;
   }
+}
+
+.contactSec__eLogo {
+  height: auto;
+  width: 10%;
+  position: relative;
+  margin: 10% 0% 0% 10%;
 }
 
 .container {
