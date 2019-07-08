@@ -229,7 +229,10 @@ class App extends Component {
               </div>
             </div>
             <div className={this.state.contact}>
-              <div></div>
+              <div className='profileSec'>
+                <button className='profileSec__offClick6' onClick={this.offClick6}>X</button>
+                <img className='profileSec__face' src={require('../Images/part1.gif')} />
+              </div>
               <div></div>
             </div>
           </div>
