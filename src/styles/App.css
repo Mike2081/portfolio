@@ -1636,6 +1636,12 @@
   }
 }
 
+.contactSec .sLogo {
+  height: auto;
+  width: 21%;
+  margin: 6% 5% 0% 5%;
+}
+
 .container {
   color: #999;
   text-transform: uppercase;
