@@ -240,9 +240,9 @@ class App extends Component {
                   <span className='contactSec__email'>michaeldoho@hotmail.com</span>
                 </div>
                 <div>
-                  <img className='sLogo' src={require('../Images/git.png')}/>
-                  <img className='sLogo' src={require('../Images/linkedin.png')}/>
-                  <img className='sLogo' src={require('../Images/ig.png')}/>
+                  <a href='https://github.com/Mike2081' target="_blank"><img className='contactSec__sLogo' src={require('../Images/git.png')}/></a>
+                  <a href='https://www.linkedin.com/in/michaeldoho/' target="_blank"><img className='contactSec__sLogo' src={require('../Images/linkedin.png')}/></a>
+                  <a href='https://www.instagram.com/doh0/' target="_blank"><img className='contactSec__sLogo' src={require('../Images/ig.png')}/></a>
                 </div>
               </div>
             </div>
