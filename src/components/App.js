@@ -237,6 +237,7 @@ class App extends Component {
                 <span className ='contactSec__message'>You can reach me at any of my socials below</span>
                 <div>
                   <img className = 'contactSec__eLogo' src={require('../Images/email.png')}/>
+                  <span className='contactSec__email'>michaeldoho@hotmail.com</span>
                 </div>
               </div>
             </div>
