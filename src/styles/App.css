@@ -1624,6 +1624,12 @@
   }
 }
 
+@media (max-width: 1358px) {
+  .contactSec__email {
+    font-size: 2.2em;
+  }
+}
+
 @media (max-height: 590px) {
   .contactSec__email {
     border-bottom: #505050;
