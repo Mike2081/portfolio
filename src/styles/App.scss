@@ -756,6 +756,7 @@
     border-color: gainsboro;
     display:flex;
     box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
+    @media (max-width:745px) {height:64%;}
     @media (max-width:1170px) {bottom: 133px;}
 }
 .off6{
@@ -796,6 +797,7 @@
         @media (max-width:1238px) {font-size:1.8em;}
         @media (max-width:1112px) {font-size:1.6em;}
         @media (max-width:990px) {font-size:1.4em;}
+        @media (max-width:865px) {font-size:1.2em;}
     }
     &__eLogo{
         height: auto;
@@ -816,6 +818,7 @@
         @media (max-width:1243px) {font-size:1.9em;}
         @media (max-width:1243px) {font-size:1.6em;}
         @media (max-width:1243px) {font-size:1.4em;}
+        @media (max-width:791px) {font-size:0.9em;}
     }
     &__sLogo{
         height:auto;

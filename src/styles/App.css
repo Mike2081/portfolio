@@ -1485,6 +1485,12 @@
           box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
 }
 
+@media (max-width: 745px) {
+  .on6 {
+    height: 64%;
+  }
+}
+
 @media (max-width: 1170px) {
   .on6 {
     bottom: 133px;
@@ -1563,6 +1569,12 @@
   }
 }
 
+@media (max-width: 865px) {
+  .contactSec__message {
+    font-size: 1.2em;
+  }
+}
+
 .contactSec__eLogo {
   height: auto;
   width: 10%;
@@ -1608,6 +1620,12 @@
 @media (max-width: 1243px) {
   .contactSec__email {
     font-size: 1.4em;
+  }
+}
+
+@media (max-width: 791px) {
+  .contactSec__email {
+    font-size: 0.9em;
   }
 }
 
