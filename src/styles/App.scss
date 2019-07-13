@@ -804,6 +804,7 @@
         width: 10%;
         position: relative;
         margin: 10% 0% 0% 10%;
+        @media (max-width:745px) {opacity: 0;position:fixed;}
     }
     &__email{
         font-family: 'Open Sans', sans-serif;
@@ -820,10 +821,14 @@
         @media (max-width:1243px) {font-size:1.4em;}
         @media (max-width:791px) {font-size:0.9em;}
     }
-    &__sLogo{
-        height:auto;
-        width:21%;
-        margin: 6% 5% 0% 5%;
+    &__sButtons{
+        
+        &__sLogo{
+            height:auto;
+            width:21%;
+            margin: 6% 5% 0% 5%;
+            @media (max-width:745px) {margin: 30% 5% 0% 5%;}
+        }
     }
 }
 .container {

@@ -1582,6 +1582,13 @@
   margin: 10% 0% 0% 10%;
 }
 
+@media (max-width: 745px) {
+  .contactSec__eLogo {
+    opacity: 0;
+    position: fixed;
+  }
+}
+
 .contactSec__email {
   font-family: 'Open Sans', sans-serif;
   color: #505050;
@@ -1629,10 +1636,16 @@
   }
 }
 
-.contactSec__sLogo {
+.contactSec__sButtons__sLogo {
   height: auto;
   width: 21%;
   margin: 6% 5% 0% 5%;
+}
+
+@media (max-width: 745px) {
+  .contactSec__sButtons__sLogo {
+    margin: 30% 5% 0% 5%;
+  }
 }
 
 .container {

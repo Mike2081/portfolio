@@ -239,7 +239,7 @@ class App extends Component {
                   <img className = 'contactSec__eLogo' src={require('../Images/email.png')}/>
                   <span className='contactSec__email'>michaeldoho@hotmail.com</span>
                 </div>
-                <div>
+                <div className='sButtons'>
                   <a href='https://github.com/Mike2081' target="_blank"><img className='contactSec__sLogo' src={require('../Images/git.png')}/></a>
                   <a href='https://www.linkedin.com/in/michaeldoho/' target="_blank"><img className='contactSec__sLogo' src={require('../Images/linkedin.png')}/></a>
                   <a href='https://www.instagram.com/doh0/' target="_blank"><img className='contactSec__sLogo' src={require('../Images/ig.png')}/></a>
