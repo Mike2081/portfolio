@@ -171,8 +171,10 @@ class App extends Component {
             </div>
           </div>
           {/* refactoring typr modal */}
-          <Modal />
           <div className={this.state.typr}>
+            <Modal />
+          </div>
+          {/* <div>
             <div className="typrVidDiv">
               <button className="typrSum__offClick1" onClick={this.offClick1}>
                 X
@@ -194,16 +196,16 @@ class App extends Component {
               <span className="typrSum__TextB">
                 The words are being requested from an API, so you get a new set
                 of words every time you start a new game.
-              </span>
-              {/* target="_blank" is needed so when you click the link it opens a newtab  */}
-              <a
+              </span> */}
+          {/* target="_blank" is needed so when you click the link it opens a newtab  */}
+          {/* <a
                 className="typrSum__link1"
                 href="https://speed-typr.herokuapp.com/#/start"
                 target="_blank">
                 Try it yourself here!
               </a>
-            </div>
-          </div>
+            </div> 
+          </div> */}
           <div className={this.state.stock}>
             <div className="stockVidSection">
               <button
