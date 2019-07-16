@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../styles/App.scss";
 import scrollToComponent from "react-scroll-to-component";
 import Skills from "../components/Skills";
+import Modal from "./Modal/Typr/Modal";
 
 class App extends Component {
   constructor() {
@@ -169,6 +170,8 @@ class App extends Component {
               </button>
             </div>
           </div>
+          {/* refactoring typr modal */}
+          <Modal />
           <div className={this.state.typr}>
             <div className="typrVidDiv">
               <button className="typrSum__offClick1" onClick={this.offClick1}>
