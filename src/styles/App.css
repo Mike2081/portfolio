@@ -71,7 +71,7 @@
   width: 26vw;
   font-size: 1em;
   margin: 5% 0% -4% 0%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #828282;
 }
 
@@ -96,7 +96,7 @@
 }
 
 .App__about__square__holder__award {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #828282;
   font-weight: 400;
   opacity: 1;
@@ -113,427 +113,6 @@
   .App__about__square__holder__award {
     opacity: 0;
   }
-}
-
-.App__about__square__icons__block__css {
-  width: 8%;
-}
-
-@media (max-width: 960px) {
-  .App__about__square__icons__block__css {
-    width: 80px;
-  }
-}
-
-@media (max-width: 414px) {
-  .App__about__square__icons__block__css {
-    width: 60px;
-  }
-}
-
-.App__about__square__icons__block__css__logo2 {
-  height: 14vh;
-  width: 100%;
-}
-
-.App__about__square__icons__block__css__title2 {
-  height: 4vh;
-  width: 100%;
-  font-family: 'Open Sans', sans-serif;
-  color: #505050;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.App__about__square__icons__block__sass {
-  width: 12%;
-}
-
-@media (max-width: 960px) {
-  .App__about__square__icons__block__sass {
-    width: 80px;
-  }
-}
-
-@media (max-width: 414px) {
-  .App__about__square__icons__block__sass {
-    width: 60px;
-  }
-}
-
-.App__about__square__icons__block__sass__logo3 {
-  height: 15vh;
-  width: 100%;
-}
-
-.App__about__square__icons__block__sass__title3 {
-  height: 4vh;
-  width: 100%;
-  font-family: 'Open Sans', sans-serif;
-  color: #505050;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.App__about__square__icons__block__js {
-  width: 9%;
-}
-
-@media (max-width: 960px) {
-  .App__about__square__icons__block__js {
-    width: 80px;
-  }
-}
-
-@media (max-width: 414px) {
-  .App__about__square__icons__block__js {
-    width: 60px;
-  }
-}
-
-.App__about__square__icons__block__js__logo4 {
-  height: 14vh;
-  width: 100%;
-}
-
-.App__about__square__icons__block__js__title4 {
-  height: 4vh;
-  width: 100%;
-  font-family: 'Open Sans', sans-serif;
-  color: #505050;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.App__about__square__icons__block__react {
-  width: 9%;
-}
-
-@media (max-width: 960px) {
-  .App__about__square__icons__block__react {
-    width: 80px;
-  }
-}
-
-@media (max-width: 414px) {
-  .App__about__square__icons__block__react {
-    width: 60px;
-  }
-}
-
-.App__about__square__icons__block__react__logo5 {
-  height: 14vh;
-  width: 100%;
-}
-
-.App__about__square__icons__block__react__title5 {
-  height: 4vh;
-  width: 100%;
-  font-family: 'Open Sans', sans-serif;
-  color: #505050;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.App__about__square__icons__block__node {
-  width: 12%;
-}
-
-@media (max-width: 960px) {
-  .App__about__square__icons__block__node {
-    width: 80px;
-  }
-}
-
-@media (max-width: 414px) {
-  .App__about__square__icons__block__node {
-    width: 60px;
-  }
-}
-
-.App__about__square__icons__block__node__logo6 {
-  height: 14vh;
-  width: 100%;
-}
-
-.App__about__square__icons__block__node__title6 {
-  height: 4vh;
-  width: 100%;
-  font-family: 'Open Sans', sans-serif;
-  color: #505050;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.App__about__square__icons__block2 {
-  background-color: #f9f9f9;
-  height: auto;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 5% 0% 0% 0%;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-}
-
-@media (max-width: 960px) {
-  .App__about__square__icons__block2 {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
-
-@media (max-width: 710px) {
-  .App__about__square__icons__block2 {
-    margin: 9% 0% 0% 0%;
-  }
-}
-
-@media (max-width: 547px) {
-  .App__about__square__icons__block2 {
-    margin: 76% 0% 0% 0%;
-  }
-}
-
-@media (max-width: 499px) {
-  .App__about__square__icons__block2 {
-    margin: 87% 0% 0% 0%;
-  }
-}
-
-@media (max-width: 414px) {
-  .App__about__square__icons__block2 {
-    margin: 110% 0% 0% 0%;
-  }
-}
-
-.App__about__square__icons__block2__wpack {
-  width: 10%;
-}
-
-@media (max-width: 960px) {
-  .App__about__square__icons__block2__wpack {
-    width: 80px;
-  }
-}
-
-@media (max-width: 414px) {
-  .App__about__square__icons__block2__wpack {
-    width: 60px;
-  }
-}
-
-.App__about__square__icons__block2__wpack__logo7 {
-  height: 16vh;
-  width: 100%;
-}
-
-.App__about__square__icons__block2__wpack__title7 {
-  height: 4vh;
-  width: 100%;
-  font-family: 'Open Sans', sans-serif;
-  color: #505050;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.App__about__square__icons__block2__npm {
-  width: 10%;
-}
-
-@media (max-width: 960px) {
-  .App__about__square__icons__block2__npm {
-    width: 80px;
-  }
-}
-
-@media (max-width: 414px) {
-  .App__about__square__icons__block2__npm {
-    width: 60px;
-  }
-}
-
-.App__about__square__icons__block2__npm__logo8 {
-  height: 16vh;
-  width: 100%;
-}
-
-.App__about__square__icons__block2__npm__title8 {
-  height: 4vh;
-  width: 100%;
-  font-family: 'Open Sans', sans-serif;
-  color: #505050;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.App__about__square__icons__block2__jira {
-  width: 11%;
-}
-
-@media (max-width: 960px) {
-  .App__about__square__icons__block2__jira {
-    width: 80px;
-  }
-}
-
-@media (max-width: 414px) {
-  .App__about__square__icons__block2__jira {
-    width: 60px;
-  }
-}
-
-.App__about__square__icons__block2__jira__logo9 {
-  height: 16vh;
-  width: 100%;
-}
-
-.App__about__square__icons__block2__jira__title9 {
-  height: 4vh;
-  width: 100%;
-  font-family: 'Open Sans', sans-serif;
-  color: #505050;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.App__about__square__icons__block2__git {
-  width: 13%;
-}
-
-@media (max-width: 960px) {
-  .App__about__square__icons__block2__git {
-    width: 80px;
-  }
-}
-
-@media (max-width: 414px) {
-  .App__about__square__icons__block2__git {
-    width: 60px;
-  }
-}
-
-.App__about__square__icons__block2__git__logo10 {
-  height: 16vh;
-  width: 100%;
-}
-
-.App__about__square__icons__block2__git__title10 {
-  height: 4vh;
-  width: 100%;
-  font-family: 'Open Sans', sans-serif;
-  color: #505050;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.App__about__square__icons__block2__vs {
-  width: 9%;
-}
-
-@media (max-width: 960px) {
-  .App__about__square__icons__block2__vs {
-    width: 80px;
-  }
-}
-
-@media (max-width: 414px) {
-  .App__about__square__icons__block2__vs {
-    width: 60px;
-  }
-}
-
-.App__about__square__icons__block2__vs__logo11 {
-  height: 14vh;
-  width: 100%;
-}
-
-.App__about__square__icons__block2__vs__title11 {
-  height: 4vh;
-  width: 100%;
-  font-family: 'Open Sans', sans-serif;
-  color: #505050;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-.App__about__square__icons__block2__post {
-  width: 8%;
-}
-
-@media (max-width: 960px) {
-  .App__about__square__icons__block2__post {
-    width: 80px;
-  }
-}
-
-@media (max-width: 414px) {
-  .App__about__square__icons__block2__post {
-    width: 60px;
-  }
-}
-
-.App__about__square__icons__block2__post__logo12 {
-  height: 16vh;
-  width: 100%;
-}
-
-.App__about__square__icons__block2__post__title12 {
-  height: 14vh;
-  width: 100%;
-  font-family: 'Open Sans', sans-serif;
-  color: #505050;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  font-size: 1em;
 }
 
 .App__spacer {
@@ -555,7 +134,7 @@
 }
 
 .App__projects__header {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #505050;
   font-size: 3em;
   background-color: white;
@@ -646,8 +225,8 @@
 }
 
 .App__projects__case__chest__info1:hover {
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
   background: aqua;
 }
 
@@ -672,7 +251,7 @@
 .App__nav__box__switch {
   background-color: aqua;
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.3rem;
   border: 0rem;
   margin: 0px 26px 0px 0px;
@@ -750,7 +329,7 @@
 }
 
 .typrSum__modalTitle {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #505050;
   font-size: 3em;
   height: 10vh;
@@ -776,7 +355,7 @@
 }
 
 .typrSum__TextA {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   height: auto;
   width: 25em;
   font-size: 99%;
@@ -814,7 +393,7 @@
 }
 
 .typrSum__TextB {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   height: auto;
   width: 25em;
   font-size: 99%;
@@ -852,7 +431,7 @@
 }
 
 .typrSum__link1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0% 0% 0% 19%;
   font-size: 167%;
 }
@@ -921,7 +500,7 @@
 }
 
 .SumSection__stockTitle {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #505050;
   font-size: 3em;
   height: 10vh;
@@ -951,7 +530,7 @@
 }
 
 .SumSection__stockSum {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   height: auto;
   width: 25em;
   font-size: 99%;
@@ -1095,7 +674,7 @@
 }
 
 .brainSumSec__brainTitle {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #505050;
   font-size: 3em;
   height: 10vh;
@@ -1125,7 +704,7 @@
 }
 
 .brainSumSec__brainSum {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   height: auto;
   width: 25em;
   font-size: 99%;
@@ -1235,7 +814,7 @@
 }
 
 .bandSumSec__bandTitle {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #505050;
   font-size: 2.9em;
   height: 10vh;
@@ -1265,7 +844,7 @@
 }
 
 .bandSumSec__bandSum {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   height: auto;
   width: 25em;
   font-size: 99%;
@@ -1363,7 +942,7 @@
 }
 
 .chefiSum__chefiTitle {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #505050;
   font-size: 2.9em;
   height: 10vh;
@@ -1393,7 +972,7 @@
 }
 
 .chefiSum__chefiSum {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   height: auto;
   width: 25em;
   font-size: 99%;
@@ -1473,7 +1052,7 @@
 }
 
 .contactSec__message {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #505050;
   font-size: 2em;
   height: 10vh;
@@ -1521,7 +1100,7 @@
 }
 
 .contactSec__email {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #505050;
   font-size: 2.4em;
   height: 10vh;
@@ -1630,7 +1209,7 @@
 }
 
 .flip div:last-child div {
-  background: #DC143C;
+  background: #dc143c;
 }
 
 @-webkit-keyframes show {
