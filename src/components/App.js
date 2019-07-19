@@ -3,6 +3,7 @@ import "../styles/App.scss";
 import scrollToComponent from "react-scroll-to-component";
 import Skills from "../components/Skills";
 import Modal from "./Modal/Typr/Modal";
+import ModalButton from "../components/ModalButton";
 
 class App extends Component {
   constructor() {
@@ -119,11 +120,33 @@ class App extends Component {
                 className="App__projects__case__chest__demo1"
                 src={require("../Images/typr.jpg")}
               />
-              <button
-                className="App__projects__case__chest__info1"
-                onClick={this.onClick1}>
-                Learn More
-              </button>
+
+              {/*  
+              
+              Check out this functionality of this code and how the modal
+              is rendered.  All that is needed is the button and the modal 
+              content.  This way you get rid of all your onClick events.
+              you may want to look into onClick outside events as well.
+
+              */}
+              <ModalButton
+                toggle={show => (
+                  <button
+                    className="App__projects__case__chest__info1"
+                    onClick={show}>
+                    Learn More
+                  </button>
+                )}
+                content={hide => (
+                  <Modal>
+                    <button onClick={hide}>Close</button>
+                  </Modal>
+                )}
+              />
+              {/*  
+              
+              
+              */}
             </div>
             <div className="App__projects__case__chest">
               <img
@@ -171,9 +194,7 @@ class App extends Component {
             </div>
           </div>
           {/* refactoring typr modal */}
-          <div className={this.state.typr}>
-            <Modal />
-          </div>
+          <div className={this.state.typr}>{/* <Modal /> */}</div>
           {/* <div>
             <div className="typrVidDiv">
               <button className="typrSum__offClick1" onClick={this.offClick1}>
