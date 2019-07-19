@@ -2,9 +2,16 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-  height: auto;
-  width: 80%;
-  padding: 4rem 0rem 0rem 4rem;
+  height: 71vh;
+  width: 82vw;
+  background: white;
+  position: fixed;
+  bottom: 70px;
+  right: 109px;
+  border: solid 3px;
+  border-color: gainsboro;
+  display: flex;
+  box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
 `;
 const Container1 = styled.div`
   height: auto;
@@ -24,7 +31,7 @@ const Container2 = styled.div`
 
 const Modal = () => {
   return (
-    <Container>
+    <Container class="on1">
       <Container1>
         <Span>hello</Span>
       </Container1>
