@@ -34,21 +34,25 @@ const Button = styled.button`
 
 // toggles show or hide of modal
 
-const ToggleButton = ({ buttonImage, buttonTitle, children }) => {
+const ToggleButton = ({ buttonImage, buttonTitle, button, children }) => {
   const [isShown, setIsShown] = useState(false);
   const hide = () => setIsShown(false);
   const show = () => setIsShown(true);
 
   return (
     <>
-      <div className="App__projects__case__chest">
-        <img
-          className="App__projects__case__chest__demo1"
-          src={buttonImage}
-          alt={buttonTitle}
-        />
-        <Button onClick={show}>{buttonTitle}</Button>
-      </div>
+      {button ? (
+        button(show)
+      ) : (
+        <div className="App__projects__case__chest">
+          <img
+            className="App__projects__case__chest__demo1"
+            src={buttonImage}
+            alt={buttonTitle}
+          />
+          <Button onClick={show}>{buttonTitle}</Button>
+        </div>
+      )}
       {isShown && children ? children(hide) : null}
     </>
   );

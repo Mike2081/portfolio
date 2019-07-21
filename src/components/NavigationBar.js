@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
 import scrollToComponent from "react-scroll-to-component";
+import ContactModal from "../components/Modal/ContactModal";
+import ToggleButton from "../components/ToggleButton";
 
 const Header = styled.nav`
   height: 8vh;
@@ -49,7 +51,14 @@ const NavigationBar = ({ about, home, projects }) => {
           }>
           Projects
         </button>
-        <button className="App__nav__box__switch">Contact</button>
+        <ToggleButton
+          button={show => (
+            <button className="App__nav__box__switch" onClick={show}>
+              Contact
+            </button>
+          )}>
+          {hide => <ContactModal onClose={hide} />}
+        </ToggleButton>
       </div>
       <div className="App__nav__line" />
     </Header>
