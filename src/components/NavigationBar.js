@@ -9,7 +9,6 @@ const Header = styled.nav`
   width: 100vw;
   background-color: aqua;
   position: fixed;
-  margin: -8px 0px 0px -8px;
   z-index: 2000000000;
 `;
 
