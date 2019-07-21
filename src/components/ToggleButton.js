@@ -10,6 +10,7 @@ const Button = styled.button`
   position: relative;
   bottom: 150px;
   left: 100px;
+  cursor: pointer;
 
   @media (max-width: 680px) {
     bottom: 112px;
@@ -41,7 +42,11 @@ const ToggleButton = ({ buttonImage, buttonTitle, children }) => {
   return (
     <>
       <div className="App__projects__case__chest">
-        <img className="App__projects__case__chest__demo1" src={buttonImage} />
+        <img
+          className="App__projects__case__chest__demo1"
+          src={buttonImage}
+          alt={buttonTitle}
+        />
         <Button onClick={show}>{buttonTitle}</Button>
       </div>
       {isShown && children ? children(hide) : null}

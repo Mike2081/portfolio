@@ -12,7 +12,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .App__background {
@@ -130,7 +130,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .App__projects__header {
@@ -144,8 +144,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   border-bottom: 5px solid #505050;
   margin: 0em 13.2em;
 }
@@ -164,10 +164,10 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   margin: 1em 0em 0em 0em;
 }
 
@@ -230,14 +230,6 @@
   background: aqua;
 }
 
-.App__nav {
-  height: 8vh;
-  width: 100vw;
-  background-color: aqua;
-  position: fixed;
-  margin: -8px 0px 0px -8px;
-}
-
 .App__nav__box {
   margin: 10px 0px 12px 132px;
 }
@@ -297,7 +289,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .typrSum__modalTitle {
@@ -468,7 +460,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .SumSection__stockTitle {
@@ -564,13 +556,13 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
-          box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1040px) {
   .on2 {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
 
@@ -598,7 +590,7 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
-          box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
 }
 
 .off3 {
@@ -642,7 +634,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .brainSumSec__brainTitle {
@@ -738,7 +730,7 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
-          box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
 }
 
 .off4 {
@@ -782,7 +774,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .bandSumSec__bandTitle {
@@ -878,7 +870,7 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
-          box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
 }
 
 .off5 {
@@ -910,7 +902,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .chefiSum__chefiTitle {
@@ -964,7 +956,7 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
-          box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 745px) {
@@ -1018,7 +1010,7 @@
 .contactSec {
   display: block;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   height: auto;
   width: 67%;
 }
@@ -1169,7 +1161,7 @@
 
 .flip div:first-child {
   -webkit-animation: show 5s linear infinite;
-          animation: show 5s linear infinite;
+  animation: show 5s linear infinite;
 }
 
 .flip div div {

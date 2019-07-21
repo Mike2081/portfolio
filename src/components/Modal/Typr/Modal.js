@@ -16,6 +16,10 @@ const Container = styled.div`
   z-index: 1000000;
 `;
 
+const CloseButton = styled.button`
+  cursor: pointer;
+`;
+
 const Modal = ({ hide, modalvideo, modalTitle, modalDescription }) => {
   const node = useRef();
   useOnClickOutside(node, hide);
@@ -24,9 +28,9 @@ const Modal = ({ hide, modalvideo, modalTitle, modalDescription }) => {
     <Container ref={node}>
       <div>
         <div className="stockVidSection">
-          <button className="stockVidSection__offClick2" onClick={hide}>
+          <CloseButton className="stockVidSection__offClick2" onClick={hide}>
             X
-          </button>
+          </CloseButton>
           <video
             src={modalvideo}
             className="stockVidSection__stockDemo"
