@@ -5,8 +5,7 @@ import { skillsList } from "./skillsList";
 const Container = styled.div`
   background-color: rgb(249, 249, 249);
   height: auto;
-  width: 80%;
-  padding: 4rem 0rem 0rem 4rem;
+  overflow: hidden;
 `;
 const Header = styled.h1`
   font-family: "Open Sans", sans-serif;

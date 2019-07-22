@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useRef } from "react";
 import styled from "styled-components";
+import useOnClickOutside from "../useOnClickOutside";
 
 const Container = styled.div`
   height: 71vh;
@@ -12,30 +13,36 @@ const Container = styled.div`
   border-color: gainsboro;
   display: flex;
   box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
-`;
-const Container1 = styled.div`
-  height: auto;
-  width: 80%;
-  padding: 4rem 0rem 0rem 4rem;
-  background-color: yellow;
-`;
-const Span = styled.span`
-  color: blue;
-`;
-const Container2 = styled.div`
-  height: auto;
-  width: 80%;
-  padding: 4rem 0rem 0rem 4rem;
-  background-color: gray;
+  z-index: 1000000;
 `;
 
-const Modal = () => {
+const CloseButton = styled.button`
+  cursor: pointer;
+`;
+
+const Modal = ({ hide, modalvideo, modalTitle, modalDescription }) => {
+  const node = useRef();
+  useOnClickOutside(node, hide);
+
   return (
-    <Container class="on1">
-      <Container1>
-        <Span>hello</Span>
-      </Container1>
-      <Container2 />
+    <Container ref={node}>
+      <div>
+        <div className="stockVidSection">
+          <CloseButton className="stockVidSection__offClick2" onClick={hide}>
+            X
+          </CloseButton>
+          <video
+            src={modalvideo}
+            className="stockVidSection__stockDemo"
+            controls
+            loop
+          />
+        </div>
+        <div className="SumSection">
+          <span className="SumSection__stockTitle">{modalTitle}</span>
+          <span className="SumSection__stockSum">{modalDescription}</span>
+        </div>
+      </div>
     </Container>
   );
 };

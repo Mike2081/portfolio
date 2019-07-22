@@ -5,14 +5,17 @@
   max-width: 1100px;
 }
 
+body {
+  margin: 0;
+}
+
 .App {
-  height: 100vh;
   max-width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .App__background {
@@ -23,54 +26,35 @@
 }
 
 .App__about {
-  background-color: white;
+  background-color: #f9f9f9;
   height: auto;
   width: 100vw;
-  margin: 8px -8px 0px -8px;
+  padding: 40px;
 }
 
 .App__about__square {
   background-color: #f9f9f9;
-  height: 92.1vh;
   width: 100%;
   margin: 3.8% 0% 0% 0%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-@media (max-width: 791px) {
-  .App__about__square {
-    height: 102.1vh;
-  }
-}
-
-@media (max-width: 710px) {
-  .App__about__square {
-    height: 108.1vh;
-  }
-}
-
-@media (max-width: 547px) {
-  .App__about__square {
-    height: 148.1vh;
-  }
+  flex-direction: column;
 }
 
 .App__about__square__holder {
-  margin: 0% 0% 0% 1.5%;
-  height: auto;
+  display: flex;
+  align-items: center;
 }
 
 .App__about__square__holder__face {
-  height: 42.6vh;
+  margin-right: 40px;
 }
 
 .App__about__square__holder__description {
   height: auto;
-  width: 26vw;
   font-size: 1em;
-  margin: 5% 0% -4% 0%;
+  margin: 0 0 20px;
   font-family: "Open Sans", sans-serif;
   color: #828282;
 }
@@ -124,50 +108,26 @@
 
 .App__projects {
   background-color: white;
-  height: 92.1vh;
   width: 100%;
+  padding: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.App__projects__header {
-  font-family: "Open Sans", sans-serif;
-  color: #505050;
-  font-size: 3em;
-  background-color: white;
-  height: 10vh;
-  width: 12vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  border-bottom: 5px solid #505050;
-  margin: 0em 13.2em;
-}
-
-@media (max-width: 792px) {
-  .App__projects__header {
-    margin: 0em 1.2em;
-  }
+  flex-wrap: wrap;
 }
 
 .App__projects__case {
   height: 81vh;
-  width: 98.9vw;
   background: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
   margin: 1em 0em 0em 0em;
 }
 
@@ -230,14 +190,6 @@
   background: aqua;
 }
 
-.App__nav {
-  height: 8vh;
-  width: 100vw;
-  background-color: aqua;
-  position: fixed;
-  margin: -8px 0px 0px -8px;
-}
-
 .App__nav__box {
   margin: 10px 0px 12px 132px;
 }
@@ -279,11 +231,10 @@
 
 .App__nav__line {
   height: 1.5vh;
-  width: 100.6vw;
+  width: 100%;
   background-color: #363d67;
   position: absolute;
   bottom: 0;
-  margin: -8px 0px 0px -8px;
 }
 
 .typrDemo1 {
@@ -297,7 +248,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .typrSum__modalTitle {
@@ -468,7 +419,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .SumSection__stockTitle {
@@ -564,13 +515,13 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
-          box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1040px) {
   .on2 {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
 
@@ -598,7 +549,7 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
-          box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
 }
 
 .off3 {
@@ -642,7 +593,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .brainSumSec__brainTitle {
@@ -738,7 +689,7 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
-          box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
 }
 
 .off4 {
@@ -782,7 +733,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .bandSumSec__bandTitle {
@@ -878,7 +829,7 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
-          box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
 }
 
 .off5 {
@@ -910,7 +861,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .chefiSum__chefiTitle {
@@ -964,7 +915,7 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
-          box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
+  box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 745px) {
@@ -1018,7 +969,7 @@
 .contactSec {
   display: block;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   height: auto;
   width: 67%;
 }
@@ -1169,7 +1120,7 @@
 
 .flip div:first-child {
   -webkit-animation: show 5s linear infinite;
-          animation: show 5s linear infinite;
+  animation: show 5s linear infinite;
 }
 
 .flip div div {

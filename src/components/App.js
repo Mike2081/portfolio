@@ -1,93 +1,47 @@
-import React, { Component } from "react";
-import "../styles/App.scss";
-import scrollToComponent from "react-scroll-to-component";
+import React, { useRef } from "react";
+import "../styles/App.css";
 import Skills from "../components/Skills";
-import Modal from "./Modal/Typr/Modal";
+import ToggleButton from "../components/ToggleButton";
+import ModalList from "../components/Modal/ModalList";
+import Modal from "../components/Modal/Typr/Modal";
+import NavigationBar from "../components/NavigationBar";
+import SubHeader from "../components/SubHeader";
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      typr: "off1",
-      stock: "off2",
-      brain: "off3",
-      band: "off4",
-      chefi: "off5",
-      contact: "off6"
-    };
-  }
+const App = () => {
+  const about = useRef();
+  const projects = useRef();
+  const home = useRef();
 
-  onClick1 = e => {
-    this.setState({ typr: "on1" });
-  };
-  offClick1 = e => {
-    this.setState({ typr: "off1" });
-  };
-  onClick2 = e => {
-    this.setState({ stock: "on2" });
-  };
-  offClick2 = e => {
-    this.setState({ stock: "off2" });
-  };
-  onClick3 = e => {
-    this.setState({ brain: "on3" });
-  };
-  offClick3 = e => {
-    this.setState({ brain: "off3" });
-  };
-  onClick4 = e => {
-    this.setState({ band: "on4" });
-  };
-  offClick4 = e => {
-    this.setState({ band: "off4" });
-  };
-  onClick5 = e => {
-    this.setState({ chefi: "on5" });
-  };
-  offClick5 = e => {
-    this.setState({ chefi: "off5" });
-  };
-  onClick6 = e => {
-    this.setState({ contact: "on6" });
-  };
-  offClick6 = e => {
-    this.setState({ contact: "off6" });
-  };
-  render() {
-    return (
-      <div
-        className="App"
-        ref={section => {
-          this.Home = section;
-        }}>
-        <div className="container">
-          Hi, I'm
-          <div className="flip">
-            <div>
-              <div>Michael DoHo.</div>
-            </div>
-            <div>
-              <div>Michael DoHo.</div>
-            </div>
-            <div>
-              <div>Michael DoHo.</div>
-            </div>
+  return (
+    <div className="App" ref={home}>
+      <NavigationBar about={about} projects={projects} home={home} />
+      <div className="container">
+        Hi, I'm
+        <div className="flip">
+          <div>
+            <div>Michael DoHo.</div>
           </div>
-          A Front End Developer.
+          <div>
+            <div>Michael DoHo.</div>
+          </div>
+          <div>
+            <div>Michael DoHo.</div>
+          </div>
         </div>
-        <div className="App__background" />
-        <div
-          className="App__about"
-          ref={section => {
-            this.About = section;
-          }}>
-          <div className="App__about__square">
-            <div className="App__about__square__holder">
-              <img
-                className="App__about__square__holder__face"
-                src={require("../Images/part1.gif")}
-              />
-              <h1 className="App__about__square__holder__description">
+        A Front End Developer.
+      </div>
+      <div className="App__background" />
+      <div className="App__about" ref={about}>
+        <SubHeader>About</SubHeader>
+
+        <div className="App__about__square">
+          <div className="App__about__square__holder">
+            <img
+              className="App__about__square__holder__face"
+              src={require("../Images/part1.gif")}
+            />
+            <div>
+              <p className="App__about__square__holder__description">
                 Hi! I'm a Front-End Developer based in Toronto. I'm a recent
                 graduate of BrainStation's Full Web Development program. Before
                 the program, I was a carpenter who knew nothing about code, so
@@ -96,305 +50,36 @@ class App extends Component {
                 knowledge and critical thinking by working with others. A highly
                 motivated programmer with a passion for bringing ideas to life
                 with code.
-              </h1>
-              <h2 className="App__about__square__holder__award">
+              </p>
+              <p className="App__about__square__holder__award">
                 -Received BrainStation Merit Scholarship
-              </h2>
-            </div>
-            <Skills />
-          </div>
-        </div>
-
-        <div
-          className="App__spacer"
-          ref={section => {
-            this.Projects = section;
-          }}
-        />
-        <div className="App__projects">
-          <div className="App__projects__header">Projects</div>
-          <div className="App__projects__case">
-            <div className="App__projects__case__chest">
-              <img
-                className="App__projects__case__chest__demo1"
-                src={require("../Images/typr.jpg")}
-              />
-              <button
-                className="App__projects__case__chest__info1"
-                onClick={this.onClick1}>
-                Learn More
-              </button>
-            </div>
-            <div className="App__projects__case__chest">
-              <img
-                className="App__projects__case__chest__demo1"
-                src={require("../Images/stock.jpg")}
-              />
-              <button
-                className="App__projects__case__chest__info1"
-                onClick={this.onClick2}>
-                Learn More
-              </button>
-            </div>
-            <div className="App__projects__case__chest">
-              <img
-                className="App__projects__case__chest__demo1"
-                src={require("../Images/brain.jpg")}
-              />
-              <button
-                className="App__projects__case__chest__info1"
-                onClick={this.onClick3}>
-                Learn More
-              </button>
-            </div>
-            <div className="App__projects__case__chest">
-              <img
-                className="App__projects__case__chest__demo1"
-                src={require("../Images/band.jpg")}
-              />
-              <button
-                className="App__projects__case__chest__info1"
-                onClick={this.onClick4}>
-                Learn More
-              </button>
-            </div>
-            <div className="App__projects__case__chest">
-              <img
-                className="App__projects__case__chest__demo1"
-                src={require("../Images/chefi-hat.jpg")}
-              />
-              <button
-                className="App__projects__case__chest__info1"
-                onClick={this.onClick5}>
-                Learn More
-              </button>
+              </p>
             </div>
           </div>
-          {/* refactoring typr modal */}
-          <div className={this.state.typr}>
-            <Modal />
-          </div>
-          {/* <div>
-            <div className="typrVidDiv">
-              <button className="typrSum__offClick1" onClick={this.offClick1}>
-                X
-              </button>
-              <video
-                src={require("../videos/Typr.mov")}
-                className="typrDemo1"
-                controls
-                loop
-              />
-            </div>
-            <div className="typrSum">
-              <span className="typrSum__modalTitle">Speed Typr</span>
-              <span className="typrSum__TextA">
-                Speed Typr is a game I made with React Javascript and node
-                express server. Where random words fall down from the screen and
-                you type as many words as you can before the time runs out.
-              </span>
-              <span className="typrSum__TextB">
-                The words are being requested from an API, so you get a new set
-                of words every time you start a new game.
-              </span> */}
-          {/* target="_blank" is needed so when you click the link it opens a newtab  */}
-          {/* <a
-                className="typrSum__link1"
-                href="https://speed-typr.herokuapp.com/#/start"
-                target="_blank">
-                Try it yourself here!
-              </a>
-            </div> 
-          </div> */}
-          <div className={this.state.stock}>
-            <div className="stockVidSection">
-              <button
-                className="stockVidSection__offClick2"
-                onClick={this.offClick2}>
-                X
-              </button>
-              <video
-                src={require("../videos/instock.mov")}
-                className="stockVidSection__stockDemo"
-                controls
-                loop
-              />
-            </div>
-            <div className="SumSection">
-              <span className="SumSection__stockTitle">InStock</span>
-              <span className="SumSection__stockSum">
-                InStock is a warehouse site made with my BrainStation classmates
-                Ana Provirina, Lukas Richardson, and Tyler Noseworthy. This
-                project was incredibly valuable. We used a Jira board, which
-                taught me so much about dividing tasks among the group and
-                communicating what needs to be done. Also learned about merging
-                and dealing with conflicts with other people's code.{" "}
-              </span>
-            </div>
-          </div>
-          <div className={this.state.brain}>
-            <div className="brainVidSection">
-              <button
-                className="brainVidSection__offClick3"
-                onClick={this.offClick3}>
-                X
-              </button>
-              <video
-                src={require("../videos/brain.mov")}
-                className="brainVidSection__brainDemo"
-                controls
-                loop
-              />
-            </div>
-            <div className="brainSumSec">
-              <span className="brainSumSec__brainTitle">BrainFlix</span>
-              <span className="brainSumSec__brainSum">
-                BrainFlix is a YouTube clone that I made with React JavaScript
-                and node express server. Also with a working comment section
-                that you can comment on videos you like.
-              </span>
-            </div>
-          </div>
-          <div className={this.state.band}>
-            <div className="bandVidSection">
-              <button
-                className="bandVidSection__offClick4"
-                onClick={this.offClick4}>
-                X
-              </button>
-              <video
-                src={require("../videos/band.mov")}
-                className="bandVidSection__bandDemo"
-                controls
-                loop
-              />
-            </div>
-            <div className="bandSumSec">
-              <span className="bandSumSec__bandTitle">The Bee's Knees</span>
-              <span className="bandSumSec__bandSum">
-                The Bee's knees band page that I made with Html5 and CSS. Also
-                with a working comment section where you add your name and
-                comment about the band.
-              </span>
-            </div>
-          </div>
-          <div className={this.state.chefi}>
-            <div className="chefiSection">
-              <button
-                className="chefiSection__offClick5"
-                onClick={this.offClick5}>
-                X
-              </button>
-              <img
-                className="chefiSection__chefiDemo"
-                src={require("../Images/chefi-hat.jpg")}
-              />
-            </div>
-            <div className="chefiSum">
-              <span className="chefiSum__chefiTitle">Chefi</span>
-              <span className="chefiSum__chefiSum">
-                The project I'm working on at the moment is called "Chefi".
-                Chefi is a website where you can look up dishes that you're
-                craving. Chefi will then give you a list of recipes for that
-                dish. Recipes include cook time and a ingredient list you can
-                edit!
-              </span>
-            </div>
-          </div>
-          <div className={this.state.contact}>
-            <div className="profileSec">
-              <button
-                className="profileSec__offClick6"
-                onClick={this.offClick6}>
-                X
-              </button>
-              <img
-                className="profileSec__face"
-                src={require("../Images/part1.gif")}
-              />
-            </div>
-            <div className="contactSec">
-              <span className="contactSec__message">
-                You can reach me at any of my socials below
-              </span>
-              <div>
-                <img
-                  className="contactSec__eLogo"
-                  src={require("../Images/email.png")}
-                />
-                <span className="contactSec__email">
-                  michaeldoho@hotmail.com
-                </span>
-              </div>
-              <div className="sButtons">
-                <a href="https://github.com/Mike2081" target="_blank">
-                  <img
-                    className="contactSec__sLogo"
-                    src={require("../Images/git.png")}
-                  />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/michaeldoho/"
-                  target="_blank">
-                  <img
-                    className="contactSec__sLogo"
-                    src={require("../Images/linkedin.png")}
-                  />
-                </a>
-                <a href="https://www.instagram.com/doh0/" target="_blank">
-                  <img
-                    className="contactSec__sLogo"
-                    src={require("../Images/ig.png")}
-                  />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="App__nav">
-          <div className="App__nav__box">
-            <button
-              className="App__nav__box__switch"
-              onClick={() =>
-                scrollToComponent(this.Home, {
-                  offset: 0,
-                  align: "top",
-                  duration: 1500
-                })
-              }>
-              Home
-            </button>
-            <button
-              className="App__nav__box__switch"
-              onClick={() =>
-                scrollToComponent(this.About, {
-                  offset: 0,
-                  align: "top",
-                  duration: 1500
-                })
-              }>
-              About
-            </button>
-            <button
-              className="App__nav__box__switch"
-              onClick={() =>
-                scrollToComponent(this.Projects, {
-                  offset: 0,
-                  align: "top",
-                  duration: 1500
-                })
-              }>
-              Projects
-            </button>
-            <button className="App__nav__box__switch" onClick={this.onClick6}>
-              Contact
-            </button>
-          </div>
-          <div className="App__nav__line" />
+          <Skills />
         </div>
       </div>
-    );
-  }
-}
+      <div className="App__projects" ref={projects}>
+        <SubHeader>Projects</SubHeader>
+        <div className="App__projects__case">
+          {ModalList.map(
+            ({ buttonImage, modalvideo, modalTitle, modalDescription }) => (
+              <ToggleButton key={modalTitle} buttonImage={buttonImage}>
+                {hide => (
+                  <Modal
+                    hide={hide}
+                    modalvideo={modalvideo}
+                    modalTitle={modalTitle}
+                    modalDescription={modalDescription}
+                  />
+                )}
+              </ToggleButton>
+            )
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default App;
