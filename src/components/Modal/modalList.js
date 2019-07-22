@@ -21,7 +21,7 @@ const modalList = [
   {
     buttonImage: require("../../Images/brain.jpg"),
     modalvideo: require("../../videos/brain.mov"),
-    modalTitle: "Brainflix",
+    modalTitle: "In Stock",
     modalDescription: `InStock is a warehouse site made with my BrainStation classmates
                 Ana Provirina, Lukas Richardson, and Tyler Noseworthy. This
                 project was incredibly valuable. We used a Jira board, which
@@ -30,9 +30,9 @@ const modalList = [
                 and dealing with conflicts with other people's code.`
   },
   {
-    buttonImage: require("../../Images/band.jpg"),
+    buttonImage: require("../../Images/typr.jpg"),
     modalvideo: require("../../videos/instock.mov"),
-    modalTitle: "InStock",
+    modalTitle: "In Stock",
     modalDescription: `InStock is a warehouse site made with my BrainStation classmates
                 Ana Provirina, Lukas Richardson, and Tyler Noseworthy. This
                 project was incredibly valuable. We used a Jira board, which
@@ -41,7 +41,7 @@ const modalList = [
                 and dealing with conflicts with other people's code.`
   },
   {
-    buttonImage: require("../../Images/chefi-hat.jpg"),
+    buttonImage: require("../../Images/typr.jpg"),
     modalvideo: require("../../videos/instock.mov"),
     modalTitle: "In Stock",
     modalDescription: `InStock is a warehouse site made with my BrainStation classmates

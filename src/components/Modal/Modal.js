@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import styled from "styled-components";
-import useOnClickOutside from "../useOnClickOutside";
+import useOnClickOutside from "./useOnClickOutside";
 
 const Container = styled.div`
   height: 71vh;

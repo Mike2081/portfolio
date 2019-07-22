@@ -2,8 +2,8 @@ import React, { useRef } from "react";
 import "../styles/App.css";
 import Skills from "../components/Skills";
 import ToggleButton from "../components/ToggleButton";
-import ModalList from "../components/Modal/ModalList";
-import Modal from "../components/Modal/Typr/Modal";
+import ModalList from "./Modal/modalList";
+import Modal from "./Modal/Modal";
 import NavigationBar from "../components/NavigationBar";
 import SubHeader from "../components/SubHeader";
 
