@@ -16,6 +16,10 @@ const Container = styled.div`
   z-index: 1000000;
 `;
 
+const Container2 = styled.div`
+  display: flex;
+`;
+
 const CloseButton = styled.button`
   cursor: pointer;
 `;
@@ -26,7 +30,7 @@ const Modal = ({ hide, modalvideo, modalTitle, modalDescription }) => {
 
   return (
     <Container ref={node}>
-      <div>
+      <Container2>
         <div className="stockVidSection">
           <CloseButton className="stockVidSection__offClick2" onClick={hide}>
             X
@@ -42,7 +46,7 @@ const Modal = ({ hide, modalvideo, modalTitle, modalDescription }) => {
           <span className="SumSection__stockTitle">{modalTitle}</span>
           <span className="SumSection__stockSum">{modalDescription}</span>
         </div>
-      </div>
+      </Container2>
     </Container>
   );
 };
