@@ -277,15 +277,6 @@
   box-shadow: inset 500px 0 0 0 #1818185a;
 }
 
-.App__nav__line {
-  height: 1.5vh;
-  width: 100.6vw;
-  background-color: #363d67;
-  position: absolute;
-  bottom: 0;
-  margin: -8px 0px 0px -8px;
-}
-
 .typrDemo1 {
   height: auto;
   width: 50vw;

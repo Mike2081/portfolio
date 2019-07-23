@@ -10,6 +10,16 @@ const Header = styled.nav`
   background-color: aqua;
   position: fixed;
   z-index: 2000000000;
+  margin: -8px;
+`;
+
+const Line = styled.nav`
+  height: 1.5vh;
+  width: 100.6vw;
+  background-color: rgb(54, 61, 103);
+  position: absolute;
+  bottom: 0;
+  margin: -8px 0px 0px -8px;
 `;
 
 const NavigationBar = ({ about, home, projects }) => {
@@ -59,7 +69,7 @@ const NavigationBar = ({ about, home, projects }) => {
           {hide => <ContactModal onClose={hide} />}
         </ToggleButton>
       </div>
-      <div className="App__nav__line" />
+      <Line />
     </Header>
   );
 };
