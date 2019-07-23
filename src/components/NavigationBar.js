@@ -6,7 +6,7 @@ import ToggleButton from "../components/ToggleButton";
 
 const Header = styled.nav`
   height: 8vh;
-  width: 100vw;
+  width: 106%;
   background-color: aqua;
   position: fixed;
   z-index: 2000000000;
@@ -15,7 +15,7 @@ const Header = styled.nav`
 
 const Line = styled.nav`
   height: 1.5vh;
-  width: 100.6vw;
+  width: 106%;
   background-color: rgb(54, 61, 103);
   position: absolute;
   bottom: 0;
