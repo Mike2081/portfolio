@@ -41,24 +41,6 @@
       flex-wrap: wrap;
 }
 
-@media (max-width: 791px) {
-  .App__about__square {
-    height: 102.1vh;
-  }
-}
-
-@media (max-width: 710px) {
-  .App__about__square {
-    height: 108.1vh;
-  }
-}
-
-@media (max-width: 547px) {
-  .App__about__square {
-    height: 148.1vh;
-  }
-}
-
 .App__about__square__holder {
   margin: 0% 0% 0% 1.5%;
   height: auto;

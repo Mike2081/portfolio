@@ -4,7 +4,7 @@ import { skillsList } from "./skillsList";
 
 const Container = styled.div`
   background-color: rgb(249, 249, 249);
-  height: auto;
+  height: -webkit-fill-available;
   overflow: hidden;
 `;
 const Header = styled.h1`

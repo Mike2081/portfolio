@@ -26,15 +26,6 @@
       margin: 3.8% 0% 0% 0%;
       display: flex;
       flex-wrap: wrap;
-      @media (max-width: 791px) {
-        height: 102.1vh;
-      }
-      @media (max-width: 710px) {
-        height: 108.1vh;
-      }
-      @media (max-width: 547px) {
-        height: 148.1vh;
-      }
 
       &__holder {
         margin: 0% 0% 0% 1.5%;
