@@ -31,12 +31,14 @@
 
 .App__about__square {
   background-color: #f9f9f9;
-  height: 92.1vh;
+  height: auto;
   width: 100%;
   margin: 3.8% 0% 0% 0%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 @media (max-width: 791px) {
@@ -60,20 +62,24 @@
 .App__about__square__holder {
   margin: 0% 0% 0% 1.5%;
   height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .App__about__square__holder__face {
   height: auto;
-  width: 100%;
+  max-width: 80%;
 }
 
 .App__about__square__holder__description {
   height: auto;
-  width: 26vw;
+  width: 50vw;
   font-size: 1em;
   margin: 5% 0% -4% 0%;
   font-family: "Open Sans", sans-serif;
   color: #828282;
+  padding: 8%;
 }
 
 @media (max-width: 1220px) {
@@ -102,17 +108,12 @@
   font-weight: 400;
   opacity: 1;
   font-size: 1em;
+  padding: 4%;
 }
 
 @media (max-width: 1220px) {
   .App__about__square__holder__award {
     font-size: 0.8em;
-  }
-}
-
-@media (max-width: 791px) {
-  .App__about__square__holder__award {
-    opacity: 0;
   }
 }
 

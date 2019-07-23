@@ -21,10 +21,11 @@
     margin: 8px -8px 0px -8px;
     &__square {
       background-color: rgb(249, 249, 249);
-      height: 92.1vh;
+      height: auto;
       width: 100%;
       margin: 3.8% 0% 0% 0%;
       display: flex;
+      flex-wrap: wrap;
       @media (max-width: 791px) {
         height: 102.1vh;
       }
@@ -38,17 +39,19 @@
       &__holder {
         margin: 0% 0% 0% 1.5%;
         height: auto;
+        display: flex;
         &__face {
           height: auto;
-          width: 100%;
+          max-width: 80%;
         }
         &__description {
           height: auto;
-          width: 26vw;
+          width: 50vw;
           font-size: 1em;
           margin: 5% 0% -4% 0%;
           font-family: "Open Sans", sans-serif;
           color: rgb(130, 130, 130);
+          padding: 8%;
           @media (max-width: 1220px) {
             font-size: 0.8em;
           }
@@ -67,15 +70,15 @@
           font-weight: 400;
           opacity: 1;
           font-size: 1em;
+          padding: 4%;
           @media (max-width: 1220px) {
             font-size: 0.8em;
           }
-          @media (max-width: 791px) {
-            opacity: 0;
-          }
+          // @media (max-width: 791px) {
+          //   opacity: 0;
+          // }
         }
       }
-      //refactoring styles
     }
   }
   &__spacer {
