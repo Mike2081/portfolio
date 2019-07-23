@@ -11,6 +11,9 @@ const Header = styled.nav`
   position: fixed;
   z-index: 2000000000;
   margin: -8px;
+  @media (max-height: 455px) {
+    height: 12vh;
+  }
 `;
 
 const Line = styled.nav`
