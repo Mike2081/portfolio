@@ -63,7 +63,8 @@
 }
 
 .App__about__square__holder__face {
-  height: 42.6vh;
+  height: auto;
+  width: 100%;
 }
 
 .App__about__square__holder__description {
