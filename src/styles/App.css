@@ -148,6 +148,13 @@
   margin: 1em 0em 0em 0em;
 }
 
+@media (max-width: 500px) {
+  .App__projects__case {
+    display: -ms-inline-grid;
+    display: inline-grid;
+  }
+}
+
 .App__projects__case__chest {
   height: 38vh;
   width: 25vw;
@@ -168,6 +175,13 @@
 @media (max-width: 630px) {
   .App__projects__case__chest__demo1 {
     height: 22vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .App__projects__case__chest__demo1 {
+    height: auto;
+    width: 207%;
   }
 }
 

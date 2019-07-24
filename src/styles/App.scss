@@ -103,6 +103,9 @@
       flex-wrap: wrap;
       justify-content: space-evenly;
       margin: 1em 0em 0em 0em;
+      @media (max-width: 500px) {
+        display: inline-grid;
+      }
       &__chest {
         height: 38vh;
         width: 25vw;
@@ -115,6 +118,10 @@
           }
           @media (max-width: 630px) {
             height: 22vh;
+          }
+          @media (max-width: 500px) {
+            height: auto;
+            width: 207%;
           }
         }
         &__info1 {
