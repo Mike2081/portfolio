@@ -29,10 +29,10 @@
 
       &__holder {
         margin: 0% 0% 0% 1.5%;
-        height: auto;
+        height: 1%;
         display: flex;
         &__face {
-          height: auto;
+          height: 80%;
           max-width: 80%;
         }
         &__description {
@@ -43,6 +43,9 @@
           font-family: "Open Sans", sans-serif;
           color: rgb(130, 130, 130);
           padding: 8%;
+          @media (max-width: 710px) {
+            padding: 4%;
+          }
         }
         &__award {
           font-family: "Open Sans", sans-serif;
