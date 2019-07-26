@@ -19,10 +19,19 @@ const Button = styled.button`
 
   @media (max-width: 500px) {
     font-size: 0.7em;
+    bottom: 77px;
+    left: 101px;
   }
 
   @media (max-width: 400px) {
     font-size: 0.5em;
+    bottom: 60px;
+    left: 65px;
+  }
+  @media (max-width: 340px) {
+    width: 24vw;
+    font-size: 1em;
+    left: 65px;
   }
 
   :hover {
