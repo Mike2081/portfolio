@@ -1,8 +1,6 @@
 import React, { useRef } from "react";
 import useOnClickOutside from "./useOnClickOutside";
 
-const github = styled.img``;
-
 const ContactModal = ({ onClose }) => {
   const node = useRef();
 

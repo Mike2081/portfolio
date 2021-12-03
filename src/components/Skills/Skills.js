@@ -1,21 +1,17 @@
 import React from "react";
 import styled from "styled-components";
 import { skillsList } from "./skillsList";
+import SubHeader from "../SubHeader";
 
 const Container = styled.div`
   background-color: rgb(249, 249, 249);
   height: -webkit-fill-available;
   overflow: hidden;
 `;
-const Header = styled.h1`
-  font-family: "Open Sans", sans-serif;
-  color: rgb(80, 80, 80);
-  font-size: 3em;
-  margin: 2% 0% 0% 0%;
-`;
+
 const SkillsContainer = styled.div`
   background-color: rgb(249, 249, 249);
-  margin: 5% 0% 0% 0%;
+  margin: 3% 5%;
   display: flex;
   flex-wrap: wrap;
   @media (max-width: 960px) {
@@ -30,7 +26,7 @@ const Skill = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
+  padding: 40px;
   @media (max-width: 960px) {
     width: 80px;
   }
@@ -58,7 +54,7 @@ const SkillTitle = styled.span`
 const Skills = () => {
   return (
     <Container>
-      <Header>Skills</Header>
+      <SubHeader>skills</SubHeader>
       <SkillsContainer>
         {skillsList.map(({ title, img }) => (
           <Skill id={title}>

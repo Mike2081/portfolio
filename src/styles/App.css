@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
 @media (min-width: 992px) {
   margin-left: auto;
   margin-right: auto;
@@ -64,10 +64,10 @@
 .App__about__square__holder__description {
   height: auto;
   width: 50vw;
-  font-size: 1em;
+  font-size: 1.2em;
   margin: 5% 0% -4% 0%;
-  font-family: "Open Sans", sans-serif;
-  color: #828282;
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: black;
   padding: 8%;
 }
 
@@ -78,17 +78,17 @@
 }
 
 .App__about__square__holder__award {
-  font-family: "Open Sans", sans-serif;
-  color: #828282;
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: black;
   font-weight: 400;
   opacity: 1;
-  font-size: 1em;
+  font-size: 1.3em;
   padding: 4%;
 }
 
 @media (max-width: 1220px) {
   .App__about__square__holder__award {
-    font-size: 0.8em;
+    font-size: 1.2em;
   }
 }
 
@@ -241,9 +241,9 @@
 
 .App__nav__box__switch {
   background-color: aqua;
-  color: white;
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.3rem;
+  color: black;
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-size: 1.4rem;
   border: 0rem;
   margin: 0px 26px 0px 0px;
   -webkit-transition: 0.5s ease-in-out;
@@ -1097,6 +1097,20 @@
   height: auto;
   width: 21%;
   margin: 6% 5% 0% 5%;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  -webkit-box-shadow: inset 0px 0 0 0 #1818185a;
+  -ms-box-shadow: inset 0px 0 0 0 #1818185a;
+  -o-box-shadow: inset 0px 0 0 0 #1818185a;
+  box-shadow: inset 0px 0 0 0 #1818185a;
+}
+
+.contactSec__sButtons__sLogo:hover {
+  color: white;
+  -webkit-box-shadow: inset 500px 0 0 0 #1818185a;
+  -ms-box-shadow: inset 500px 0 0 0 #1818185a;
+  -o-box-shadow: inset 500px 0 0 0 #1818185a;
+  box-shadow: inset 500px 0 0 0 #1818185a;
 }
 
 @media (max-width: 745px) {
@@ -1106,7 +1120,7 @@
 }
 
 .container {
-  color: #999;
+  color: aqua;
   text-transform: uppercase;
   font-size: 36px;
   font-weight: bold;
@@ -1116,7 +1130,7 @@
   bottom: 45%;
   display: block;
   margin: 0px;
-  font-family: sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   text-align: center;
 }
 
@@ -1130,7 +1144,7 @@
   height: 50px;
   overflow: hidden;
   margin: 0px;
-  font-family: sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   text-align: center;
 }
 
@@ -1148,15 +1162,15 @@
 }
 
 .flip div div {
-  background: aqua;
+  background: #363d67;
 }
 
 .flip div:first-child div {
-  background: #42c58a;
+  background: aqua;
 }
 
 .flip div:last-child div {
-  background: #dc143c;
+  background: black;
 }
 
 @-webkit-keyframes show {

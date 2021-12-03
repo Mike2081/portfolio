@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import "../styles/App.css";
 import Skills from "../components/Skills";
 import ToggleButton from "../components/ToggleButton";
-import ModalList from "./Modal/modalList";
+import ModalList from "./Modal/ModalList.js";
 import Modal from "./Modal/Modal";
 import NavigationBar from "../components/NavigationBar";
 import SubHeader from "../components/SubHeader";
@@ -46,13 +46,13 @@ const App = () => {
                 graduate of BrainStation's Full Web Development program. Before
                 the program, I was a carpenter who knew nothing about code, so
                 I'm not afraid to adapt and rise up to the challenge of learning
-                a new skill. I'm always trying to expand my programming
-                knowledge and critical thinking by working with others. A highly
-                motivated programmer with a passion for bringing ideas to life
-                with code.
+                a new skill. Always looking for ways to improve my code. Love to 
+                look at code and helping others with their problems, as opportunity 
+                to solve a puzzle. Love to bring peoples ideas to life with programming, 
+                let’s talk!
               </p>
               <p className="App__about__square__holder__award">
-                -Received BrainStation Merit Scholarship
+                "If you want to go fast, go alone; but if you want to go far, go together."
               </p>
             </div>
           </div>

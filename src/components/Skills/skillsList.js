@@ -24,8 +24,8 @@ export const skillsList = [
     img: require("../../Images/nodejs.png")
   },
   {
-    title: "WebPack",
-    img: require("../../Images/webpack.png")
+    title: "Firebase",
+    img: require("../../Images/firebase.png")
   },
   {
     title: "Postman",
@@ -36,15 +36,11 @@ export const skillsList = [
     img: require("../../Images/jira.png")
   },
   {
-    title: "WebPack",
-    img: require("../../Images/webpack.png")
-  },
-  {
     title: "Github",
     img: require("../../Images/github.svg")
   },
   {
-    title: "Visual Studio Code",
+    title: "VS Code",
     img: require("../../Images/visual.png")
   },
   {
