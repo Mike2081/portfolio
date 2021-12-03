@@ -60,9 +60,6 @@
           @media (max-width: 1220px) {
             font-size: 1.2em;
           }
-          // @media (max-width: 791px) {
-          //   opacity: 0;
-          // }
         }
       }
     }
@@ -108,6 +105,10 @@
       &__chest {
         height: 38vh;
         width: 25vw;
+        border: solid 8px;
+        border-radius: 12px;
+        border-color: rgb(54, 61, 103);
+        margin: 0.5rem;
         &__demo1 {
           height: 38vh;
           width: 25vw;
@@ -168,6 +169,9 @@
         font-size: 1.4rem;
         @media (max-width: 429px) {
           font-size: 0.9rem;
+        }
+        @media (max-width: 360px) {
+          font-size: 0.8rem;
         }
         border: 0rem;
         margin: 0px 26px 0px 0px;
@@ -614,21 +618,28 @@
   }
 }
 .on6 {
-  height: auto;
-  width: 82vw;
+  height: 46vh;
+  width: 56vw;
   background: white;
   position: fixed;
-  bottom: 70px;
-  right: 109px;
-  border: solid 3px;
-  border-color: gainsboro;
+  bottom: 168px;
+  right: 252px;
+  border: solid 8px;
+  border-radius: 12px;
+  border-color: #363d67;
   display: flex;
   box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
-  @media (max-width: 745px) {
-    height: 64%;
+  @media (max-width: 1170px) {
+    bottom: 133px;
   }
   @media (max-width: 1170px) {
     bottom: 133px;
+  }
+  @media (max-width: 735px) {
+    right: 158px;
+  }
+  @media (max-width: 600px) {
+    right: 93px;
   }
 }
 .off6 {
@@ -637,24 +648,31 @@
 }
 .profileSec {
   height: auto;
-  width: 32%;
+  width: 35%;
   &__offClick6 {
-    height: 3vh;
+    height: 6vh;
     border: 0px;
     font-size: 2em;
-    color: gainsboro;
+    color: rgb(54, 61, 103);
     vertical-align: top;
+    margin: 1%;
   }
   &__face {
     height: auto;
-    width: 83%;
-    margin: 4% 0% 0% 4%;
-    @media (max-height: 360px) {
-      width: 70%;
+    width: 13rem;
+    margin: 4% 0% 0% 6%;
+    @media (max-width: 950px) {
+      width: 11rem;
     }
-    @media (max-height: 510px) {
-      width: 70%;
+    @media (max-width: 950px) {
+      width: 9rem;
     }
+    @media (max-width: 320px) {
+      width: 7rem;
+    }
+    // @media (max-height: 510px) {
+    //   width: 70%;
+    // }
   }
 }
 .contactSec {
@@ -665,22 +683,26 @@
   &__message {
     font-family: "Open Sans", sans-serif;
     color: #505050;
-    font-size: 2em;
+    font-size: 1.3rem;
     height: 10vh;
     width: 10vh;
     white-space: nowrap;
     margin: 0em 1.9em 0em 0.8em;
-    @media (max-width: 1238px) {
-      font-size: 1.8em;
-    }
-    @media (max-width: 1112px) {
-      font-size: 1.6em;
+    @media (max-width: 1160px) {
+      font-size: 1.1rem;
     }
     @media (max-width: 990px) {
-      font-size: 1.4em;
+      font-size: 1rem;
     }
-    @media (max-width: 865px) {
-      font-size: 1.2em;
+    @media (max-width: 920px) {
+      font-size: 0.9em;
+    }
+    @media (max-width: 800px) {
+      font-size: 0.8em;
+    }
+    @media (max-width: 735px) {
+      font-size: 0.000000001em;
+      color: white;
     }
   }
   &__eLogo {
@@ -722,10 +744,19 @@
     }
   }
   &__sButtons {
+    display: flex;
+    margin: 3rem 0rem 0rem 0rem;
+    @media (max-width: 650px) {
+      margin: 3rem 0rem 0rem 3rem;
+    }
+    @media (max-width: 498px) {
+      display: grid;
+    }
+    justify-content: space-evenly;
     &__sLogo {
       height: auto;
-      width: 21%;
-      margin: 6% 5% 0% 5%;
+      width: 7vw;
+      margin: 48% 0% 0% 0%;
       @include transition(0.5s ease-in-out);
       @include boxShadow(inset 0px 0 0 0 #1818185a);
       &:hover {

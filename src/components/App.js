@@ -11,10 +11,11 @@ const App = () => {
   const about = useRef();
   const projects = useRef();
   const home = useRef();
+  const skills = useRef();
 
   return (
     <div className="App" ref={home}>
-      <NavigationBar about={about} projects={projects} home={home} />
+      <NavigationBar about={about} projects={projects} home={home} skills={skills} />
       <div className="container">
         Hi, I'm
         <div className="flip">
@@ -42,8 +43,8 @@ const App = () => {
             />
             <div>
               <p className="App__about__square__holder__description">
-                Hi! I'm a Front-End Developer based in Toronto. I'm a recent
-                graduate of BrainStation's Full Web Development program. Before
+                Hi! I'm a Front-End Developer based in Toronto. I'm a
+                graduate of BrainStation's Full-Stack Web Development program. Before
                 the program, I was a carpenter who knew nothing about code, so
                 I'm not afraid to adapt and rise up to the challenge of learning
                 a new skill. Always looking for ways to improve my code. Love to 
@@ -56,7 +57,9 @@ const App = () => {
               </p>
             </div>
           </div>
-          <Skills />
+          <div ref={skills}>
+            <Skills/>
+          </div>
         </div>
       </div>
       <div className="App__projects" ref={projects}>

@@ -6,7 +6,7 @@ import ToggleButton from "../components/ToggleButton";
 
 const Header = styled.nav`
   height: 8vh;
-  width: 106%;
+  width: 100%;
   background-color: aqua;
   position: fixed;
   z-index: 2000000000;
@@ -25,8 +25,8 @@ const Line = styled.nav`
   margin: -8px 0px 0px -8px;
 `;
 
-const NavigationBar = ({ about, home, projects }) => {
-  useEffect(() => {}, [about, home, projects]);
+const NavigationBar = ({ about, home, projects, skills }) => {
+  useEffect(() => {}, [about, home, projects, skills]);
   return (
     <Header>
       <div className="App__nav__box">
@@ -51,6 +51,17 @@ const NavigationBar = ({ about, home, projects }) => {
             })
           }>
           About
+        </button>
+        <button
+          className="App__nav__box__switch"
+          onClick={() =>
+            scrollToComponent(skills.current, {
+              offset: 0,
+              align: "top",
+              duration: 1500
+            })
+          }>
+          Skills
         </button>
         <button
           className="App__nav__box__switch"

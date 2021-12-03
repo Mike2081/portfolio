@@ -158,6 +158,10 @@
 .App__projects__case__chest {
   height: 38vh;
   width: 25vw;
+  border: solid 8px;
+  border-radius: 12px;
+  border-color: #363d67;
+  margin: 0.5rem;
 }
 
 .App__projects__case__chest__demo1 {
@@ -257,6 +261,12 @@
 @media (max-width: 429px) {
   .App__nav__box__switch {
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .App__nav__box__switch {
+    font-size: 0.8rem;
   }
 }
 
@@ -927,14 +937,15 @@
 }
 
 .on6 {
-  height: auto;
-  width: 82vw;
+  height: 46vh;
+  width: 56vw;
   background: white;
   position: fixed;
-  bottom: 70px;
-  right: 109px;
-  border: solid 3px;
-  border-color: gainsboro;
+  bottom: 168px;
+  right: 252px;
+  border: solid 8px;
+  border-radius: 12px;
+  border-color: #363d67;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -942,15 +953,27 @@
           box-shadow: 30px 30px 7px rgba(0, 0, 0, 0.5);
 }
 
-@media (max-width: 745px) {
+@media (max-width: 1170px) {
   .on6 {
-    height: 64%;
+    bottom: 133px;
   }
 }
 
 @media (max-width: 1170px) {
   .on6 {
     bottom: 133px;
+  }
+}
+
+@media (max-width: 735px) {
+  .on6 {
+    right: 158px;
+  }
+}
+
+@media (max-width: 600px) {
+  .on6 {
+    right: 93px;
   }
 }
 
@@ -961,32 +984,39 @@
 
 .profileSec {
   height: auto;
-  width: 32%;
+  width: 35%;
 }
 
 .profileSec__offClick6 {
-  height: 3vh;
+  height: 6vh;
   border: 0px;
   font-size: 2em;
-  color: gainsboro;
+  color: #363d67;
   vertical-align: top;
+  margin: 1%;
 }
 
 .profileSec__face {
   height: auto;
-  width: 83%;
-  margin: 4% 0% 0% 4%;
+  width: 13rem;
+  margin: 4% 0% 0% 6%;
 }
 
-@media (max-height: 360px) {
+@media (max-width: 950px) {
   .profileSec__face {
-    width: 70%;
+    width: 11rem;
   }
 }
 
-@media (max-height: 510px) {
+@media (max-width: 950px) {
   .profileSec__face {
-    width: 70%;
+    width: 9rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .profileSec__face {
+    width: 7rem;
   }
 }
 
@@ -1001,34 +1031,41 @@
 .contactSec__message {
   font-family: "Open Sans", sans-serif;
   color: #505050;
-  font-size: 2em;
+  font-size: 1.3rem;
   height: 10vh;
   width: 10vh;
   white-space: nowrap;
   margin: 0em 1.9em 0em 0.8em;
 }
 
-@media (max-width: 1238px) {
+@media (max-width: 1160px) {
   .contactSec__message {
-    font-size: 1.8em;
-  }
-}
-
-@media (max-width: 1112px) {
-  .contactSec__message {
-    font-size: 1.6em;
+    font-size: 1.1rem;
   }
 }
 
 @media (max-width: 990px) {
   .contactSec__message {
-    font-size: 1.4em;
+    font-size: 1rem;
   }
 }
 
-@media (max-width: 865px) {
+@media (max-width: 920px) {
   .contactSec__message {
-    font-size: 1.2em;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 800px) {
+  .contactSec__message {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 735px) {
+  .contactSec__message {
+    font-size: 0.000000001em;
+    color: white;
   }
 }
 
@@ -1093,10 +1130,33 @@
   }
 }
 
+.contactSec__sButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3rem 0rem 0rem 0rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+@media (max-width: 650px) {
+  .contactSec__sButtons {
+    margin: 3rem 0rem 0rem 3rem;
+  }
+}
+
+@media (max-width: 498px) {
+  .contactSec__sButtons {
+    display: -ms-grid;
+    display: grid;
+  }
+}
+
 .contactSec__sButtons__sLogo {
   height: auto;
-  width: 21%;
-  margin: 6% 5% 0% 5%;
+  width: 7vw;
+  margin: 48% 0% 0% 0%;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
   -webkit-box-shadow: inset 0px 0 0 0 #1818185a;
