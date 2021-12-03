@@ -1,0 +1,25 @@
+D	src/Images/band.jpg
+M	src/Images/brain.jpg
+D	src/Images/duenas.png
+A	src/Images/firebase.png
+D	src/Images/stock.jpg
+A	src/Images/temp.jpg
+D	src/Images/typr.jpg
+M	src/Images/visual.png
+M	src/components/App.js
+D	src/components/App.test.js
+M	src/components/Modal/ContactModal.js
+M	src/components/Modal/ModalList.js
+M	src/components/Modal/modalList.js
+M	src/components/Skills/Skills.js
+M	src/components/Skills/skillsList.js
+M	src/components/SubHeader.js
+D	src/components/serviceWorker.js
+M	src/index.js
+M	src/styles/App.css
+M	src/styles/App.css.map
+M	src/styles/App.scss
+A	src/styles/screenSizes.css
+A	src/styles/screenSizes.css.map
+D	src/videos/band.mov
+Your branch is up to date with 'origin/master'.

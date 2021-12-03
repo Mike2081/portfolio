@@ -1,6 +1,6 @@
 const modalList = [
   {
-    buttonImage: require("../../Images/temp.jpg"),
+    buttonImage: require("../../Images/typr.jpg"),
     modalvideo: require("../../videos/Typr.mov"),
     modalTitle: "Speed Typr",
     modalDescription: `Speed Typr is a game I made with React Javascript and node
@@ -8,7 +8,7 @@ const modalList = [
                 you type as many words as you can before the time runs out.`
   },
   {
-    buttonImage: require("../../Images/temp.jpg"),
+    buttonImage: require("../../Images/stock.jpg"),
     modalvideo: require("../../videos/instock.mov"),
     modalTitle: "InStock",
     modalDescription: `InStock is a warehouse site made with my BrainStation classmates
@@ -30,7 +30,7 @@ const modalList = [
                 and dealing with conflicts with other people's code.`
   },
   {
-    buttonImage: require("../../Images/temp.jpg"),
+    buttonImage: require("../../Images/typr.jpg"),
     modalvideo: require("../../videos/instock.mov"),
     modalTitle: "In Stock",
     modalDescription: `InStock is a warehouse site made with my BrainStation classmates
@@ -41,7 +41,7 @@ const modalList = [
                 and dealing with conflicts with other people's code.`
   },
   {
-    buttonImage: require("../../Images/temp.jpg"),
+    buttonImage: require("../../Images/typr.jpg"),
     modalvideo: require("../../videos/instock.mov"),
     modalTitle: "In Stock",
     modalDescription: `InStock is a warehouse site made with my BrainStation classmates
